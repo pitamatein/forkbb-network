@@ -1,0 +1,292 @@
+#
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: ForkBB\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ForkBB <mio.visman@yandex.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+msgid "No users selected"
+msgstr "Пользователи не выбраны."
+
+msgid "Action not available"
+msgstr "Действие недоступно."
+
+msgid "You are not allowed to delete the %s"
+msgstr "Недостаточно прав для удаления %s."
+
+msgid "You are not allowed to ban the %s"
+msgstr "Недостаточно прав для бана %s."
+
+msgid "You are not allowed to change group for %s"
+msgstr "Недостаточно прав для изменения группы у %s."
+
+msgid "No move admins message"
+msgstr "Из соображений безопасности вы не можете переместить администраторов в другую группу. Если всё же вы хотите их переместить, то сделайте это в их профилях."
+
+msgid "No delete admins message"
+msgstr "Администраторы/модераторы не могут быть удалены. Для того, чтобы удалить администраторов/модераторов, вы должны сначала переместить их в другую группу."
+
+msgid "No ban admins message"
+msgstr "Администраторы/модераторы не могут быть забанены. Для того, чтобы забанить администраторов/модераторов, вы должны сначала переместить их в другую группу."
+
+msgid "Change user group"
+msgstr "Изменение группы"
+
+msgid "Move users"
+msgstr "Переместить пользователей"
+
+msgid "New group label"
+msgstr "Новая группа"
+
+msgid "New group help"
+msgstr "Выберите группу, в которую будут перемещены пользователи: <b>%s</b>."
+
+msgid "Users move redirect"
+msgstr "Пользователям изменена группа."
+
+msgid "Deleting users"
+msgstr "Удаление пользователей"
+
+msgid "Delete users"
+msgstr "Удалить пользователей"
+
+msgid "Confirm delete info"
+msgstr "Пожалуйста, подтвердите удаление пользователей: <b>%s</b>."
+
+msgid "Delete posts"
+msgstr "Удалить их темы и сообщения"
+
+msgid "Delete warning"
+msgstr "<b>Предупреждение!</b> Удалённых пользователей (и сообщения) невозможно восстановить. Если вы выберете &quot;не удалять сообщения&quot;, их можно будет удалить вручную в любое время."
+
+msgid "Users delete redirect"
+msgstr "Пользователи удалены."
+
+msgid "User search head"
+msgstr "Поиск пользователей"
+
+msgid "User search subhead"
+msgstr "Критерии поиска"
+
+msgid "User search info"
+msgstr "Поиск пользователей в базе. Вы можете указать сразу несколько условий. Маски в виде звёздочек (*) и вопросительных знаков (?) допускаются."
+
+msgid "Username label"
+msgstr "Имя пользователя"
+
+msgid "E-mail address label"
+msgstr "Почта"
+
+msgid "Title label"
+msgstr "Титул"
+
+msgid "Real name label"
+msgstr "Настоящее имя"
+
+msgid "Gender label"
+msgstr "Пол"
+
+msgid "Do not display"
+msgstr "Не отображать"
+
+msgid "Website label"
+msgstr "Вебсайт"
+
+msgid "Location label"
+msgstr "Локация"
+
+msgid "Signature label"
+msgstr "Подпись"
+
+msgid "Admin note label"
+msgstr "Примечание администрации"
+
+msgid "Posts label"
+msgstr "Сообщений"
+
+msgid "Last post label"
+msgstr "Последнее сообщение"
+
+msgid "Last visit label"
+msgstr "Последний визит"
+
+msgid "Registered label"
+msgstr "Дата регистрации"
+
+msgid "Order by label"
+msgstr "Сортировать по"
+
+msgid "Order by username"
+msgstr "Имени"
+
+msgid "Order by e-mail"
+msgstr "Адресу электронной почты"
+
+msgid "Order by posts"
+msgstr "Количествуву сообщений"
+
+msgid "Order by last post"
+msgstr "Последнему сообщению"
+
+msgid "Order by last visit"
+msgstr "Последнему визиту"
+
+msgid "Order by registered"
+msgstr "Регистрации"
+
+msgid "Ascending"
+msgstr "По возрастанию"
+
+msgid "Descending"
+msgstr "По убыванию"
+
+msgid "User group label"
+msgstr "Группа"
+
+msgid "All groups"
+msgstr "Все группы"
+
+msgid "Unverified users"
+msgstr "Непроверенные"
+
+msgid "Submit search"
+msgstr "Начать поиск"
+
+msgid "IP search head"
+msgstr "Поиск по IP"
+
+msgid "IP search subhead"
+msgstr "IP для поиска"
+
+msgid "IP address label"
+msgstr "IP адрес"
+
+msgid "Find IP address"
+msgstr "Найти IP адрес"
+
+msgid "Results head"
+msgstr "Результаты поиска"
+
+msgid "Results username head"
+msgstr "Имя пользователя"
+
+msgid "Results e-mail head"
+msgstr "Почта"
+
+msgid "Results title head"
+msgstr "Титул/Статус"
+
+msgid "Results posts head"
+msgstr "Сообщений"
+
+msgid "Results admin note head"
+msgstr "Примечание"
+
+msgid "Results IP address head"
+msgstr "IP адрес"
+
+msgid "Results last used head"
+msgstr "Посл. использование"
+
+msgid "Results times found head"
+msgstr "Встречается раз"
+
+msgid "Results action head"
+msgstr "Действие"
+
+msgid "Results find more link"
+msgstr "Найти других пользователей с этим ip"
+
+msgid "Results no posts found"
+msgstr "У этого пользователя нет ни одного сообщения."
+
+msgid "Select"
+msgstr "Выбрать"
+
+msgid "Select all"
+msgstr "Выбрать всё"
+
+msgid "Unselect all"
+msgstr "Отменить"
+
+msgid "Ban"
+msgstr "Бан"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Change group"
+msgstr "Изменить группу"
+
+msgid "Bad IP message"
+msgstr "Указанный IP имеет неправильный формат."
+
+msgid "Results view IP link"
+msgstr "IP статистика"
+
+msgid "Results show posts link"
+msgstr "Показать сообщения"
+
+msgid "Search results legend"
+msgstr "Настройка параметров вывода результатов"
+
+msgid "No users found"
+msgstr "По вашему запросу ничего не найдено."
+
+msgid "User promote redirect"
+msgstr "Пользователь продвинут."
+
+msgid "You are trying to change your own group"
+msgstr "Вы пытаетесь изменить свою собственную группу."
+
+msgid "User is ban"
+msgstr "Пользователь %s забанен."
+
+msgid "New user head"
+msgstr "Новый пользователь"
+
+msgid "New user"
+msgstr "Новый пользователь"
+
+msgid "Add user"
+msgstr "Добавление пользователя"
+
+msgid "Add user legend"
+msgstr "Добавление пользователя"
+
+msgid "New user added redirect"
+msgstr "Новый пользователь добавлен."
+
+msgid "Updated the number of users posts redirect"
+msgstr "Сообщения и темы пользователей пересчитаны."
+
+msgid "Recalculate"
+msgstr "Пересчитать"
+
+msgid "Recalculate head"
+msgstr "Пересчет количества сообщений и тем пользователей"
+
+msgid "Number of users posts"
+msgstr "Количество сообщений и тем пользователей"
+
+msgid "Drafts label"
+msgstr "Черновиков"
+
+msgid "SN profile %s"
+msgstr "Профиль в соц.сети %s"
+
+msgid "Users per page label"
+msgstr "Пользователей на странице"
+
+msgid "Create private dialogues"
+msgstr "Рассылка личных диалогов"
+
+msgid "Private dialogues created redirect"
+msgstr "Личные диалоги созданы."

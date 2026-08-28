@@ -1,0 +1,574 @@
+#
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: ForkBB\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ForkBB <mio.visman@yandex.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+msgid "Must enter title message"
+msgstr "Вы должны ввести заголовок форума."
+
+msgid "Invalid e-mail message"
+msgstr "Адрес электронной почты админа введен неверно."
+
+msgid "Invalid webmaster e-mail message"
+msgstr "Адрес электронной почты вебмастера введен неверно."
+
+msgid "Timeout error message"
+msgstr "Значение &quot;Таймаут online&quot; должно быть меньше чем &quot;Таймаут визита&quot;."
+
+msgid "Options updated redirect"
+msgstr "Опции сохранены."
+
+msgid "Options head"
+msgstr "Опции"
+
+msgid "Essentials subhead"
+msgstr "Основное"
+
+msgid "Board title label"
+msgstr "Заголовок"
+
+msgid "Board title help"
+msgstr "Заголовок форума (выводится в шапке каждой страницы)."
+
+msgid "Board desc label"
+msgstr "Описание (HTML)"
+
+msgid "Board desc help"
+msgstr "Краткое описание форума (выводится в шапке каждой страницы)."
+
+msgid "Timezone label"
+msgstr "Часовой пояс по умолчанию"
+
+msgid "Timezone help"
+msgstr "Часовой пояс для гостей и новых пользователей."
+
+msgid "Language label"
+msgstr "Язык по умолчанию"
+
+msgid "Language help"
+msgstr "Язык по умолчанию для гостей и новых пользователей."
+
+msgid "Default style label"
+msgstr "Стиль по умолчанию"
+
+msgid "Default style help"
+msgstr "Стиль по умолчанию для гостей и новых пользователей."
+
+msgid "Timeouts subhead"
+msgstr "Время и таймауты"
+
+msgid "Visit timeout label"
+msgstr "Таймаут визита"
+
+msgid "Visit timeout help"
+msgstr "Количество секунд бездействия пользователя до того, как его &quot;время последнего визита&quot; будет изменено (влияет на индикатор новых сообщений)."
+
+msgid "Online timeout label"
+msgstr "Таймаут online"
+
+msgid "Online timeout help"
+msgstr "Количество секунд бездействия пользователя до того, как он будет удалён из списка online."
+
+msgid "Redirect time label"
+msgstr "Время на переадресацию"
+
+msgid "Redirect time help"
+msgstr "Пауза в секундах при переадресации. Если установить в 0, страница переадресации не будет показана."
+
+msgid "Display subhead"
+msgstr "Вид форума"
+
+msgid "Info in posts label"
+msgstr "Информация о пользователе"
+
+msgid "Info in posts help"
+msgstr "Показывать информацию об авторе сообщения на странице с темой. Сюда входят данные о месте жительства, дата регистрации, счетчик сообщений и контакты (адрес электронной почты и вебстраница). Не влияет на администраторов."
+
+msgid "Post count label"
+msgstr "Счетчик сообщений"
+
+msgid "Post count help"
+msgstr "Показывать количество сообщений, отправленных пользователями (в темах, профиле и списке пользователей). Не влияет на администраторов и модераторов."
+
+msgid "Topic review label"
+msgstr "Просмотр темы"
+
+msgid "Topic review help"
+msgstr "Максимальное количество отображаемых сообщений при ответе (новые сверху). Установите в 0 чтобы выключить."
+
+msgid "Topics per page help"
+msgstr "Значение по умолчанию, сколько заголовков тем выводить на странице раздела. Пользователь может установить своё значение."
+
+msgid "Posts per page help"
+msgstr "Значение по умолчанию, сколько сообщений выводить на странице с темой. Пользователь может установить своё значение."
+
+msgid "Users per page label"
+msgstr "Пользователей на странице"
+
+msgid "Users per page help"
+msgstr "Число пользователей, отображаемых на одной странице списка."
+
+msgid "Features subhead"
+msgstr "Тонкости"
+
+msgid "Quick post label"
+msgstr "Быстрый ответ"
+
+msgid "Quick post help"
+msgstr "Если включено, ForkBB добавит форму быстрого ответа внизу страницы с темой. Таким образом пользователи могут отправлять ответ быстрее."
+
+msgid "Users online label"
+msgstr "Пользователи online"
+
+msgid "Users online help"
+msgstr "Показывать на главной странице форума информацию о гостях и зарегистрированных пользователях online."
+
+msgid "User has posted label"
+msgstr "Метка участия"
+
+msgid "User has posted help"
+msgstr "Показывать точки перед заголовками тем на странице раздела в случае, если пользователь писал в этой теме. Выключите, если хотите снизить загрузку сервера."
+
+msgid "Topic views label"
+msgstr "Счетчик просмотров"
+
+msgid "Topic views help"
+msgstr "Отслеживать сколько раз тема просматривалась. Выключите, если хотите снизить загрузку сервера."
+
+msgid "Menu items label"
+msgstr "Дополнительные пункты меню"
+
+msgid "Menu items help"
+msgstr "Можно добавить любое количество пунктов в меню. Каждая строка задает один пункт в формате: <b>Позиция</b><wbr>|<b>Наименование</b><wbr>|<b>Ссылка</b><wbr><i>[|<b>Идентификатор</b>]</i>."
+
+msgid "Feed subhead"
+msgstr "Ленты"
+
+msgid "Default feed label"
+msgstr "Лента по умолчанию"
+
+msgid "Default feed help"
+msgstr "Выберите ссылку, какой тип ленты следует выводить. Замечание: вариант &quot;Убрать&quot; не запретит ленту, а только спрячет ссылку."
+
+msgid "No feeds"
+msgstr "Убрать"
+
+msgid "RSS"
+msgstr "RSS"
+
+msgid "Atom"
+msgstr "Atom"
+
+msgid "Feed TTL label"
+msgstr "Кэширование"
+
+msgid "Feed TTL help"
+msgstr "Включите, если хотите снизить нагрузку на сервер."
+
+msgid "No cache"
+msgstr "Не кэшировать"
+
+msgid "%d Minutes"
+msgstr "%d минут"
+
+msgid "Reports subhead"
+msgstr "Сигналы"
+
+msgid "Reporting method label"
+msgstr "Подача сигнала"
+
+msgid "Internal"
+msgstr "Админка"
+
+msgid "By e-mail"
+msgstr "Почта"
+
+msgid "Both"
+msgstr "И то, и другое"
+
+msgid "Reporting method help"
+msgstr "Выберите способ манипулирования пользовательскими сигналами. Варианты: отображать сообщения в специальном разделе админки, отправлять админам на почту (список рассылки есть ниже) или оба варианта разом."
+
+msgid "Mailing list label"
+msgstr "Список рассылки"
+
+msgid "Mailing list help"
+msgstr "Список адресов электронной почты через запятую. На эти адреса будут отправлятся сигналы."
+
+msgid "Avatars subhead"
+msgstr "Аватары"
+
+msgid "Use avatars label"
+msgstr "Использовать аватары"
+
+msgid "Use avatars help"
+msgstr "Если включено, пользователи смогут загружать собственные аватары."
+
+msgid "Upload directory label"
+msgstr "Папка для загрузки"
+
+msgid "Upload directory help"
+msgstr "Папка загрузки аватар (относительно %s). Необходимо дать PHP права на запись в эту папку."
+
+msgid "Max width label"
+msgstr "Макс. ширина"
+
+msgid "Max width help"
+msgstr "Макс. разрешённая ширина аватары в пикселях."
+
+msgid "Max height label"
+msgstr "Макс. высота"
+
+msgid "Max height help"
+msgstr "Макс. разрешённая высота аватары в пикселях."
+
+msgid "Max size label"
+msgstr "Макс. размер"
+
+msgid "Max size help"
+msgstr "Макс. разрешённый размер аватары в байтах."
+
+msgid "Avatar quality label"
+msgstr "Качество"
+
+msgid "Avatar quality help"
+msgstr "Качество изображения аватары от 0 до 100."
+
+msgid "E-mail subhead"
+msgstr "Почта"
+
+msgid "Admin e-mail label"
+msgstr "Почта Админа"
+
+msgid "Admin e-mail help"
+msgstr "Адрес электронной почты администратора форума."
+
+msgid "Webmaster e-mail label"
+msgstr "Почта Вебмастера"
+
+msgid "Webmaster e-mail help"
+msgstr "Этот электронный адрес будет показан в поле &quot;От кого&quot; при рассылке с форума. <b>Он должен соответствовать параметрам настройки SMTP (см. ниже), если SMTP настроен.</b>"
+
+msgid "Forum subscriptions label"
+msgstr "Подписки разделов"
+
+msgid "Forum subscriptions help"
+msgstr "Разрешить пользователям подписываться на разделы (получать электронное письмо, если будет создана новая тема)."
+
+msgid "Topic subscriptions label"
+msgstr "Подписки тем"
+
+msgid "Topic subscriptions help"
+msgstr "Разрешить пользователям подписываться на темы (получать электронное письмо, если кто-то ответил в теме)."
+
+msgid "SMTP address label"
+msgstr "Сервер SMTP"
+
+msgid "SMTP address help"
+msgstr "Адрес внешнего SMTP сервера, который будет отправлять электронные письма с форума. Можно дополнить номером порта, если SMTP не использует 25-й порт по умолчанию (пример: smtp.gmail.com:465). Оставьте пустым, чтобы почтой занималась локальная программа вашего сервера."
+
+msgid "SMTP username label"
+msgstr "SMTP username"
+
+msgid "SMTP username help"
+msgstr "Пользователь сервера SMTP. Заполняйте только если сервер этого требует."
+
+msgid "SMTP password label"
+msgstr "SMTP password"
+
+msgid "SMTP change password help"
+msgstr "Установите флажок, если хотите поменять или удалить пароль"
+
+msgid "SMTP password help"
+msgstr "Пароль для сервера SMTP. Заполняйте только если сервер этого требует."
+
+msgid "SMTP SSL label"
+msgstr "SMTP через SSL"
+
+msgid "SMTP SSL help"
+msgstr "Шифровать соединение с сервером SMTP через SSL. Включать только если сервер SMTP требует этого и ваша версия PHP поддерживает SSL. Для TLS должно быть установлено значение <b>Нет</b>."
+
+msgid "Registration subhead"
+msgstr "Регистрация"
+
+msgid "Allow new label"
+msgstr "Разрешить новые регистрации"
+
+msgid "Allow new help"
+msgstr "Определяет разрешена ли регистрация новых пользователей на форуме. Выключите, если на то есть особые причины."
+
+msgid "Verify label"
+msgstr "Подтверждение регистрации"
+
+msgid "Verify help"
+msgstr "Если включено, то после регистрации пользователь получает на свою электронную почту письмо, которое содержит ссылку для активации аккаунта. Позволяет гарантировать, что пользователь ввел свой настоящий адрес электронной почты."
+
+msgid "Report new label"
+msgstr "Отчет о регистрации"
+
+msgid "Report new help"
+msgstr "Если включено, ForkBB будет извещать людей из списка рассылки (см. выше) о вновь зарегистрированных пользователях."
+
+msgid "Use rules label"
+msgstr "Правила форума"
+
+msgid "Use rules help"
+msgstr "Если включено, новый пользователь должен подтвердить согласие с правилами (см. текст ниже). Правила будут всегда доступны по ссылке в главном меню."
+
+msgid "Rules label"
+msgstr "Текст правил (HTML)"
+
+msgid "Rules help"
+msgstr "Вы можете ввести правила или иную информацию, с которой пользователь должен согласиться, чтобы пройти регистрацию. Если вы включили показ правил выше, необходимо ввести сюда хоть что-нибудь, иначе опция будет выключена."
+
+msgid "E-mail default label"
+msgstr "Приватность почты"
+
+msgid "E-mail default help"
+msgstr "Выберите уровень приватности по умолчанию для вновь регистрируемых пользователей."
+
+msgid "Announcement subhead"
+msgstr "Объявления"
+
+msgid "Display announcement label"
+msgstr "Показывать объявление"
+
+msgid "Display announcement help"
+msgstr "Включите чтобы текст ниже отображался на форуме."
+
+msgid "Announcement message label"
+msgstr "Текст объявления (HTML)"
+
+msgid "Announcement message help"
+msgstr ""
+
+msgid "Email max recipients label"
+msgstr "Макс. получателей"
+
+msgid "Email max recipients help"
+msgstr "Максимальное количество получателей в одном письме. Зависит от вашего почтового сервера."
+
+msgid "All caps message label"
+msgstr "Сообщение заглавными"
+
+msgid "All caps message help"
+msgstr "Разрешить сообщения, состоящие из одних заглавных букв."
+
+msgid "All caps subject label"
+msgstr "Тема заглавными"
+
+msgid "All caps subject help"
+msgstr "Разрешить заголовки тем, состоящие из одних заглавных букв."
+
+msgid "Require e-mail label"
+msgstr "Обязательная почта гостя"
+
+msgid "Require e-mail help"
+msgstr "Если гостям разрешено отправлять комментарии, требовать от них указать адрес электронной почты."
+
+msgid "All caps sigs label"
+msgstr "Подпись заглавными"
+
+msgid "All caps sigs help"
+msgstr "Разрешить подписи, состоящие из одних заглавных букв."
+
+msgid "Polls subhead"
+msgstr "Опросы"
+
+msgid "Allow polls label"
+msgstr "Разрешить опросы"
+
+msgid "Max questions label"
+msgstr "Макс. вопросов"
+
+msgid "Max questions help"
+msgstr "Максимальное количество вопросов в одном опросе. <b>Рекомендуется задать один раз и больше не изменять!</b>"
+
+msgid "Max options label"
+msgstr "Макс. вариантов"
+
+msgid "Max options help"
+msgstr "Максимальное количество вариантов ответа на вопрос. <b>Рекомендуется задать один раз и больше не изменять!</b>"
+
+msgid "Poll edit time label"
+msgstr "Время редактирования"
+
+msgid "Poll edit time help"
+msgstr "Время редактирования опроса (в минутах). 0 снимает ограничения."
+
+msgid "Hidden voices label"
+msgstr "Скрытые голоса"
+
+msgid "Hidden voices help"
+msgstr "Число голосов, до набора которых можно скрыть результаты опроса. Включается в опросе."
+
+msgid "Result for guest label"
+msgstr "Результат для гостя"
+
+msgid "Result for guest help"
+msgstr "Гости видят результаты голосования."
+
+msgid "The folder for uploading avatars is incorrectly"
+msgstr "Неправильно указана папка для аватарок."
+
+msgid "For PHP, it is forbidden to write in the folder for uploading avatars"
+msgstr "Для PHP установлен запрет на запись в папку аватарок."
+
+msgid "Allow PM label"
+msgstr "Личные сообщения"
+
+msgid "Allow PM help"
+msgstr "Разрешить личные сообщения. Настройки для отдельных групп доступны в <a href="%2$s">%1$s</a>."
+
+msgid "Allow oauth label"
+msgstr "OAuth-авторизация"
+
+msgid "Allow oauth help"
+msgstr "Разрешить пользователям вход/регистрацию на форуме с помощью аккаунтов на сторонних ресурсах."
+
+msgid "Configure providers"
+msgstr "Настроить провайдеров"
+
+msgid "Search cache lifetime label"
+msgstr "Время жизни кеша поиска"
+
+msgid "Search cache lifetime help"
+msgstr "Время кэширования поисковых запросов в секундах."
+
+msgid "Meta desc label"
+msgstr "Мета-тег <i>description</i>"
+
+msgid "Meta desc help"
+msgstr "Данный мета-тег может быть использован поисковыми системами для формирования сниппета, который отображается в результатах поисковой выдачи."
+
+msgid "New og image label"
+msgstr "Новая картинка"
+
+msgid "New og image help"
+msgstr "Картинка для Open Graph по умолчанию. Рекомендуемый размер - <b>1200</b> x <b>630</b> точек."
+
+msgid "Not uploaded"
+msgstr "Не загружена"
+
+msgid "Og image label"
+msgstr "Картинка для Open Graph"
+
+msgid "Og image help"
+msgstr "Pазмер - <b>%1$s</b> x <b>%2$s</b> точек."
+
+msgid "Delete og image"
+msgstr "Удалить картинку для Open Graph"
+
+msgid "Reaction subhead"
+msgstr "Реакции на сообщения"
+
+msgid "Allow reaction label"
+msgstr "Включить систему реакций"
+
+msgid "Reaction type label"
+msgstr "Типы реакций"
+
+msgid "Reaction type help"
+msgstr "Типы реакций, которые будут доступны пользователям."
+
+msgid "User has reactioned label"
+msgstr "Метка реакции"
+
+msgid "User has reactioned help"
+msgstr "Выделить реакции, которые выбрал пользователь для отображаемых сообщений. Выключите, если хотите снизить загрузку сервера."
+
+msgid "Auto language detection label"
+msgstr "Автодетект языка"
+
+msgid "Auto language detection help"
+msgstr "Автоматически определить язык гостя на основе данных из его запроса к серверу или вернуть язык по умолчанию, указанный выше, если этого не удалось сделать."
+
+msgid "Cron for email label"
+msgstr "Использовать Cron"
+
+msgid "Cron for email help"
+msgstr "<b>ВНИМАНИЕ!!!</b> Прежде чем включать, добавьте задание в ваш планировщик заданий (cron или аналог), которое будет запускать &apos;<code>php app/cli.php send_mail</code>&apos; каждые несколько минут. Без этого задания электронные письма не будут отправлены."
+
+msgid "Hide e-mail label"
+msgstr "Скрыть поле почты"
+
+msgid "Hide e-mail help"
+msgstr "Скрыть поле адреса электронной почты гостя, если это поле не является обязательным для заполнения."
+
+msgid "Disable email label"
+msgstr "Без электронной почты"
+
+msgid "Disable email help"
+msgstr "Не запрашивать электронную почту при регистрации, если выключено подтверждение регистрации."
+
+msgid "Colored topic titles label"
+msgstr "Цветные заголовки тем"
+
+msgid "Colored topic titles help"
+msgstr "Разрешить администраторам и модераторам устанавливать для каждой темы цвет заголовка из списка."
+
+msgid "Topic hashtags label"
+msgstr "Хештеги тем"
+
+msgid "Topic hashtags help"
+msgstr "Разрешить добавлять хештеги для тем при их создании/редактировании. Эти хештеги будут отображаться в списках тем."
+
+msgid "Topic bookmarks label"
+msgstr "Закладки для тем"
+
+msgid "Topic bookmarks help"
+msgstr "Разершить пользователям добавлять темы в закладки, чтобы они могли быстро находить их в результатах поиска."
+
+msgid "Notifications subhead"
+msgstr "Уведомления"
+
+msgid "Notifications label"
+msgstr "Использовать"
+
+msgid "Notifications help"
+msgstr "Дает пользователям возможность получать уведомления. Каждый пользователь должен сделать настройку в своём профиле."
+
+msgid "Notifications pm label"
+msgstr "через ЛС"
+
+msgid "Notifications pm help"
+msgstr "Пользователи могут выбрать вариант получения уведомлений через ЛС."
+
+msgid "Notifications email label"
+msgstr "через электронную почту"
+
+msgid "Notifications email help"
+msgstr "Пользователи могут выбрать вариант получения уведомлений через электронную почту."
+
+msgid "Notifications telebot label"
+msgstr "через telegram-бота"
+
+msgid "Notifications telebot help"
+msgstr "Пользователи могут выбрать вариант получения уведомлений через telegram-бота."
+
+msgid "Telebot subhead"
+msgstr "Telegram-бот"
+
+msgid "Telegram bot username label"
+msgstr "Юзернейм"
+
+msgid "Telegram bot username help"
+msgstr "Заканчивается на <b>bot</b> или <b>_bot</b>. Символ <b>@</b> в начале вводить <b>не надо</b>."
+
+msgid "Telegram bot token label"
+msgstr "Токен"
+
+msgid "Telegram bot token help"
+msgstr "Его вам выдал <b>@BotFather</b> при регистрации бота."
+
+msgid "Telegram bot token change help"
+msgstr "Установите флажок, если хотите поменять или удалить токен"

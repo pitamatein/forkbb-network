@@ -1,0 +1,76 @@
+#
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: ForkBB\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ForkBB <mio.visman@yandex.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgid "Uploads head"
+msgstr "File uploads"
+
+msgid "Uploads mode label"
+msgstr "Enable"
+
+msgid "Uploads mode help"
+msgstr "Settings for individual groups are available in <a href="%2$s">%1$s</a>."
+
+msgid "Upload quality label"
+msgstr "Quality"
+
+msgid "Upload quality help"
+msgstr "Images quality between 0 and 100."
+
+msgid "Upload axis limit label"
+msgstr "Axis limit"
+
+msgid "Upload axis limit help"
+msgstr "The uploaded image will be resized if its width/height is greater than this limit."
+
+msgid "Output image types label"
+msgstr "Output image types"
+
+msgid "Output image types help"
+msgstr "Types of pictures to save to this site, separated by commas. If a picture of another type is loaded, it will be converted to the first type from this list."
+
+msgid "Page %s missing"
+msgstr "Page %s missing."
+
+msgid "File list head"
+msgstr "File list"
+
+msgid "File head"
+msgstr "File"
+
+msgid "Size head"
+msgstr "Size"
+
+msgid "Created head"
+msgstr "Created"
+
+msgid "User head"
+msgstr "Author"
+
+msgid "Delete file head"
+msgstr "Delete file"
+
+msgid "Confirm delete"
+msgstr "Delete file?"
+
+msgid "I want to delete file %s"
+msgstr "Yes, I want to delete the file <b>%s</b>"
+
+msgid "Delete file warn"
+msgstr "This file is used (approximately) in <b>%1$s</b> messages and in <b>%2$s</b> private messages."
+
+msgid "File deleted redirect"
+msgstr "File deleted."
+
+msgid "File not deleted redirect"
+msgstr "File not deleted."

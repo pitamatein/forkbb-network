@@ -1,0 +1,8 @@
+# PHP settings
+php_value date.timezone "UTC"
+
+# Errors
+php_flag display_errors Off
+php_flag display_startup_errors Off
+php_flag log_errors On
+php_value error_log "error.log"

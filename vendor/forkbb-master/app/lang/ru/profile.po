@@ -1,0 +1,439 @@
+#
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: ForkBB\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ForkBB <mio.visman@yandex.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+msgid "User activity"
+msgstr "Активность пользователя"
+
+msgid "Activate email sent"
+msgstr "На указанный адрес электронной почты было отправлено письмо с инструкциями по активации почтового адреса. Если вы не получите его, свяжитесь с администрацией форума по адресу <a href=\"mailto:%1$s\">%1$s</a>."
+
+msgid "Email instructions"
+msgstr "На этот адрес электронной почты будет отправлено письмо, которое содержит ссылку. Вы должны будете перейти по этой ссылке для завершения процедуры изменения параметров."
+
+msgid "Change email"
+msgstr "Изменение адреса электронной почты"
+
+msgid "New email"
+msgstr "Новый адреса электронной почты"
+
+msgid "New or old email"
+msgstr "Новый или старый (для подтверждения) адрес электронной почты"
+
+msgid "Delete avatar"
+msgstr "Удалить аватару"
+
+msgid "Profile redirect"
+msgstr "Профиль обновлен."
+
+msgid "%s's profile"
+msgstr "Профиль пользователя %s"
+
+msgid "Email info"
+msgstr "Почта"
+
+msgid "Registered info"
+msgstr "Дата регистрации"
+
+msgid "Last post info"
+msgstr "Последнее сообщение"
+
+msgid "Last visit info"
+msgstr "Последний визит"
+
+msgid "Posts info"
+msgstr "Всего сообщений"
+
+msgid "Show posts"
+msgstr "Показать сообщения пользователя"
+
+msgid "Topics info"
+msgstr "Всего тем"
+
+msgid "Show topics"
+msgstr "Показать темы пользователя"
+
+msgid "Realname"
+msgstr "Настоящее имя"
+
+msgid "Location"
+msgstr "Локация"
+
+msgid "Website"
+msgstr "Сайт"
+
+msgid "Avatar"
+msgstr "Аватара"
+
+msgid "Signature"
+msgstr "Подпись"
+
+msgid "Sig max size"
+msgstr "Максимальная длина: <b>%1$s</b> символов / Максимальное число строк: <b>%2$s</b>"
+
+msgid "Leave blank"
+msgstr "Оставьте поле пустым, для использования настроек по умолчанию."
+
+msgid "Subscription options"
+msgstr "Опции подписки"
+
+msgid "Notify label"
+msgstr "Уведомление с текстом сообщения"
+
+msgid "Notify info"
+msgstr "Включать текст из новых сообщений в электронные письма-уведомления."
+
+msgid "Auto notify label"
+msgstr "Авто. подписка на темы"
+
+msgid "Auto notify info"
+msgstr "Автоматически подписываться на темы, в которых вы публикуете сообщения."
+
+msgid "Smilies label"
+msgstr "Смайлы"
+
+msgid "Smilies info"
+msgstr "Показывать смайлики как графику."
+
+msgid "Images label"
+msgstr "Изображения в сообщениях"
+
+msgid "Images info"
+msgstr "Показывать изображения в сообщениях."
+
+msgid "Images sigs label"
+msgstr "Изображения в подписях"
+
+msgid "Images sigs info"
+msgstr "Показывать изображения в подписях."
+
+msgid "Reaction label"
+msgstr "Реакции"
+
+msgid "Reaction info"
+msgstr "Показывать реакции на сообщения."
+
+msgid "Avatars label"
+msgstr "Аватары"
+
+msgid "Avatars info"
+msgstr "Показывать аватары пользователей."
+
+msgid "Sigs label"
+msgstr "Подписи"
+
+msgid "Sigs info"
+msgstr "Показывать подписи пользователей."
+
+msgid "Style"
+msgstr "Стиль"
+
+msgid "Admin note"
+msgstr "Примечание администрации"
+
+msgid "Admin note help"
+msgstr "Для администраторов и модераторов."
+
+msgid "Delete user"
+msgstr "Удалить"
+
+msgid "Ban user"
+msgstr "Забанить"
+
+msgid "Unban user"
+msgstr "Разбанить"
+
+msgid "Update rights redirect"
+msgstr "Права модератора обновлены."
+
+msgid "Gender"
+msgstr "Пол"
+
+msgid "Do not display"
+msgstr "Не отображать"
+
+msgid "Contact details"
+msgstr "Контактная информация"
+
+msgid "Personal information"
+msgstr "Персональные данные"
+
+msgid "Email settings label"
+msgstr "Настройки почты"
+
+msgid "View "
+msgstr "Просмотреть"
+
+msgid "Edit "
+msgstr "Редактировать"
+
+msgid "Editing profile"
+msgstr "Редактирование профиля"
+
+msgid "Configure "
+msgstr "Настроить"
+
+msgid "Board configuration"
+msgstr "Настройка форума"
+
+msgid "Not uploaded"
+msgstr "Не загружена"
+
+msgid "New avatar"
+msgstr "Новая аватара"
+
+msgid "New avatar info"
+msgstr "Аватара будет автоматически сжата до <b>%1$s</b>x<b>%2$s</b> пиксел. Аватара будет удалена, если ее объем после сжатия будет больше <b>%3$s</b> байт (<i>%4$s</i>)."
+
+msgid "IP"
+msgstr "IP"
+
+msgid "IP title"
+msgstr "Показать информацию об IP"
+
+msgid "No signature after censoring"
+msgstr "Весь текст подписи удален после цензуры"
+
+msgid "Signature has too many lines"
+msgstr "В подписи слишком много строк"
+
+msgid "All caps signature"
+msgstr "Текст подписи содержит только заглавные буквы"
+
+msgid "To change email"
+msgstr "Изменить адрес электронной почты"
+
+msgid "To confirm/change email"
+msgstr "Подтвердить/изменить адрес электронной почты"
+
+msgid "Email is old redirect"
+msgstr "Адрес электронной почты оставлен без изменений."
+
+msgid "Email changed redirect"
+msgstr "Адрес электронной почты изменен."
+
+msgid "Email confirmed redirect"
+msgstr "Адрес электронной почты подтвержден."
+
+msgid "Change passphrase title"
+msgstr "Смена парольной фразы"
+
+msgid "Change passphrase"
+msgstr "Изменить парольную фразу"
+
+msgid "New passphrase"
+msgstr "Новая парольная фраза"
+
+msgid "Confirm new passphrase"
+msgstr "Ещё раз"
+
+msgid "Passphrases updated"
+msgstr "Ваша парольная фраза изменена. Вы можете войти на форум с ее помощью."
+
+msgid "Passphrases updated redirect"
+msgstr "Парольная фраза изменена."
+
+msgid "Language"
+msgstr "Язык"
+
+msgid "Essentials"
+msgstr "Основное"
+
+msgid "Time zone"
+msgstr "Часовой пояс"
+
+msgid "Default for language"
+msgstr "По умолчанию для языка"
+
+msgid "For default"
+msgstr "Обнулите поле для использования значения по умолчанию."
+
+msgid "Time format"
+msgstr "Формат времени"
+
+msgid "Date format"
+msgstr "Формат даты"
+
+msgid "Viewing posts"
+msgstr "Просмотр сообщений"
+
+msgid "Pagination"
+msgstr "Постраничный вывод"
+
+msgid "Board configuration redirect"
+msgstr "Настройки форума обновлены."
+
+msgid "Group"
+msgstr "Группа"
+
+msgid "Change user group"
+msgstr "Изменить группу пользователя"
+
+msgid "Configure moderator rights"
+msgstr "Настроить права модератора"
+
+msgid "Moderator rights"
+msgstr "Права модератора"
+
+msgid "Forum label"
+msgstr "Раздел"
+
+msgid "Moderator label"
+msgstr "Модератор"
+
+msgid "Private information"
+msgstr "Приватная информация"
+
+msgid "Security"
+msgstr "Безопасность"
+
+msgid "IP check"
+msgstr "Проверка IP"
+
+msgid "Disable check"
+msgstr "Отключена"
+
+msgid "Not strict check"
+msgstr "Не строгая"
+
+msgid "Strict check"
+msgstr "Строгая"
+
+msgid "IP check info"
+msgstr "<b>Строгая</b> - при каждой смене вашего ip адреса, вы будете разлогинены;<br><b>Не строгая</b> - форум помнит ~10-20 ваших последних ip адресов и если ваш текущий ip адрес не попадает в этот список, вы будете разлогинены;<br><b>Отключена</b> - смена вашего ip адреса ни на что не влияет."
+
+msgid "Total topics subscriptions"
+msgstr "Всего подписок на темы"
+
+msgid "Total forums subscriptions"
+msgstr "Всего подписок на разделы"
+
+msgid "Show topics subscriptions"
+msgstr "Показать подписки пользователя на темы"
+
+msgid "Show forums subscriptions"
+msgstr "Показать подписки пользователя на разделы"
+
+msgid "Configure OAuth"
+msgstr "Настроить аккаунты OAuth"
+
+msgid "OAuth accounts"
+msgstr "Аккаунты OAuth"
+
+msgid "No linked accounts"
+msgstr "Нет связанных аккаунтов."
+
+msgid "Linked accounts"
+msgstr "Связанные аккаунты"
+
+msgid "Add account"
+msgstr "Привязать новый аккаунт"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Delete my profile"
+msgstr "Удалить профиль"
+
+msgid "Deleting profile"
+msgstr "Удаление профиля"
+
+msgid "You are trying to delete your profile"
+msgstr "Вы пытаетесь удалить свой профиль."
+
+msgid "Confirm delete label"
+msgstr "Удалить профиль?"
+
+msgid "Confirm delete info"
+msgstr "<b>Это необратимая операция!</b>"
+
+msgid "Your deleted redirect"
+msgstr "Ваш профиль удален."
+
+msgid "Search config"
+msgstr "Конфигурация поиска"
+
+msgid "Search options"
+msgstr "Опции поиска"
+
+msgid "Set up search"
+msgstr "Настроить поиск"
+
+msgid "Follow label"
+msgstr "Отслеживать"
+
+msgid "Update search config redirect"
+msgstr "Настройки поиска сохранены."
+
+msgid "Select followed forums for %s and %s:"
+msgstr "Выберите отслеживаемые разделы для <b><i>%s</i></b> и <b><i>%s</i></b>:"
+
+msgid "mDescription for %s"
+msgstr "%s - профиль пользователя. Активность, посты, топики и контакты."
+
+msgid "Page scroll label"
+msgstr "Прокрутка страницы"
+
+msgid "Page scroll info"
+msgstr "Если активна, то javascript скрипт прокрутит открытую в активном окне страницу мимо указанных блоков. Работа зависит от вашего браузера и его настроек."
+
+msgid "Not active"
+msgstr "Не активна"
+
+msgid "Past the header (smooth)"
+msgstr "Мимо шапки (плавно)"
+
+msgid "Past the header and announce (smooth)"
+msgstr "Мимо шапки и объвления (плавно)"
+
+msgid "Past the header (no animation)"
+msgstr "Мимо шапки (без анимации)"
+
+msgid "Past the header and announce (no animation)"
+msgstr "Мимо шапки и объвления (без анимации)"
+
+msgid "Recalculate posts and topics"
+msgstr "Пересчитать сообщения и темы"
+
+msgid "Recalculate %s redirect"
+msgstr "Количество сообщений и тем для <b>%s</b> перерасчитано."
+
+msgid "About me"
+msgstr "Обо мне"
+
+msgid "To change about me"
+msgstr "Изменить"
+
+msgid "Change about me"
+msgstr "Изменение поля &apos;Обо мне&apos;"
+
+msgid "Other"
+msgstr "Другое"
+
+msgid "Locale"
+msgstr "Локаль"
+
+msgid "Locale info"
+msgstr "Влияет на форматы времени и даты. Зависит от языка."
+
+msgid "SN profile %s"
+msgstr "Ссылка на профиль в соц.сети %s"
+
+msgid "Notification options"
+msgstr "Опции уведомлений"
+
+msgid "Notify if I in post"
+msgstr "Уведомить при цитате/упоминании"
+
+msgid "Notify about new PM"
+msgstr "Уведомить о новом ЛС"

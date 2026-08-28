@@ -1,0 +1,76 @@
+#
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: ForkBB\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ForkBB <mio.visman@yandex.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+msgid "Uploads head"
+msgstr "Загрузка файлов"
+
+msgid "Uploads mode label"
+msgstr "Включить"
+
+msgid "Uploads mode help"
+msgstr "Настройки для отдельных групп доступны в <a href="%2$s">%1$s</a>."
+
+msgid "Upload quality label"
+msgstr "Качество"
+
+msgid "Upload quality help"
+msgstr "Качество изображений от 0 до 100."
+
+msgid "Upload axis limit label"
+msgstr "Ограничение по оси"
+
+msgid "Upload axis limit help"
+msgstr "К загруженному изображению будет применен ресайз, если его ширина/высота больше этого ограничения."
+
+msgid "Output image types label"
+msgstr "Вых. типы картинок"
+
+msgid "Output image types help"
+msgstr "Типы картинок для сохранения на этот сайт, через запятую. Если загружена картинка другого типа, то она будет конвертирована в первый тип из этого списка."
+
+msgid "Page %s missing"
+msgstr "Страница %s отсутствует."
+
+msgid "File list head"
+msgstr "Список файлов"
+
+msgid "File head"
+msgstr "Файл"
+
+msgid "Size head"
+msgstr "Размер"
+
+msgid "Created head"
+msgstr "Создан"
+
+msgid "User head"
+msgstr "Автор"
+
+msgid "Delete file head"
+msgstr "Удаление файла"
+
+msgid "Confirm delete"
+msgstr "Удалить файл?"
+
+msgid "I want to delete file %s"
+msgstr "Да, я хочу удалить файл <b>%s</b>"
+
+msgid "Delete file warn"
+msgstr "Файл встречается (приблизительно) в <b>%1$s</b> сообщениях и в <b>%2$s</b> личных сообщениях."
+
+msgid "File deleted redirect"
+msgstr "Файл удален."
+
+msgid "File not deleted redirect"
+msgstr "Не получилось удалить файл."

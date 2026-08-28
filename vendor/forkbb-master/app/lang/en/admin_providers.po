@@ -1,0 +1,127 @@
+#
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: ForkBB\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ForkBB <mio.visman@yandex.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgid "OAuth authorization disabled"
+msgstr "OAuth authorization <a href=\"%s\">disabled</a>."
+
+msgid "Providers"
+msgstr "Providers"
+
+msgid "Provider label"
+msgstr "Provider"
+
+msgid "Position label"
+msgstr "Position"
+
+msgid "Allow label"
+msgstr "Allow"
+
+msgid "Providers updated redirect"
+msgstr "Provider table updated."
+
+msgid "Provider updated redirect"
+msgstr "Provider data updated."
+
+msgid "github"
+msgstr "GitHub"
+
+msgid "yandex"
+msgstr "Yandex"
+
+msgid "google"
+msgstr "Google"
+
+msgid "Callback label"
+msgstr "Callback URI"
+
+msgid "Callback help"
+msgstr "The URI that the user is returned to after they have granted or denied access to the application (corresponds to the redirect_uri of the OAuth protocol). It must be specified when registering your application on the provider's server."
+
+msgid "ID label"
+msgstr "Client ID"
+
+msgid "ID help"
+msgstr "Identifier that you can get when registering your application on the provider's server."
+
+msgid "Secret label"
+msgstr "Client secret"
+
+msgid "Secret help"
+msgstr "The secret (password) that you can get when registering your application on the provider's server."
+
+msgid "Change data help"
+msgstr "Enable this checkbox if you want to change the data"
+
+msgid "Sign in with %s"
+msgstr "Sign in with %s"
+
+msgid "Sign up with %s"
+msgstr "Sign up with %s"
+
+msgid "From %s"
+msgstr "%s"
+
+msgid "Provider response error: %s"
+msgstr "Failed.<br>Provider response: %s."
+
+msgid "State error"
+msgstr "Error in state parameter."
+
+msgid "Token error: %s"
+msgstr "Access token request failed: %s."
+
+msgid "cURL disabled"
+msgstr "The cURL extension is disabled in PHP and allow_url_fopen = OFF."
+
+msgid "cURL error"
+msgstr "cURL error."
+
+msgid "User error"
+msgstr "User data request failed."
+
+msgid "No new regs"
+msgstr "This board is not accepting new registrations."
+
+msgid "Email message"
+msgstr "This email received from %s belongs to a registered user.<br>Perhaps you used another provider to sign in or username + passphrase?"
+
+msgid "Already linked to you"
+msgstr "This account is already linked to you."
+
+msgid "Already linked to another"
+msgstr "This account is already linked to another user."
+
+msgid "Email registered by another"
+msgstr "The email address received from %s is registered by another user."
+
+msgid "Account linked"
+msgstr "Account linked."
+
+msgid "Identifier label"
+msgstr "Identifier"
+
+msgid "Email label"
+msgstr "Email"
+
+msgid "Verified label"
+msgstr "Email verified"
+
+msgid "Account removed"
+msgstr "Account removed."
+
+msgid "First time Register?"
+msgstr "You are here for the first time. Register?"
+
+msgid "Email banned"
+msgstr "The email address received from %s is banned."

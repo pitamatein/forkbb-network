@@ -1,0 +1,49 @@
+#
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Project-Id-Version: ForkBB\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ForkBB <mio.visman@yandex.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+
+msgid "Antispam head"
+msgstr "Antispam"
+
+msgid "General subhead"
+msgstr "Paramètres généraux"
+
+msgid "Settings updated redirect"
+msgstr "Réglages mis à jour."
+
+msgid "Hidden checkboxes label"
+msgstr "Cases à cocher invisibles"
+
+msgid "Hidden checkboxes help"
+msgstr "Ajouter des cases à cocher invisibles aux formulaires auquels les bots ont accés. Formulaire: enregistrement, message invité, premier message utilisateur."
+
+msgid "Use javascript label"
+msgstr "Utiliser javascript"
+
+msgid "Use javascript help"
+msgstr "Ajouter un champ calculé en javascript aux champs du formulaire. Formulaire: enregistrement, message invité, premier message utilisateur."
+
+msgid "Use pre-moderation label"
+msgstr "Utiliser la pré-moderation"
+
+msgid "Use pre-moderation help"
+msgstr "Pré-soumettre les nouveaux sujets/messages pour modération. Voir <a href="%2$s">%1$s</a>, <a href="%4$s">%3$s</a> et les sections individuelles pour réglages spécifiques."
+
+msgid "Hidden bots subhead"
+msgstr "bots cachés"
+
+msgid "Temporarily block label"
+msgstr "Blocage temporaire"
+
+msgid "Temporarily block help"
+msgstr "Bloquer temporairement les adresses IP de robots cachés détéctés (se font passer pour de navigateurs, mais chargent uniquement le code html). Le blocage est actif à la troisième visite du forum. Blocage désactivé après écoulement du compteur depuis la dernière visite."

@@ -1,0 +1,292 @@
+#
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Project-Id-Version: ForkBB\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ForkBB <mio.visman@yandex.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+
+msgid "No users selected"
+msgstr "Pas d’utilisateur sélectionné."
+
+msgid "Action not available"
+msgstr "Action non disponible."
+
+msgid "You are not allowed to delete the %s"
+msgstr "Vous n’êtes pas autorisé à effacer le %s."
+
+msgid "You are not allowed to ban the %s"
+msgstr "Vous n’êtes pas autorisé à bannir le %s."
+
+msgid "You are not allowed to change group for %s"
+msgstr "Vous n’êtes pas autorisé à changer le groupe pour %s."
+
+msgid "No move admins message"
+msgstr "Pour des raisons de sécurité, vous n’êtes pas autorisé à déplacer de multiples administrateurs dans un autre groupe. Si vous voulez déplacer ces administrateurs, vous pouvez le faire depuis leurs profils respectifs."
+
+msgid "No delete admins message"
+msgstr "Administrateurs/moderateurs ne peuvent être effacés. Pour les effacer, vous devez d’adbord les déplacer dans un autre groupe utilisateur."
+
+msgid "No ban admins message"
+msgstr "Administrateurs/moderateurs ne peuvent être bannis. Pour les bannir, vous devez d’adbord les déplacer dans un autre groupe utilisateur."
+
+msgid "Change user group"
+msgstr "Changer le groupe utilisateur"
+
+msgid "Move users"
+msgstr "Déplacer les utilisateurs"
+
+msgid "New group label"
+msgstr "Nouveau groupe"
+
+msgid "New group help"
+msgstr "Selectioner le groupe vers lequel les utilisateurs vont être déplacés: <b>%s</b>."
+
+msgid "Users move redirect"
+msgstr "Utilisateurs déplacés."
+
+msgid "Deleting users"
+msgstr "Effacer les utilisateurs"
+
+msgid "Delete users"
+msgstr "Effacer les utilisateurs"
+
+msgid "Confirm delete info"
+msgstr "Veuillez confirmer que vous voulez effacer ces utilisateurs: <b>%s</b>."
+
+msgid "Delete posts"
+msgstr "Effacer leurs messages et sujets de discussion"
+
+msgid "Delete warning"
+msgstr "<b>ATTENTION!</b> Utilisateurs et messages effacés ne peuvent être restaurés. Si vous ne choisissez pas d’effacer les messages liés à l’utlisateur, ceux ci ne seront plus effaçables que manuellement ensuite."
+
+msgid "Users delete redirect"
+msgstr "Utilisateurs effacés."
+
+msgid "User search head"
+msgstr "Recherche d’utilisateur"
+
+msgid "User search subhead"
+msgstr "Critères de recherche"
+
+msgid "User search info"
+msgstr "Recherche des utilisateurs dans la base. Vous pouvez entrer un ou plusieurs termes à recherche. Les caractères génériques asterisque (*) et point d’interrogation (?) sont acceptés."
+
+msgid "Username label"
+msgstr "Nom d’utilisateur"
+
+msgid "E-mail address label"
+msgstr "Email"
+
+msgid "Title label"
+msgstr "Titre"
+
+msgid "Real name label"
+msgstr "Nom réel"
+
+msgid "Gender label"
+msgstr "Genre"
+
+msgid "Do not display"
+msgstr "Ne pas afficher"
+
+msgid "Website label"
+msgstr "Site web"
+
+msgid "Location label"
+msgstr "Lieu"
+
+msgid "Signature label"
+msgstr "Signature"
+
+msgid "Admin note label"
+msgstr "Note de l’administration"
+
+msgid "Posts label"
+msgstr "Messages"
+
+msgid "Last post label"
+msgstr "Dernier message"
+
+msgid "Last visit label"
+msgstr "Dernière visite"
+
+msgid "Registered label"
+msgstr "Enregistré"
+
+msgid "Order by label"
+msgstr "Classer par"
+
+msgid "Order by username"
+msgstr "Nom d’utlisateur"
+
+msgid "Order by e-mail"
+msgstr "Email"
+
+msgid "Order by posts"
+msgstr "Nombre de messages"
+
+msgid "Order by last post"
+msgstr "Dernier message"
+
+msgid "Order by last visit"
+msgstr "Dernière visite"
+
+msgid "Order by registered"
+msgstr "Enregistré"
+
+msgid "Ascending"
+msgstr "Ascendant"
+
+msgid "Descending"
+msgstr "Descendant"
+
+msgid "User group label"
+msgstr "Groupe utilisateur"
+
+msgid "All groups"
+msgstr "Tous les groupes"
+
+msgid "Unverified users"
+msgstr "Utilisateurs non vérifiés"
+
+msgid "Submit search"
+msgstr "Soumettre la recherche"
+
+msgid "IP search head"
+msgstr "Recherche d’IP"
+
+msgid "IP search subhead"
+msgstr "IP à rechercher"
+
+msgid "IP address label"
+msgstr "Adresse IP"
+
+msgid "Find IP address"
+msgstr "Trouver l’adresse IP"
+
+msgid "Results head"
+msgstr "Résultats de recherche"
+
+msgid "Results username head"
+msgstr "Nom d’utilisateur"
+
+msgid "Results e-mail head"
+msgstr "Email"
+
+msgid "Results title head"
+msgstr "Titre"
+
+msgid "Results posts head"
+msgstr "Messages"
+
+msgid "Results admin note head"
+msgstr "Note"
+
+msgid "Results IP address head"
+msgstr "adresse IP"
+
+msgid "Results last used head"
+msgstr "Dernière utilisation"
+
+msgid "Results times found head"
+msgstr "Nombre d’occurences"
+
+msgid "Results action head"
+msgstr "Action"
+
+msgid "Results find more link"
+msgstr "Trouver plus d’utilisateurs pour cette IP"
+
+msgid "Results no posts found"
+msgstr "Il n’y a pour l’instant aucun message de cet utilisateur dans le forum."
+
+msgid "Select"
+msgstr "Selectionner"
+
+msgid "Select all"
+msgstr "Selectionner tout"
+
+msgid "Unselect all"
+msgstr "Déselectionner tout"
+
+msgid "Ban"
+msgstr "Bannir"
+
+msgid "Delete"
+msgstr "Effacer"
+
+msgid "Change group"
+msgstr "Changer de groupe"
+
+msgid "Bad IP message"
+msgstr "L’adresse IP n’est pas formatée correctement."
+
+msgid "Results view IP link"
+msgstr "Voir les statistiques IP"
+
+msgid "Results show posts link"
+msgstr "Montrer les messages"
+
+msgid "Search results legend"
+msgstr "Selectionner coment voir les résultats de recherche"
+
+msgid "No users found"
+msgstr "Pas d’utilisateur correspondant à ces critères."
+
+msgid "User promote redirect"
+msgstr "Utilisateur promu."
+
+msgid "You are trying to change your own group"
+msgstr "Vous êtes en train d’essayer de changer votre propre groupe."
+
+msgid "User is ban"
+msgstr "L’utilisateur %s est banni."
+
+msgid "New user head"
+msgstr "Nouvel utilisateur"
+
+msgid "New user"
+msgstr "Nouvel utilisateur"
+
+msgid "Add user"
+msgstr "Ajouter utilisateur"
+
+msgid "Add user legend"
+msgstr "Ajouter utilisateur"
+
+msgid "New user added redirect"
+msgstr "Nouvel utilisateur ajouté."
+
+msgid "Updated the number of users posts redirect"
+msgstr "Nombre de messages utilsateur et discussions mis à jour"
+
+msgid "Recalculate"
+msgstr "Recalculer"
+
+msgid "Recalculate head"
+msgstr "Recalcul du nombre de messages et discussion utilisateurs"
+
+msgid "Number of users posts"
+msgstr "Nombre de messages et discussion utilisateurs"
+
+msgid "Drafts label"
+msgstr "Brouillons"
+
+msgid "SN profile %s"
+msgstr "Profil de résau social %s"
+
+msgid "Users per page label"
+msgstr "Utilisateurs par page"
+
+msgid "Create private dialogues"
+msgstr "Créer dialogues privés"
+
+msgid "Private dialogues created redirect"
+msgstr "Dialogues privés crées."

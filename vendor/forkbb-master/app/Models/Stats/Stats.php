@@ -1,0 +1,72 @@
+<?php
+/**
+ * This file is part of the ForkBB <https://forkbb.org, https://github.com/forkbb>.
+ *
+ * @copyright (c) Visman <mio.visman@yandex.ru, https://github.com/MioVisman>
+ * @license   The MIT License (MIT)
+ */
+
+declare(strict_types=1);
+
+namespace ForkBB\Models\Stats;
+
+use ForkBB\Models\Model;
+use PDO;
+use RuntimeException;
+
+class Stats extends Model
+{
+    const CACHE_KEY = 'stats';
+
+    /**
+     * Ключ модели для контейнера
+     */
+    protected string $cKey = 'Stats';
+
+    /**
+     * Загружает статистику из кеша/БД
+     */
+    public function init(): Stats
+    {
+        $list = $this->c->Cache->get(self::CACHE_KEY);
+
+        if (! \is_array($list)) {
+            $list = $this->c->users->stats();
+
+            if (true !== $this->c->Cache->set(self::CACHE_KEY, $list)) {
+                throw new RuntimeException('Unable to write value to cache - ' . self::CACHE_KEY);
+            }
+        }
+
+        $this->userTotal    = $list['total'];
+        $this->userLast     = $list['last'];
+        $this->userLastName = $list['last']['username'];
+        $this->userLastLink = $this->c->userRules->viewUsers
+            ? $this->c->Router->link(
+                'User',
+                [
+                    'id'   => $list['last']['id'],
+                    'name' => $this->c->Func->friendly($list['last']['username']),
+                ]
+            )
+            : null;
+
+        $query = 'SELECT SUM(num_topics), SUM(num_posts) FROM ::forums';
+
+        list($this->topicTotal, $this->postTotal) = $this->c->DB->query($query)->fetch(PDO::FETCH_NUM);
+
+        return $this;
+    }
+
+    /**
+     * Сбрасывает кеш статистики
+     */
+    public function reset(): Stats
+    {
+        if (true !== $this->c->Cache->delete(self::CACHE_KEY)) {
+            throw new RuntimeException('Unable to remove key from cache - ' . self::CACHE_KEY);
+        }
+
+        return $this;
+    }
+}

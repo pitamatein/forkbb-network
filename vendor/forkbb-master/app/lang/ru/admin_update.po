@@ -1,0 +1,97 @@
+#
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: ForkBB\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ForkBB <mio.visman@yandex.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+msgid "Update ForkBB"
+msgstr "Обновление ForkBB"
+
+msgid "Update script is running"
+msgstr "Выполняется скрипт обновления."
+
+msgid "Update message"
+msgstr "База данных вашего ForkBB устарела и требует обновления для дальнейшей работы. Если вы администратор этого форума, следуйте, пожалуйста, ниже указанным инструкциям."
+
+msgid "Note"
+msgstr "Примечание:"
+
+msgid "Members message"
+msgstr "Действие может выполнить только администратор форума. Причины для волнения нет - вскоре форум снова будет функционировать!"
+
+msgid "Administrator only"
+msgstr "Этот шаг только для администратора форума!"
+
+msgid "Database password info"
+msgstr "Для обновления базы данных, пожалуйста, введите ее пароль доступа, указанный при установке форума. Если вы не помните пароль, загляните в файл конфигурации вашего форума."
+
+msgid "Database password note"
+msgstr "Если вы используете SQLite (и следовательно не имеете пароля для доступа к базе), пожалуйста, используйте имя файла базы данных. Вводимое имя должно точно соответствовать тому, что указано в файле конфигурации."
+
+msgid "Database password"
+msgstr "Пароль базы данных"
+
+msgid "Maintenance"
+msgstr "Обслуживание"
+
+msgid "Maintenance message info"
+msgstr "Сообщение, которое будет показано пользователям во время процесса обновления. Этот текст не обрабатывается парсером, может содержать HTML."
+
+msgid "Maintenance message"
+msgstr "Сообщение обслуживания"
+
+msgid "You are running error"
+msgstr "Вы используете %1$s версии %2$s. ForkBB rev.%3$s требует как минимум %1$s %4$s для своей работы. Вы должны обновить ваш %1$s, прежде чем продолжить."
+
+msgid "Version mismatch error"
+msgstr "Несоответствие версии. База данных не может быть сконвертирована этим скриптом до структуры текущей ревизии ForkBB."
+
+msgid "Invalid file error"
+msgstr "Неправильное имя файла базы данных. Имя файла базы данных SQLite должно точно соответствовать тому, что указано в конфигурационном файле '%s'"
+
+msgid "Invalid password error"
+msgstr "Неправильный пароль базы данных. Для обновления ForkBB вы должны ввести пароль к базе форума в соответствии с данными из '%s'"
+
+msgid "Script runs error"
+msgstr "Похоже, скрипт обновления уже запущен другим пользователем."
+
+msgid "Start update"
+msgstr "Начать обновление"
+
+msgid "Successfully updated"
+msgstr "База данных форума обновлена."
+
+msgid "Unable to write update lock"
+msgstr "Невозможно установить блокировку повторного запуска обновления."
+
+msgid "Stage %1$s (%2$s)"
+msgstr "Шаг %1$s (%2$s)"
+
+msgid "The structure of the main.php file is undefined"
+msgstr "Структура файла main.php не определена."
+
+msgid "The %s table already exists. Delete it."
+msgstr "Таблица %s уже существует. Удалите её."
+
+msgid "Unable to create %s table"
+msgstr "Невозможно создать таблицу %s."
+
+msgid "Unable to add test_field field to %s table"
+msgstr "Невозможно добавить поле test_field в таблицу %s."
+
+msgid "Unable to insert line to %s table"
+msgstr "Невозможно вставить строку в таблицу %s."
+
+msgid "Unable to drop test_field field from %s table"
+msgstr "Невозможно удалить поле test_field из таблицы %s."
+
+msgid "Unable to drop %s table"
+msgstr "Невозможно удалить таблицу %s."

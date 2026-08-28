@@ -1,0 +1,97 @@
+#
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: ForkBB\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ForkBB <mio.visman@yandex.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgid "Update ForkBB"
+msgstr "Update ForkBB"
+
+msgid "Update script is running"
+msgstr "Update script is running."
+
+msgid "Update message"
+msgstr "Your ForkBB database is out-of-date and must be upgraded in order to continue. If you are the board administrator, please follow the instructions below to complete the upgrade."
+
+msgid "Note"
+msgstr "Note:"
+
+msgid "Members message"
+msgstr "This process is for board administrators only. If you are a member there is nothing to worry about - the forums will be back shortly!"
+
+msgid "Administrator only"
+msgstr "This step is for the board administrator only!"
+
+msgid "Database password info"
+msgstr "To perform the database update please enter the database password with which ForkBB was installed. If you cannot remember, this is stored in your board config."
+
+msgid "Database password note"
+msgstr "If you are running SQLite (and hence have no database password) please use the database file name instead. This must exactly match the database file name given in your configuration file."
+
+msgid "Database password"
+msgstr "Database password"
+
+msgid "Maintenance"
+msgstr "Maintenance"
+
+msgid "Maintenance message info"
+msgstr "The message that will be displayed to users during the updating process. This text will not be parsed like regular posts and thus may contain HTML."
+
+msgid "Maintenance message"
+msgstr "Maintenance message"
+
+msgid "You are running error"
+msgstr "You are running %1$s version %2$s. ForkBB rev.%3$s requires at least %1$s %4$s to run properly. You must upgrade your %1$s installation before you can continue."
+
+msgid "Version mismatch error"
+msgstr "Version mismatch. The database doesn't seem to be running a ForkBB database schema supported by this update script."
+
+msgid "Invalid file error"
+msgstr "Invalid database file name. When using SQLite the database file name must be entered exactly as it appears in your '%s'"
+
+msgid "Invalid password error"
+msgstr "Invalid database password. To upgrade ForkBB you must enter your database password exactly as it appears in your '%s'"
+
+msgid "Script runs error"
+msgstr "It appears the update script is already being ran by someone else."
+
+msgid "Start update"
+msgstr "Start update"
+
+msgid "Successfully updated"
+msgstr "Your forum database was successfully updated."
+
+msgid "Unable to write update lock"
+msgstr "Unable to write update lock."
+
+msgid "Stage %1$s (%2$s)"
+msgstr "Stage %1$s (%2$s)"
+
+msgid "The structure of the main.php file is undefined"
+msgstr "The structure of the main.php file is undefined."
+
+msgid "The %s table already exists. Delete it."
+msgstr "The %s table already exists. Delete it."
+
+msgid "Unable to create %s table"
+msgstr "Unable to create %s table."
+
+msgid "Unable to add test_field field to %s table"
+msgstr "Unable to add test_field field to %s table."
+
+msgid "Unable to insert line to %s table"
+msgstr "Unable to insert line to %s table."
+
+msgid "Unable to drop test_field field from %s table"
+msgstr "Unable to drop test_field field from %s table."
+
+msgid "Unable to drop %s table"
+msgstr "Unable to drop %s table."

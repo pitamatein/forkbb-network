@@ -1,0 +1,74 @@
+<?php
+/**
+ * This file is part of the ForkBB <https://forkbb.org, https://github.com/forkbb>.
+ *
+ * @copyright (c) Visman <mio.visman@yandex.ru, https://github.com/MioVisman>
+ * @license   The MIT License (MIT)
+ */
+
+declare(strict_types=1);
+
+namespace ForkBB\Models\Pages;
+
+use ForkBB\Models\Page;
+use function \ForkBB\__;
+
+class Index extends Page
+{
+    /**
+     * Подготовка данных для шаблона
+     */
+    public function view(): Page
+    {
+        $this->c->Lang->load('index');
+        $this->c->Lang->load('subforums');
+
+        // для таблицы разделов
+        $root   = $this->c->forums->loadTree(0);
+        $forums = empty($root) ? [] : $root->subforums;
+        $ctgs   = [];
+
+        if (empty($forums)) {
+            $this->fIswev = [FORK_MESS_INFO, 'Empty board'];
+
+        } else {
+            foreach ($forums as $forum) {
+                $ctgs[$forum->cat_id][] = $forum;
+            }
+        }
+
+        $this->identifier   = 'index';
+        $this->nameTpl      = 'index';
+        $this->onlinePos    = 'index';
+        $this->onlineDetail = true;
+        $this->onlineFilter = false;
+        $this->canonical    = $this->fRootLink;
+        $this->stats        = $this->c->stats;
+        $this->online       = $this->c->Online->calc($this)->info();
+        $this->categoryes   = $ctgs;
+
+        if (! $this->user->isGuest) {
+            $this->linkMarkRead = $this->c->Router->link(
+                'MarkRead',
+                [
+                    'id' => 0,
+                ]
+            );
+        }
+
+        if (
+            $this->config->i_feed_type > 0
+            && ! $this->user->isBot
+        ) {
+            $feedType = 2 === $this->config->i_feed_type ? 'atom' : 'rss';
+
+            $this->pageHeader('feed', 'link', 0, [
+                'rel'  => 'alternate',
+                'type' => "application/{$feedType}+xml",
+                'href' => $this->c->Router->link('Feed', ['type' => $feedType]),
+            ]);
+        }
+
+        return $this;
+    }
+}

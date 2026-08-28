@@ -1,0 +1,34 @@
+#
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: ForkBB\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ForkBB <mio.visman@yandex.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+
+msgid "You been mentioned"
+msgstr "You may have been mentioned in post"
+
+msgid "You been quoted"
+msgstr "You may have been quoted in post"
+
+msgid "You been quoted and mentioned"
+msgstr "You may have been quoted and mentioned in post"
+
+msgid "Topic %1$s Post %2$s User %3$s"
+msgstr "[url=%2$s]Post[/url] by [b]%3$s[/b] in the topic \"[i]%1$s[/i]\"."
+
+msgid "Notification subject title"
+msgstr "🔔 Notifications"
+
+msgid "New PM: %s"
+msgstr "Nuevo mensaje privado: %s"
+
+msgid "User %1$s sent PM. Located %2$s"
+msgstr "[b]%1$s[/b] te ha enviado un mensaje privado.\nEl mensaje se encuentra en [url]%2$s[/url]."

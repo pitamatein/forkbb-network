@@ -1,0 +1,45 @@
+[2026-08-26 05:28:39] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 05:54:49] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 05:56:28] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 06:00:03] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 06:01:08] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 06:03:23] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 06:22:52] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 06:25:12] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 06:26:40] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 06:27:36] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 06:28:21] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 06:29:17] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 06:33:57] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 06:37:35] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 06:37:44] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 06:47:14] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 06:48:08] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 06:49:47] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 06:57:44] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 07:04:07] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 07:06:05] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 07:14:09] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 07:17:06] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 07:28:52] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 07:29:53] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 07:39:59] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 08:50:15] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 08:51:05] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 09:02:50] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 09:09:22] SENT | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Your forum has been created.  Forum: zzz URL: https://www.forkbb.net/-/zzz/  Reset passphrase: https://www.forkbb.net/-/zzz/login/forget
+[2026-08-26 09:14:23] SENT | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Your forum has been created.  Forum: Forum A URL: https://www.forkbb.net/-/forum_a/  Reset passphrase: https://www.forkbb.net/-/forum_a/login/forget
+[2026-08-26 09:16:57] FAILED | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Class "PHPMailer" not found
+[2026-08-26 09:18:42] SENT | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Your forum has been created.  Forum: Joe Blow URL: https://www.forkbb.net/-/joe_blow/  Reset passphrase: https://www.forkbb.net/-/joe_blow/login/forget
+[2026-08-26 10:01:38] SENT | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Your forum has been created.  Forum: Forum A URL: https://www.forkbb.net/-/forum_a/  Reset passphrase: https://www.forkbb.net/-/forum_a/login/forget
+[2026-08-26 12:59:20] SENT | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Your forum has been created.  Forum: Joe Blow URL: https://www.forkbb.net/-/joe_blow/  Reset passphrase: https://www.forkbb.net/-/joe_blow/login/forget
+[2026-08-26 13:00:54] SENT | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Your forum has been created.  Forum: Jack Frost URL: https://www.forkbb.net/-/jack_frost/  Reset passphrase: https://www.forkbb.net/-/jack_frost/login/forget
+[2026-08-26 13:18:03] SENT | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Your forum has been created.  Forum: Forum C URL: https://www.forkbb.net/-/forum_c/  Reset passphrase: https://www.forkbb.net/-/forum_c/login/forget
+[2026-08-26 13:24:50] SENT | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Your forum has been created.  Forum: TEST A URL: https://www.forkbb.net/-/test_a/  Reset passphrase: https://www.forkbb.net/-/test_a/login/forget
+[2026-08-26 13:27:33] SENT | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Your forum has been created.  Forum: TEST B URL: https://www.forkbb.net/-/test_b/  Reset passphrase: https://www.forkbb.net/-/test_b/login/forget
+[2026-08-26 13:30:55] SENT | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Your forum has been created.  Forum: Forum A URL: https://www.forkbb.net/-/forum_a/  Reset passphrase: https://www.forkbb.net/-/forum_a/login/forget
+[2026-08-26 13:58:58] SENT | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Your forum has been created.  Forum: Forum B URL: https://www.forkbb.net/-/forum_b/  Reset passphrase: https://www.forkbb.net/-/forum_b/login/forget
+[2026-08-26 14:25:15] SENT | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Your forum has been created.  Forum: Forum A URL: https://www.forkbb.net/-/forum_a/  Reset passphrase: https://www.forkbb.net/-/forum_a/login/forget
+[2026-08-26 14:26:51] SENT | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Your forum has been created.  Forum: Forum B URL: https://www.forkbb.net/-/forum_b/  Reset passphrase: https://www.forkbb.net/-/forum_b/login/forget
+[2026-08-27 10:31:43] SENT | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Your forum has been created.  Forum: Test Forum URL: https://www.forkbb.net/-/test_forum/  Reset passphrase: https://www.forkbb.net/-/test_forum/login/forget
+[2026-08-27 10:49:25] SENT | To: admin@forkbb.net | Subject: Your ForkBB forum is ready | Body: Your forum has been created.  Forum: Josh's Forum URL: https://www.forkbb.net/-/joshs_forum/  Reset passphrase: https://www.forkbb.net/-/joshs_forum/login/forget

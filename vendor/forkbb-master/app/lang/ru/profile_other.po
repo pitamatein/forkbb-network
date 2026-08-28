@@ -1,0 +1,109 @@
+#
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: ForkBB\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ForkBB <mio.visman@yandex.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+msgid "Display e-mail label"
+msgstr "Показывать адрес другим пользователя"
+
+msgid "Hide allow form label"
+msgstr "Спрятать адрес, но разрешить отправку писем через специальную форму"
+
+msgid "Hide both label"
+msgstr "Спрятать адрес и запретить отправку писем"
+
+msgid "Topics per page label"
+msgstr "Тем на странице"
+
+msgid "Posts per page label"
+msgstr "Сообщений на странице"
+
+msgid "Europe/Kaliningrad"
+msgstr " Калининград, Россия"
+
+msgid "Europe/Kirov"
+msgstr " Киров, Россия"
+
+msgid "Europe/Moscow"
+msgstr " Москва, Россия"
+
+msgid "Europe/Simferopol"
+msgstr " Симферополь, Россия"
+
+msgid "Europe/Volgograd"
+msgstr " Волгоград, Россия"
+
+msgid "Europe/Astrakhan"
+msgstr " Астрахань, Россия"
+
+msgid "Europe/Samara"
+msgstr " Самара, Россия"
+
+msgid "Europe/Saratov"
+msgstr " Саратов, Россия"
+
+msgid "Europe/Ulyanovsk"
+msgstr " Ульяновск, Россия"
+
+msgid "Asia/Yekaterinburg"
+msgstr " Екатеринбург, Россия"
+
+msgid "Asia/Omsk"
+msgstr " Омск, Россия"
+
+msgid "Asia/Barnaul"
+msgstr " Барнаул, Россия"
+
+msgid "Asia/Krasnoyarsk"
+msgstr " Красноярск, Россия"
+
+msgid "Asia/Novokuznetsk"
+msgstr " Новокузнецк, Россия"
+
+msgid "Asia/Novosibirsk"
+msgstr " Новосибирск, Россия"
+
+msgid "Asia/Tomsk"
+msgstr " Томск, Россия"
+
+msgid "Asia/Irkutsk"
+msgstr " Иркутск, Россия"
+
+msgid "Asia/Chita"
+msgstr " Чита, Россия"
+
+msgid "Asia/Khandyga"
+msgstr " Хандыга, Россия"
+
+msgid "Asia/Yakutsk"
+msgstr " Якутск, Россия"
+
+msgid "Asia/Ust-Nera"
+msgstr " Усть-Нера, Россия"
+
+msgid "Asia/Vladivostok"
+msgstr " Владивосток, Россия"
+
+msgid "Asia/Magadan"
+msgstr " Магадан, Россия"
+
+msgid "Asia/Sakhalin"
+msgstr " Сахалин (остров), Россия"
+
+msgid "Asia/Srednekolymsk"
+msgstr " Среднеколымск, Россия"
+
+msgid "Asia/Anadyr"
+msgstr " Анадырь, Россия"
+
+msgid "Asia/Kamchatka"
+msgstr " Камчатка (полуостров), Россия"

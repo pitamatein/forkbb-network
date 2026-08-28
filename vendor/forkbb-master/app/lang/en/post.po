@@ -1,0 +1,151 @@
+#
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: ForkBB\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ForkBB <mio.visman@yandex.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgid "No subject after censoring"
+msgstr "Topics must contain a subject. After applying censoring filters, your subject was empty."
+
+msgid "No message after censoring"
+msgstr "You must enter a message. After applying censoring filters, your message was empty."
+
+msgid "All caps subject"
+msgstr "Subjects cannot contain only capital letters."
+
+msgid "All caps message"
+msgstr "Posts cannot contain only capital letters."
+
+msgid "Post preview"
+msgstr "Post preview"
+
+msgid "Post redirect"
+msgstr "Post entered."
+
+msgid "Post a reply"
+msgstr "Post a reply"
+
+msgid "Post new topic"
+msgstr "Post new topic"
+
+msgid "Hide smilies"
+msgstr "Never show smilies as icons for this post"
+
+msgid "New subscribe"
+msgstr "Subscribe to this topic"
+
+msgid "Stay subscribed"
+msgstr "Stay subscribed to this topic"
+
+msgid "Topic review"
+msgstr "Topic review (newest first)"
+
+msgid "Preview"
+msgstr "Preview"
+
+msgid "EditPost edit"
+msgstr "To allow to edit the given message without restrictions"
+
+msgid "Stick first post"
+msgstr "To stick the first post on all pages of topic"
+
+msgid "Edit post"
+msgstr "Edit post"
+
+msgid "Edit topic"
+msgstr "Edit topic"
+
+msgid "Merge posts"
+msgstr "Merge with previous if it yours"
+
+msgid "Edit redirect"
+msgstr "Post updated."
+
+msgid "Stick topic"
+msgstr "Stick topic"
+
+msgid "Create topic"
+msgstr "Create topic"
+
+msgid "Re"
+msgstr "Re: "
+
+msgid "%1$s (%2$s max size)"
+msgstr "%1$s (%2$s max size)"
+
+msgid "Attachments"
+msgstr "Attachments"
+
+msgid "Change author and date"
+msgstr "Change author and date"
+
+msgid "Change"
+msgstr "Change"
+
+msgid "Posted"
+msgstr "Posted"
+
+msgid "Change AnD topic"
+msgstr "Change author of topic and its date"
+
+msgid "Change AnD post"
+msgstr "Change author of post and its date"
+
+msgid "User %s does not exist"
+msgstr "User '%s' does not exist."
+
+msgid "Change redirect"
+msgstr "Changes done."
+
+msgid "All"
+msgstr "Data from this field is visible to everyone."
+
+msgid "Not guests"
+msgstr "Data from this field is visible to everyone except guests."
+
+msgid "Admins and mods"
+msgstr "Data from this field is visible only to administrators and forum moderators."
+
+msgid "Admins only"
+msgstr "Data from this field is visible only to administrators."
+
+msgid "To draft"
+msgstr "To draft"
+
+msgid "Too many censored words"
+msgstr "Too many censored words."
+
+msgid "To pre-moderation"
+msgstr "To pre-moderation"
+
+msgid "Pre-moderation replies"
+msgstr "Pre-moderation of replies:"
+
+msgid "No "
+msgstr "No"
+
+msgid "Default "
+msgstr "By default"
+
+msgid "Yes "
+msgstr "Yes"
+
+msgid "Topic title color label"
+msgstr "Subject color"
+
+msgid "Color number %s"
+msgstr "Color N %s"
+
+msgid "Hashtags format"
+msgstr "Hashtags can consist of letters and numbers. Underscores may appear within a hashtag. Each hashtag must be at least three characters long."
+
+msgid "Not calc topic"
+msgstr "Do not recalculate this topic"

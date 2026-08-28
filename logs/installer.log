@@ -1,0 +1,397 @@
+[2026-08-26 05:28:39] Installing node: forum_b
+[2026-08-26 05:28:39] Files copied
+[2026-08-26 05:28:39] Running ForkBB installer
+[2026-08-26 05:28:39] [CLI] Ok
+[2026-08-26 05:28:39] CLI return code: 0
+[2026-08-26 05:28:39] ForkBB installer completed
+[2026-08-26 05:28:39] Email failed: Class "PHPMailer" not found
+[2026-08-26 05:54:49] Installing node: forum_a
+[2026-08-26 05:54:49] Files copied
+[2026-08-26 05:54:49] Running ForkBB installer
+[2026-08-26 05:54:49] [CLI] ---
+[2026-08-26 05:54:49] [CLI] The Cookie Secure field must be integer.
+[2026-08-26 05:54:49] [CLI] ---
+[2026-08-26 05:54:49] CLI return code: 0
+[2026-08-26 05:54:49] ForkBB installer completed
+[2026-08-26 05:54:49] Email failed: Class "PHPMailer" not found
+[2026-08-26 05:56:27] Installing node: forum_b
+[2026-08-26 05:56:28] Files copied
+[2026-08-26 05:56:28] Running ForkBB installer
+[2026-08-26 05:56:28] [CLI] Ok
+[2026-08-26 05:56:28] CLI return code: 0
+[2026-08-26 05:56:28] ForkBB installer completed
+[2026-08-26 05:56:28] Email failed: Class "PHPMailer" not found
+[2026-08-26 06:00:02] Installing node: jack_frost
+[2026-08-26 06:00:02] Files copied
+[2026-08-26 06:00:02] Running ForkBB installer
+[2026-08-26 06:00:03] [CLI] ---
+[2026-08-26 06:00:03] [CLI] PHP OTHER_ERROR: Undefined constant "ForkBB\Models\Pages\Admin\SMTP_HOST" in .../app/Models/Pages/Admin/Install.php:[1665]
+[2026-08-26 06:00:03] [CLI] Trace:
+[2026-08-26 06:00:03] [CLI] .../app/Models/Pages/Admin/Install.php(218): ForkBB\Models\Pages\Admin\Install->installEnd()
+[2026-08-26 06:00:03] [CLI] .../app/cli.php(113): ForkBB\Models\Pages\Admin\Install->install()
+[2026-08-26 06:00:03] [CLI] ---
+[2026-08-26 06:00:03] CLI return code: 0
+[2026-08-26 06:00:03] ForkBB installer completed
+[2026-08-26 06:00:03] Email failed: Class "PHPMailer" not found
+[2026-08-26 06:01:07] Installing node: peter_martin
+[2026-08-26 06:01:08] Files copied
+[2026-08-26 06:01:08] Running ForkBB installer
+[2026-08-26 06:01:08] [CLI] ---
+[2026-08-26 06:01:08] [CLI] PHP OTHER_ERROR: Undefined constant "ForkBB\Models\Pages\Admin\SMTP_HOST" in .../app/Models/Pages/Admin/Install.php:[1665]
+[2026-08-26 06:01:08] [CLI] Trace:
+[2026-08-26 06:01:08] [CLI] .../app/Models/Pages/Admin/Install.php(218): ForkBB\Models\Pages\Admin\Install->installEnd()
+[2026-08-26 06:01:08] [CLI] .../app/cli.php(113): ForkBB\Models\Pages\Admin\Install->install()
+[2026-08-26 06:01:08] [CLI] ---
+[2026-08-26 06:01:08] CLI return code: 0
+[2026-08-26 06:01:08] ForkBB installer completed
+[2026-08-26 06:01:08] Email failed: Class "PHPMailer" not found
+[2026-08-26 06:03:23] Installing node: joe_blow
+[2026-08-26 06:03:23] Files copied
+[2026-08-26 06:03:23] Running ForkBB installer
+[2026-08-26 06:03:23] [CLI] Ok
+[2026-08-26 06:03:23] CLI return code: 0
+[2026-08-26 06:03:23] ForkBB installer completed
+[2026-08-26 06:03:23] Email failed: Class "PHPMailer" not found
+[2026-08-26 06:22:52] Installing node: forum_a
+[2026-08-26 06:22:52] Files copied
+[2026-08-26 06:22:52] Running ForkBB installer
+[2026-08-26 06:22:52] [CLI] Ok
+[2026-08-26 06:22:52] CLI return code: 0
+[2026-08-26 06:22:52] ForkBB installer completed
+[2026-08-26 06:22:52] Email failed: Class "PHPMailer" not found
+[2026-08-26 06:25:12] Installing node: forum_b
+[2026-08-26 06:25:12] Files copied
+[2026-08-26 06:25:12] Running ForkBB installer
+[2026-08-26 06:25:12] [CLI] Ok
+[2026-08-26 06:25:12] CLI return code: 0
+[2026-08-26 06:25:12] ForkBB installer completed
+[2026-08-26 06:25:12] Email failed: Class "PHPMailer" not found
+[2026-08-26 06:26:39] Installing node: forum_c
+[2026-08-26 06:26:39] Files copied
+[2026-08-26 06:26:39] Running ForkBB installer
+[2026-08-26 06:26:40] [CLI] Ok
+[2026-08-26 06:26:40] CLI return code: 0
+[2026-08-26 06:26:40] ForkBB installer completed
+[2026-08-26 06:26:40] Email failed: Class "PHPMailer" not found
+[2026-08-26 06:27:36] Installing node: jack_frost
+[2026-08-26 06:27:36] Files copied
+[2026-08-26 06:27:36] Running ForkBB installer
+[2026-08-26 06:27:36] [CLI] Ok
+[2026-08-26 06:27:36] CLI return code: 0
+[2026-08-26 06:27:36] ForkBB installer completed
+[2026-08-26 06:27:36] Email failed: Class "PHPMailer" not found
+[2026-08-26 06:28:21] Installing node: joe_blow
+[2026-08-26 06:28:21] Files copied
+[2026-08-26 06:28:21] Running ForkBB installer
+[2026-08-26 06:28:21] [CLI] Ok
+[2026-08-26 06:28:21] CLI return code: 0
+[2026-08-26 06:28:21] ForkBB installer completed
+[2026-08-26 06:28:21] Email failed: Class "PHPMailer" not found
+[2026-08-26 06:29:16] Installing node: peter_martin
+[2026-08-26 06:29:16] Files copied
+[2026-08-26 06:29:16] Running ForkBB installer
+[2026-08-26 06:29:17] [CLI] Ok
+[2026-08-26 06:29:17] CLI return code: 0
+[2026-08-26 06:29:17] ForkBB installer completed
+[2026-08-26 06:29:17] Email failed: Class "PHPMailer" not found
+[2026-08-26 06:33:56] Installing node: testa
+[2026-08-26 06:33:57] Files copied
+[2026-08-26 06:33:57] Running ForkBB installer
+[2026-08-26 06:33:57] [CLI] Ok
+[2026-08-26 06:33:57] CLI return code: 0
+[2026-08-26 06:33:57] ForkBB installer completed
+[2026-08-26 06:33:57] Email failed: Class "PHPMailer" not found
+[2026-08-26 06:37:34] Installing node: testb
+[2026-08-26 06:37:35] Files copied
+[2026-08-26 06:37:35] Running ForkBB installer
+[2026-08-26 06:37:35] [CLI] Ok
+[2026-08-26 06:37:35] CLI return code: 0
+[2026-08-26 06:37:35] ForkBB installer completed
+[2026-08-26 06:37:35] Email failed: Class "PHPMailer" not found
+[2026-08-26 06:37:44] Installing node: testc
+[2026-08-26 06:37:44] Files copied
+[2026-08-26 06:37:44] Running ForkBB installer
+[2026-08-26 06:37:44] [CLI] Ok
+[2026-08-26 06:37:44] CLI return code: 0
+[2026-08-26 06:37:44] ForkBB installer completed
+[2026-08-26 06:37:44] Email failed: Class "PHPMailer" not found
+[2026-08-26 06:47:13] Installing node: forum_a
+[2026-08-26 06:47:13] Files copied
+[2026-08-26 06:47:13] Running ForkBB installer
+[2026-08-26 06:47:14] [CLI] Ok
+[2026-08-26 06:47:14] CLI return code: 0
+[2026-08-26 06:47:14] ForkBB installer completed
+[2026-08-26 06:47:14] Email failed: Class "PHPMailer" not found
+[2026-08-26 06:48:08] Installing node: forum_b
+[2026-08-26 06:48:08] Files copied
+[2026-08-26 06:48:08] Running ForkBB installer
+[2026-08-26 06:48:08] [CLI] Ok
+[2026-08-26 06:48:08] CLI return code: 0
+[2026-08-26 06:48:08] ForkBB installer completed
+[2026-08-26 06:48:08] Email failed: Class "PHPMailer" not found
+[2026-08-26 06:49:47] Installing node: forum_a
+[2026-08-26 06:49:47] Files copied
+[2026-08-26 06:49:47] Running ForkBB installer
+[2026-08-26 06:49:47] [CLI] Ok
+[2026-08-26 06:49:47] CLI return code: 0
+[2026-08-26 06:49:47] ForkBB installer completed
+[2026-08-26 06:49:47] Email failed: Class "PHPMailer" not found
+[2026-08-26 06:57:44] Installing node: jack_frost
+[2026-08-26 06:57:44] Files copied
+[2026-08-26 06:57:44] Running ForkBB installer
+[2026-08-26 06:57:44] [CLI] Ok
+[2026-08-26 06:57:44] CLI return code: 0
+[2026-08-26 06:57:44] ForkBB installer completed
+[2026-08-26 06:57:44] Email failed: Class "PHPMailer" not found
+[2026-08-26 07:04:06] Installing node: joe_blow
+[2026-08-26 07:04:07] Files copied
+[2026-08-26 07:04:07] Running ForkBB installer
+[2026-08-26 07:04:07] [CLI] Ok
+[2026-08-26 07:04:07] CLI return code: 0
+[2026-08-26 07:04:07] ForkBB installer completed
+[2026-08-26 07:04:07] Email failed: Class "PHPMailer" not found
+[2026-08-26 07:06:04] Installing node: forum_b
+[2026-08-26 07:06:04] Files copied
+[2026-08-26 07:06:04] Running ForkBB installer
+[2026-08-26 07:06:05] [CLI] Ok
+[2026-08-26 07:06:05] CLI return code: 0
+[2026-08-26 07:06:05] ForkBB installer completed
+[2026-08-26 07:06:05] Email failed: Class "PHPMailer" not found
+[2026-08-26 07:14:08] Installing node: xxxx
+[2026-08-26 07:14:08] Files copied
+[2026-08-26 07:14:08] Running ForkBB installer
+[2026-08-26 07:14:09] [CLI] Ok
+[2026-08-26 07:14:09] CLI return code: 0
+[2026-08-26 07:14:09] ForkBB installer completed
+[2026-08-26 07:14:09] Email failed: Class "PHPMailer" not found
+[2026-08-26 07:17:05] Installing node: forum_a
+[2026-08-26 07:17:05] Files copied
+[2026-08-26 07:17:05] Running ForkBB installer
+[2026-08-26 07:17:06] [CLI] Ok
+[2026-08-26 07:17:06] CLI return code: 0
+[2026-08-26 07:17:06] ForkBB installer completed
+[2026-08-26 07:17:06] Email failed: Class "PHPMailer" not found
+[2026-08-26 07:28:51] Installing node: forum_b
+[2026-08-26 07:28:51] Files copied
+[2026-08-26 07:28:51] Running ForkBB installer
+[2026-08-26 07:28:52] [CLI] Ok
+[2026-08-26 07:28:52] CLI return code: 0
+[2026-08-26 07:28:52] ForkBB installer completed
+[2026-08-26 07:28:52] Email failed: Class "PHPMailer" not found
+[2026-08-26 07:29:53] Installing node: jack_frost
+[2026-08-26 07:29:53] Files copied
+[2026-08-26 07:29:53] Running ForkBB installer
+[2026-08-26 07:29:53] [CLI] Ok
+[2026-08-26 07:29:53] CLI return code: 0
+[2026-08-26 07:29:53] ForkBB installer completed
+[2026-08-26 07:29:53] Email failed: Class "PHPMailer" not found
+[2026-08-26 07:39:09] Installing node: xxxx
+[2026-08-26 07:39:09] Files copied
+[2026-08-26 07:39:09] Running ForkBB installer
+[2026-08-26 07:39:10] [CLI] Ok
+[2026-08-26 07:39:10] CLI return code: 0
+[2026-08-26 07:39:10] ForkBB installer completed
+[2026-08-26 07:39:59] Installing node: forum_a
+[2026-08-26 07:39:59] Files copied
+[2026-08-26 07:39:59] Running ForkBB installer
+[2026-08-26 07:39:59] [CLI] Ok
+[2026-08-26 07:39:59] CLI return code: 0
+[2026-08-26 07:39:59] ForkBB installer completed
+[2026-08-26 07:39:59] Email failed: Class "PHPMailer" not found
+[2026-08-26 08:50:15] Installing node: forum_c
+[2026-08-26 08:50:15] Files copied
+[2026-08-26 08:50:15] Running ForkBB installer
+[2026-08-26 08:50:15] [CLI] ---
+[2026-08-26 08:50:15] [CLI] PHP OTHER_ERROR: syntax error, unexpected token ";", expecting "]" in .../app/Models/Pages/Admin/Install.php:[1661]
+[2026-08-26 08:50:15] [CLI] Trace:
+[2026-08-26 08:50:15] [CLI] .../vendor/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}()
+[2026-08-26 08:50:15] [CLI] .../app/Core/Container.php(134): Composer\Autoload\ClassLoader->loadClass()
+[2026-08-26 08:50:15] [CLI] .../app/cli.php(113): ForkBB\Core\Container->__get()
+[2026-08-26 08:50:15] [CLI] ---
+[2026-08-26 08:50:15] CLI return code: 0
+[2026-08-26 08:50:15] ForkBB installer completed
+[2026-08-26 08:50:15] Email failed: Class "PHPMailer" not found
+[2026-08-26 08:51:05] Installing node: jack_frost
+[2026-08-26 08:51:05] Files copied
+[2026-08-26 08:51:05] Running ForkBB installer
+[2026-08-26 08:51:05] [CLI] ---
+[2026-08-26 08:51:05] [CLI] PHP OTHER_ERROR: Undefined constant "ForkBB\Models\Pages\Admin\SMTP_USER" in .../app/Models/Pages/Admin/Install.php:[1661]
+[2026-08-26 08:51:05] [CLI] Trace:
+[2026-08-26 08:51:05] [CLI] .../app/Models/Pages/Admin/Install.php(218): ForkBB\Models\Pages\Admin\Install->installEnd()
+[2026-08-26 08:51:05] [CLI] .../app/cli.php(113): ForkBB\Models\Pages\Admin\Install->install()
+[2026-08-26 08:51:05] [CLI] ---
+[2026-08-26 08:51:05] CLI return code: 0
+[2026-08-26 08:51:05] ForkBB installer completed
+[2026-08-26 08:51:05] Email failed: Class "PHPMailer" not found
+[2026-08-26 09:02:49] Installing node: forum_d
+[2026-08-26 09:02:49] Files copied
+[2026-08-26 09:02:49] Running ForkBB installer
+[2026-08-26 09:02:50] [CLI] ---
+[2026-08-26 09:02:50] [CLI] PHP OTHER_ERROR: Undefined constant "ForkBB\Models\Pages\Admin\SMTP_USER" in .../app/Models/Pages/Admin/Install.php:[1661]
+[2026-08-26 09:02:50] [CLI] Trace:
+[2026-08-26 09:02:50] [CLI] .../app/Models/Pages/Admin/Install.php(218): ForkBB\Models\Pages\Admin\Install->installEnd()
+[2026-08-26 09:02:50] [CLI] .../app/cli.php(113): ForkBB\Models\Pages\Admin\Install->install()
+[2026-08-26 09:02:50] [CLI] ---
+[2026-08-26 09:02:50] CLI return code: 0
+[2026-08-26 09:02:50] ForkBB installer completed
+[2026-08-26 09:02:50] Email failed: Class "PHPMailer" not found
+[2026-08-26 09:04:04] Installing node: forum_e
+[2026-08-26 09:04:04] Files copied
+[2026-08-26 09:04:04] Running ForkBB installer
+[2026-08-26 09:04:04] [CLI] ---
+[2026-08-26 09:04:04] [CLI] PHP OTHER_ERROR: Undefined constant "ForkBB\Models\Pages\Admin\SMTP_USER" in .../app/Models/Pages/Admin/Install.php:[1661]
+[2026-08-26 09:04:04] [CLI] Trace:
+[2026-08-26 09:04:04] [CLI] .../app/Models/Pages/Admin/Install.php(218): ForkBB\Models\Pages\Admin\Install->installEnd()
+[2026-08-26 09:04:04] [CLI] .../app/cli.php(113): ForkBB\Models\Pages\Admin\Install->install()
+[2026-08-26 09:04:04] [CLI] ---
+[2026-08-26 09:04:04] CLI return code: 0
+[2026-08-26 09:04:04] ForkBB installer completed
+[2026-08-26 09:04:56] Installing node: forum_f
+[2026-08-26 09:04:56] Files copied
+[2026-08-26 09:04:56] Running ForkBB installer
+[2026-08-26 09:04:56] [CLI] ---
+[2026-08-26 09:04:56] [CLI] PHP OTHER_ERROR: Undefined constant "ForkBB\Models\Pages\Admin\SMTP_USER" in .../app/Models/Pages/Admin/Install.php:[1661]
+[2026-08-26 09:04:56] [CLI] Trace:
+[2026-08-26 09:04:56] [CLI] .../app/Models/Pages/Admin/Install.php(218): ForkBB\Models\Pages\Admin\Install->installEnd()
+[2026-08-26 09:04:56] [CLI] .../app/cli.php(113): ForkBB\Models\Pages\Admin\Install->install()
+[2026-08-26 09:04:56] [CLI] ---
+[2026-08-26 09:04:56] CLI return code: 0
+[2026-08-26 09:04:56] ForkBB installer completed
+[2026-08-26 09:05:26] Installing node: forum_g
+[2026-08-26 09:05:26] Files copied
+[2026-08-26 09:05:26] Running ForkBB installer
+[2026-08-26 09:05:26] [CLI] ---
+[2026-08-26 09:05:26] [CLI] PHP OTHER_ERROR: Undefined constant "ForkBB\Models\Pages\Admin\SMTP_USER" in .../app/Models/Pages/Admin/Install.php:[1661]
+[2026-08-26 09:05:26] [CLI] Trace:
+[2026-08-26 09:05:26] [CLI] .../app/Models/Pages/Admin/Install.php(218): ForkBB\Models\Pages\Admin\Install->installEnd()
+[2026-08-26 09:05:26] [CLI] .../app/cli.php(113): ForkBB\Models\Pages\Admin\Install->install()
+[2026-08-26 09:05:26] [CLI] ---
+[2026-08-26 09:05:26] CLI return code: 0
+[2026-08-26 09:05:26] ForkBB installer completed
+[2026-08-26 09:09:21] Installing node: zzz
+[2026-08-26 09:09:22] Files copied
+[2026-08-26 09:09:22] Running ForkBB installer
+[2026-08-26 09:09:22] [CLI] ---
+[2026-08-26 09:09:22] [CLI] PHP OTHER_ERROR: Undefined constant "ForkBB\Models\Pages\Admin\SMTP_USER" in .../app/Models/Pages/Admin/Install.php:[1661]
+[2026-08-26 09:09:22] [CLI] Trace:
+[2026-08-26 09:09:22] [CLI] .../app/Models/Pages/Admin/Install.php(218): ForkBB\Models\Pages\Admin\Install->installEnd()
+[2026-08-26 09:09:22] [CLI] .../app/cli.php(113): ForkBB\Models\Pages\Admin\Install->install()
+[2026-08-26 09:09:22] [CLI] ---
+[2026-08-26 09:09:22] CLI return code: 0
+[2026-08-26 09:09:22] ForkBB installer completed
+[2026-08-26 09:09:22] Email sent
+[2026-08-26 09:14:22] Installing node: forum_a
+[2026-08-26 09:14:22] Files copied
+[2026-08-26 09:14:22] Running ForkBB installer
+[2026-08-26 09:14:23] [CLI] ---
+[2026-08-26 09:14:23] [CLI] PHP OTHER_ERROR: Undefined constant "ForkBB\Models\Pages\Admin\SMTP_USER" in .../app/Models/Pages/Admin/Install.php:[1661]
+[2026-08-26 09:14:23] [CLI] Trace:
+[2026-08-26 09:14:23] [CLI] .../app/Models/Pages/Admin/Install.php(218): ForkBB\Models\Pages\Admin\Install->installEnd()
+[2026-08-26 09:14:23] [CLI] .../app/cli.php(113): ForkBB\Models\Pages\Admin\Install->install()
+[2026-08-26 09:14:23] [CLI] ---
+[2026-08-26 09:14:23] CLI return code: 0
+[2026-08-26 09:14:23] ForkBB installer completed
+[2026-08-26 09:14:23] Email sent
+[2026-08-26 09:16:57] Installing node: forum_b
+[2026-08-26 09:16:57] Files copied
+[2026-08-26 09:16:57] Running ForkBB installer
+[2026-08-26 09:16:57] [CLI] ---
+[2026-08-26 09:16:57] [CLI] PHP OTHER_ERROR: Undefined constant "ForkBB\Models\Pages\Admin\SMTP_USER" in .../app/Models/Pages/Admin/Install.php:[1661]
+[2026-08-26 09:16:57] [CLI] Trace:
+[2026-08-26 09:16:57] [CLI] .../app/Models/Pages/Admin/Install.php(218): ForkBB\Models\Pages\Admin\Install->installEnd()
+[2026-08-26 09:16:57] [CLI] .../app/cli.php(113): ForkBB\Models\Pages\Admin\Install->install()
+[2026-08-26 09:16:57] [CLI] ---
+[2026-08-26 09:16:57] CLI return code: 0
+[2026-08-26 09:16:57] ForkBB installer completed
+[2026-08-26 09:16:57] Email failed: Class "PHPMailer" not found
+[2026-08-26 09:18:41] Installing node: joe_blow
+[2026-08-26 09:18:41] Files copied
+[2026-08-26 09:18:41] Running ForkBB installer
+[2026-08-26 09:18:41] [CLI] Ok
+[2026-08-26 09:18:41] CLI return code: 0
+[2026-08-26 09:18:41] ForkBB installer completed
+[2026-08-26 09:18:42] Email sent
+[2026-08-26 10:01:38] Installing node: forum_a
+[2026-08-26 10:01:38] Files copied
+[2026-08-26 10:01:38] Running ForkBB installer
+[2026-08-26 10:01:38] [CLI] Ok
+[2026-08-26 10:01:38] CLI return code: 0
+[2026-08-26 10:01:38] ForkBB installer completed
+[2026-08-26 10:01:38] Email sent
+[2026-08-26 12:59:19] Installing node: joe_blow
+[2026-08-26 12:59:19] Files copied
+[2026-08-26 12:59:19] Running ForkBB installer
+[2026-08-26 12:59:20] [CLI] Ok
+[2026-08-26 12:59:20] CLI return code: 0
+[2026-08-26 12:59:20] ForkBB installer completed
+[2026-08-26 12:59:20] Email sent
+[2026-08-26 13:00:54] Installing node: jack_frost
+[2026-08-26 13:00:54] Files copied
+[2026-08-26 13:00:54] Running ForkBB installer
+[2026-08-26 13:00:54] [CLI] Ok
+[2026-08-26 13:00:54] CLI return code: 0
+[2026-08-26 13:00:54] ForkBB installer completed
+[2026-08-26 13:00:54] Email sent
+[2026-08-26 13:18:03] Installing node: forum_c
+[2026-08-26 13:18:03] Files copied
+[2026-08-26 13:18:03] Running ForkBB installer
+[2026-08-26 13:18:03] [CLI] Ok
+[2026-08-26 13:18:03] CLI return code: 0
+[2026-08-26 13:18:03] ForkBB installer completed
+[2026-08-26 13:18:03] Email sent
+[2026-08-26 13:24:49] Installing node: test_a
+[2026-08-26 13:24:49] Files copied
+[2026-08-26 13:24:49] Running ForkBB installer
+[2026-08-26 13:24:50] [CLI] Ok
+[2026-08-26 13:24:50] CLI return code: 0
+[2026-08-26 13:24:50] ForkBB installer completed
+[2026-08-26 13:24:50] Email sent
+[2026-08-26 13:27:33] Installing node: test_b
+[2026-08-26 13:27:33] Files copied
+[2026-08-26 13:27:33] Running ForkBB installer
+[2026-08-26 13:27:33] [CLI] Ok
+[2026-08-26 13:27:33] CLI return code: 0
+[2026-08-26 13:27:33] ForkBB installer completed
+[2026-08-26 13:27:33] Email sent
+[2026-08-26 13:30:55] Installing node: forum_a
+[2026-08-26 13:30:55] Files copied
+[2026-08-26 13:30:55] Running ForkBB installer
+[2026-08-26 13:30:55] [CLI] Ok
+[2026-08-26 13:30:55] CLI return code: 0
+[2026-08-26 13:30:55] ForkBB installer completed
+[2026-08-26 13:30:55] Email sent
+[2026-08-26 13:58:57] Installing node: forum_b
+[2026-08-26 13:58:57] Files copied
+[2026-08-26 13:58:57] Running ForkBB installer
+[2026-08-26 13:58:58] [CLI] Ok
+[2026-08-26 13:58:58] CLI return code: 0
+[2026-08-26 13:58:58] ForkBB installer completed
+[2026-08-26 13:58:58] Email sent
+[2026-08-26 14:25:14] Installing node: forum_a
+[2026-08-26 14:25:14] Files copied
+[2026-08-26 14:25:14] Running ForkBB installer
+[2026-08-26 14:25:14] [CLI] Ok
+[2026-08-26 14:25:14] CLI return code: 0
+[2026-08-26 14:25:14] ForkBB installer completed
+[2026-08-26 14:25:15] Email sent
+[2026-08-26 14:26:51] Installing node: forum_b
+[2026-08-26 14:26:51] Files copied
+[2026-08-26 14:26:51] Running ForkBB installer
+[2026-08-26 14:26:51] [CLI] Ok
+[2026-08-26 14:26:51] CLI return code: 0
+[2026-08-26 14:26:51] ForkBB installer completed
+[2026-08-26 14:26:51] Email sent
+[2026-08-27 10:31:42] Installing node: test_forum
+[2026-08-27 10:31:43] Files copied
+[2026-08-27 10:31:43] Running ForkBB installer
+[2026-08-27 10:31:43] [CLI] Ok
+[2026-08-27 10:31:43] CLI return code: 0
+[2026-08-27 10:31:43] ForkBB installer completed
+[2026-08-27 10:31:43] Email sent
+[2026-08-27 10:49:24] Installing node: joshs_forum
+[2026-08-27 10:49:24] Files copied
+[2026-08-27 10:49:24] Running ForkBB installer
+[2026-08-27 10:49:25] [CLI] Ok
+[2026-08-27 10:49:25] CLI return code: 0
+[2026-08-27 10:49:25] ForkBB installer completed
+[2026-08-27 10:49:25] Email sent

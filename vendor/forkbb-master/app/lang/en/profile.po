@@ -1,0 +1,439 @@
+#
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: ForkBB\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ForkBB <mio.visman@yandex.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgid "User activity"
+msgstr "User activity"
+
+msgid "Activate email sent"
+msgstr "An email has been sent to the specified address with instructions on how to activate the email address. If it does not arrive you can contact the forum administrator at <a href=\"mailto:%1$s\">%1$s</a>."
+
+msgid "Email instructions"
+msgstr "An email with an activation link will be sent to this email address. You must click the link in the email you receive to activate this address."
+
+msgid "Change email"
+msgstr "Change email address"
+
+msgid "New email"
+msgstr "New email address"
+
+msgid "New or old email"
+msgstr "New or old (for confirmation) email address"
+
+msgid "Delete avatar"
+msgstr "Delete avatar"
+
+msgid "Profile redirect"
+msgstr "Profile updated."
+
+msgid "%s's profile"
+msgstr "%s's profile"
+
+msgid "Email info"
+msgstr "Email"
+
+msgid "Registered info"
+msgstr "Registered"
+
+msgid "Last post info"
+msgstr "Last post"
+
+msgid "Last visit info"
+msgstr "Last visit"
+
+msgid "Posts info"
+msgstr "Total posts"
+
+msgid "Show posts"
+msgstr "Show user's posts"
+
+msgid "Topics info"
+msgstr "Total topics"
+
+msgid "Show topics"
+msgstr "Show user's topics"
+
+msgid "Realname"
+msgstr "Real name"
+
+msgid "Location"
+msgstr "Location"
+
+msgid "Website"
+msgstr "Website"
+
+msgid "Avatar"
+msgstr "Avatar"
+
+msgid "Signature"
+msgstr "Signature"
+
+msgid "Sig max size"
+msgstr "Max length: <b>%1$s</b> characters / Max lines: <b>%2$s</b>"
+
+msgid "Leave blank"
+msgstr "Leave blank to use forum default."
+
+msgid "Subscription options"
+msgstr "Subscription options"
+
+msgid "Notify label"
+msgstr "Notification with post text"
+
+msgid "Notify info"
+msgstr "Include a text of new posts in subscription notification emails."
+
+msgid "Auto notify label"
+msgstr "Automatically subscribe to topics"
+
+msgid "Auto notify info"
+msgstr "Automatically subscribe to every topics you post in."
+
+msgid "Smilies label"
+msgstr "Smilies"
+
+msgid "Smilies info"
+msgstr "Show smilies as graphic icons."
+
+msgid "Images label"
+msgstr "Images in posts"
+
+msgid "Images info"
+msgstr "Show images in posts."
+
+msgid "Images sigs label"
+msgstr "Images in signatures"
+
+msgid "Images sigs info"
+msgstr "Show images in user signatures."
+
+msgid "Reaction label"
+msgstr "Reactions"
+
+msgid "Reaction info"
+msgstr "Show reactions to posts."
+
+msgid "Avatars label"
+msgstr "Avatars"
+
+msgid "Avatars info"
+msgstr "Show user avatars in posts."
+
+msgid "Sigs label"
+msgstr "Signatures"
+
+msgid "Sigs info"
+msgstr "Show user signatures."
+
+msgid "Style"
+msgstr "Style"
+
+msgid "Admin note"
+msgstr "Administration note"
+
+msgid "Admin note help"
+msgstr "For administrators and moderators."
+
+msgid "Delete user"
+msgstr "Delete"
+
+msgid "Ban user"
+msgstr "Ban"
+
+msgid "Unban user"
+msgstr "Unban"
+
+msgid "Update rights redirect"
+msgstr "Forum moderator rights updated."
+
+msgid "Gender"
+msgstr "Gender"
+
+msgid "Do not display"
+msgstr "Do not display"
+
+msgid "Contact details"
+msgstr "Contact details"
+
+msgid "Personal information"
+msgstr "Personal information"
+
+msgid "Email settings label"
+msgstr "Email settings"
+
+msgid "View "
+msgstr "View"
+
+msgid "Edit "
+msgstr "Edit"
+
+msgid "Editing profile"
+msgstr "Edit profile"
+
+msgid "Configure "
+msgstr "Configure"
+
+msgid "Board configuration"
+msgstr "Board configuration"
+
+msgid "Not uploaded"
+msgstr "Not uploaded"
+
+msgid "New avatar"
+msgstr "New avatar"
+
+msgid "New avatar info"
+msgstr "The avatar will be automatically resize to <b>%1$s</b>x<b>%2$s</b> pixel. The avatar will be removed if its size exceeds <b>%3$s</b> bytes (<i>%4$s</i>) after compression."
+
+msgid "IP"
+msgstr "IP"
+
+msgid "IP title"
+msgstr "Show IP information"
+
+msgid "No signature after censoring"
+msgstr "Text of signature was deleted after censoring"
+
+msgid "Signature has too many lines"
+msgstr "Signature has too many lines"
+
+msgid "All caps signature"
+msgstr "Signature has only capital letters"
+
+msgid "To change email"
+msgstr "Change email address"
+
+msgid "To confirm/change email"
+msgstr "Confirm/change email address"
+
+msgid "Email is old redirect"
+msgstr "Email address is not changed."
+
+msgid "Email changed redirect"
+msgstr "Email address changed."
+
+msgid "Email confirmed redirect"
+msgstr "Email address confirmed."
+
+msgid "Change passphrase title"
+msgstr "Change passphrase"
+
+msgid "Change passphrase"
+msgstr "Change passphrase"
+
+msgid "New passphrase"
+msgstr "New passphrase"
+
+msgid "Confirm new passphrase"
+msgstr "Confirm new passphrase"
+
+msgid "Passphrases updated"
+msgstr "Your passphrase has been updated. You can now login with your new passphrase."
+
+msgid "Passphrases updated redirect"
+msgstr "Passphrase updated."
+
+msgid "Language"
+msgstr "Language"
+
+msgid "Essentials"
+msgstr "Essentials"
+
+msgid "Time zone"
+msgstr "Time zone"
+
+msgid "Default for language"
+msgstr "Default for language"
+
+msgid "For default"
+msgstr "Zero this field for the default settings."
+
+msgid "Time format"
+msgstr "Time format"
+
+msgid "Date format"
+msgstr "Date format"
+
+msgid "Viewing posts"
+msgstr "Viewing posts"
+
+msgid "Pagination"
+msgstr "Pagination"
+
+msgid "Board configuration redirect"
+msgstr "Board configuration updated."
+
+msgid "Group"
+msgstr "Group"
+
+msgid "Change user group"
+msgstr "Change user group"
+
+msgid "Configure moderator rights"
+msgstr "Configure moderator rights"
+
+msgid "Moderator rights"
+msgstr "Moderator rights"
+
+msgid "Forum label"
+msgstr "Forum"
+
+msgid "Moderator label"
+msgstr "Moderator"
+
+msgid "Private information"
+msgstr "Private information"
+
+msgid "Security"
+msgstr "Security"
+
+msgid "IP check"
+msgstr "IP check"
+
+msgid "Disable check"
+msgstr "Off"
+
+msgid "Not strict check"
+msgstr "Not strict"
+
+msgid "Strict check"
+msgstr "Strict"
+
+msgid "IP check info"
+msgstr "<b>Strict</b> - if your ip address has changed, you will be logout;<br><b>Not strict</b> - this board remembers 10-20 of your last ip addresses and if your current ip address is not in this list, you will be logout;<br><b>Off</b> - changing your ip address does not affect anything."
+
+msgid "Total topics subscriptions"
+msgstr "Total topics subscriptions"
+
+msgid "Total forums subscriptions"
+msgstr "Total forums subscriptions"
+
+msgid "Show topics subscriptions"
+msgstr "Show user subscriptions to topics"
+
+msgid "Show forums subscriptions"
+msgstr "Show user subscriptions to forums"
+
+msgid "Configure OAuth"
+msgstr "Configure OAuth accounts"
+
+msgid "OAuth accounts"
+msgstr "OAuth accounts"
+
+msgid "No linked accounts"
+msgstr "No linked accounts."
+
+msgid "Linked accounts"
+msgstr "Linked accounts"
+
+msgid "Add account"
+msgstr "Add new account"
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "Delete my profile"
+msgstr "Delete profile"
+
+msgid "Deleting profile"
+msgstr "Delete profile"
+
+msgid "You are trying to delete your profile"
+msgstr "You are trying to delete your profile."
+
+msgid "Confirm delete label"
+msgstr "Delete profile?"
+
+msgid "Confirm delete info"
+msgstr "<b>This is an irreversible operation!</b>"
+
+msgid "Your deleted redirect"
+msgstr "Your profile has been deleted."
+
+msgid "Search config"
+msgstr "Search config"
+
+msgid "Search options"
+msgstr "Search options"
+
+msgid "Set up search"
+msgstr "Set up search"
+
+msgid "Follow label"
+msgstr "Follow"
+
+msgid "Update search config redirect"
+msgstr "Search settings updated."
+
+msgid "Select followed forums for %s and %s:"
+msgstr "Select followed forums for <b><i>%s</i></b> and <b><i>%s</i></b>:"
+
+msgid "mDescription for %s"
+msgstr "%s's profile. Activity, posts, topics and contacts."
+
+msgid "Page scroll label"
+msgstr "Page scroll"
+
+msgid "Page scroll info"
+msgstr "If active, the javascript script will scroll the page opened in the active window past the specified blocks. Operation depends on your browser and its settings."
+
+msgid "Not active"
+msgstr "Not active"
+
+msgid "Past the header (smooth)"
+msgstr "Past the header (smooth)"
+
+msgid "Past the header and announce (smooth)"
+msgstr "Past the header and announce (smooth)"
+
+msgid "Past the header (no animation)"
+msgstr "Past the header (no animation)"
+
+msgid "Past the header and announce (no animation)"
+msgstr "Past the header and announce (no animation)"
+
+msgid "Recalculate posts and topics"
+msgstr "Recalculate posts and topics"
+
+msgid "Recalculate %s redirect"
+msgstr "The number of posts and topics for <b>%s</b> has been recalculated."
+
+msgid "About me"
+msgstr "About me"
+
+msgid "To change about me"
+msgstr "Change"
+
+msgid "Change about me"
+msgstr "Change &apos;About me&apos;"
+
+msgid "Other"
+msgstr "Other"
+
+msgid "Locale"
+msgstr "Locale"
+
+msgid "Locale info"
+msgstr "Affects time and date formats. Dependent on language."
+
+msgid "SN profile %s"
+msgstr "Link to social network profile %s"
+
+msgid "Notification options"
+msgstr "Notification options"
+
+msgid "Notify if I in post"
+msgstr "Notify when quoted/mentioned"
+
+msgid "Notify about new PM"
+msgstr "Notify about new PM"

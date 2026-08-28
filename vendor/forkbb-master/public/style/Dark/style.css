@@ -1,0 +1,3869 @@
+:root {
+  --c-fprimary: hsl(40, 16%, 93%);
+  --bg-fprimary: hsl(0, 0%, 16%);
+  --br-fprimary: hsl(0, 0%, 34%);
+  --bg-like-br1: hsl(0, 18%, 30%);
+  --c-a-and-btn: hsl(50, 100%, 50%);
+  --c-btn-lo: hsl(0, 0%, 50%);
+  --bg-btn-lo: hsl(0, 0%, 16%);
+  --c-fh1: hsl(0, 0%, 80%);
+  --bg-fh1: hsl(220, 5%, 12%);
+  --br-fh1: hsl(0, 0%, 80%);
+  --c-icon-sub: hsl(0, 0%, 70%);
+  --c-icon-new: hsl(50, 100%, 50%);
+  --c-focus-v: hsl(30, 100%, 50%);
+  --c-a-focus: hsl(50, 100%, 60%);
+  --c-focus: hsl(220, 5%, 12%);
+  --bg-focus: hsl(50, 100%, 50%);
+  --bg-post-h: hsl(0, 20%, 26%);
+  --bg-post-s-h: hsl(83, 72%, 22%);
+  --bg-post-b: hsl(0, 0%, 26%);
+  --bg-post-u: hsl(0, 0%, 19%);
+  --bg-fann: hsl(0, 0%, 21%);
+  --bg-submenu: hsl(0, 0%, 20%);
+  --bg-stats: hsl(0, 0%, 21%);
+  --c-active: hsl(40, 16%, 93%);
+  --c-nav-focus: hsl(220, 5%, 12%);
+  --bg-active: hsl(220, 5%, 12%);
+  --bg-btn: hsl(0, 0%, 21%);
+  --bg-nav: hsl(0, 0%, 19%);
+  --bg-like-nav: hsl(0, 0%, 19%);
+  --c-light: hsl(40, 16%, 93%);
+  --c-tsticky: hsl(0, 100%, 50%);
+  --bg-tsticky: hsl(0, 15%, 22%);
+  --c-faggr: hsl(357, 75%, 50%);
+  --c-faggr-pr: hsl(0, 0%, 20%);
+  --bg-faggr: hsl(0, 100%, 86%);
+  --c-tclosed: hsl(0, 0%, 45%);
+  --bg-tclosed: hsl(0, 0%, 22%);
+  --c-tpoll: hsl(50, 100%, 50%);
+  --c-tsolved: hsl(120, 100%, 50%);
+  --c-req: hsl(0, 100%, 50%);
+  --bg-bbcode: hsl(220, 5%, 16%);
+  --br-bbcode: hsl(0, 0%, 75%);
+  --bg-poll-res: hsl(50, 100%, 50%);
+  --c-sel: hsl(0, 0%, 0%);
+  --bg-sel: hsl(0, 0%, 60%);
+  --c-highlighted: hsl(39, 100%, 50%);
+  --c-reaction: hsl(40, 16%, 93%);
+  --c-reaction-sel: hsl(130, 47%, 42%);
+  --bg-reaction: hsl(0, 0%, 16%);
+  --br-reaction: hsl(0, 0%, 34%);
+  --c-post-cf-n: hsl(42, 100%, 50%);
+  --c-hashtag: hsl(0, 0%, 50%);
+}
+
+
+/*******************/
+/* Общие настройки */
+/*******************/
+@font-face {
+  font-family: "fa";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../other/fa/fa-regular-400.v.70200.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "fa";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../other/fa/fa-solid-900.v.70200.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'fab';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../other/fa/fa-brands-400.v.70200.woff2") format("woff2");
+  font-display: swap;
+}
+
+
+html,
+body,
+#fork,
+#fork a,
+#fork abbr,
+#fork acronym,
+#fork address,
+#fork applet,
+#fork article,
+#fork aside,
+#fork audio,
+#fork b,
+#fork big,
+#fork blockquote,
+#fork canvas,
+#fork caption,
+#fork center,
+#fork cite,
+#fork code,
+#fork dd,
+#fork del,
+#fork details,
+#fork dfn,
+#fork div,
+#fork dl,
+#fork dt,
+#fork em,
+#fork embed,
+#fork fieldset,
+#fork figcaption,
+#fork figure,
+#fork footer,
+#fork form,
+#fork h1,
+#fork h2,
+#fork h3,
+#fork h4,
+#fork h5,
+#fork h6,
+#fork header,
+#fork hgroup,
+#fork i,
+#fork iframe,
+#fork img,
+#fork input,
+#fork ins,
+#fork kbd,
+#fork label,
+#fork legend,
+#fork li,
+#fork main,
+#fork mark,
+#fork menu,
+#fork nav,
+#fork object,
+#fork ol,
+#fork output,
+#fork p,
+#fork pre,
+#fork q,
+#fork ruby,
+#fork s,
+#fork samp,
+#fork section,
+/* #fork small, */
+#fork span,
+#fork strike,
+#fork strong,
+#fork sub,
+#fork summary,
+#fork sup,
+#fork table,
+#fork tbody,
+#fork td,
+#fork textarea,
+#fork tfoot,
+#fork th,
+#fork thead,
+#fork time,
+#fork tr,
+#fork tt,
+#fork u,
+#fork ul,
+#fork var,
+#fork video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  outline: none;
+}
+
+body,
+#fork {
+  color: var(--c-fprimary);
+  background-color: var(--bg-fprimary);
+}
+
+#fork {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.3125rem;
+  max-width: 64rem;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-family: -apple-system, system-ui, sans-serif;
+  line-height: 1.5;
+  position: relative;
+}
+
+@media screen and (min-width: 64rem) {
+  #fork {
+    max-width: calc(80% + 12.8rem);
+  }
+}
+
+#fork :focus {
+  outline-style: none;
+}
+
+#fork ::selection {
+  /*color: var(--c-sel);*/
+  background-color: var(--bg-sel);
+  text-shadow: -0.0625rem 0 0 var(--c-sel), 0.0625rem 0 0 var(--c-sel), 0 -0.0625rem 0 var(--c-sel), 0 0.0625rem 0 var(--c-sel);
+}
+
+#fork b,
+#fork strong {
+  font-weight: bold;
+}
+
+#fork i,
+#fork em {
+ font-style: italic;
+}
+
+#fork s {
+  text-decoration: line-through;
+}
+
+#fork u {
+  text-decoration: underline;
+}
+
+#fork code,
+#fork pre,
+#fork .f-bb-mono {
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+}
+
+#fork div,
+#fork fieldset {
+  min-width: 0;
+}
+
+#fork ul,
+#fork ol {
+  list-style: none;
+}
+
+#fork textarea {
+  resize: vertical;
+}
+
+#fork small,
+#fork .f-sim-header {
+  display: none;
+}
+
+#fork summary {
+  cursor: pointer;
+}
+
+#fork details[open] > summary {
+  margin-bottom: 0.625rem;
+}
+
+#fork summary::after {
+  display: inline-block;
+  content: "(click to open)";
+  font-size: 0.875rem;
+  margin: 0 0.3125rem;
+  opacity: 0.6;
+}
+
+[lang="ru"] #fork summary::after {
+  content: "(открыть)";
+}
+
+#fork details[open] > summary::after {
+  content: "(click to close)";
+}
+
+[lang="ru"] #fork details[open] > summary::after {
+  content: "(закрыть)";
+}
+
+#fork select {
+  background-color: var(--bg-fprimary);
+}
+
+#fork select:not([multiple]) option {
+  background-color: var(--bg-submenu);
+}
+
+#fork #fork-h1,
+#fork #id-fhth1,
+#fork .f-category .f-ftch2,
+#fork .f-category .f-finfo-h3,
+#fork .f-fsub {
+  font-family: Avenir, "Avenir Next LT Pro", Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
+}
+
+#fork #fork-h1 {
+  font-size: 1.75rem;
+  font-size: clamp(1.25rem, 5vw, 1.75rem);
+  font-style: italic;
+  line-height: 1.1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#fork .f-mheader {
+  display: none;
+}
+
+#fork.pg-forum .f-mheader,
+#fork.pg-topic .f-mheader,
+#fork.pg-profile-view .f-mheader {
+  display: block;
+  padding: 0.625rem;
+  border: 0.0625rem solid var(--br-fh1);
+  background-color: var(--bg-fh1);
+  color: var(--c-fh1);
+}
+
+#fork section > h2,
+#fork aside > h2 {
+  display: none;
+}
+
+#fork h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+#fork h3 {
+  font-size: 1rem;
+}
+
+#fork #id-fhth1,
+#fork .f-category .f-finfo-h3,
+#fork .f-fsub {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#fork .f-category .f-ftch2 {
+  font-size: 1.5rem;
+}
+
+#fork .f-category .f-finfo-h3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3125rem;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+#fork a,
+#fork .f-btn {
+  color: var(--c-a-and-btn);
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+#fork .f-btn {
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  border: 0.0625rem solid;
+  border-radius: 0.1875rem;
+  padding: 0.125rem 0.5rem;
+  background-color: var(--bg-btn);
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  text-align: center;
+  min-width: 2.5rem;
+}
+
+#fork .f-btn.f-opacity:not(:hover):not(:focus) {
+  /*opacity: 0.5;*/
+  color: var(--c-btn-lo);
+  background-color: var(--bg-btn-lo);
+}
+
+#fork a:hover,
+#fork a:focus {
+  color: var(--c-a-focus);
+  text-decoration: underline;
+}
+
+#fork a:focus-visible,
+#fork .f-btn:focus-visible {
+  outline: 0.25rem double var(--c-focus-v);
+  text-decoration: none;
+}
+
+#fork .f-btn:hover,
+#fork .f-btn:focus,
+#fork a.f-page:hover,
+#fork a.f-page:focus {
+  color: var(--c-focus);
+  background-color: var(--bg-focus);
+  text-decoration: none;
+}
+
+#fork .f-inline > dt,
+#fork .f-inline > dd {
+  display: inline;
+}
+
+#fork .f-inline > dt + dd::before {
+  content: " ";
+}
+
+#fork .f-inline > dd + dd::before {
+  content: ", ";
+}
+
+#fork .f-req::after {
+  content: " *";
+  color: var(--c-req);
+}
+
+#fork .f-field-optional {
+  opacity: 0.6;
+}
+
+#fork .f-field-depth1 > dd {
+  padding-inline-start: 0.625rem;
+}
+
+#fork .f-field-depth2 > dd {
+  padding-inline-start: 1.25rem;
+}
+
+#fork .f-field-depth3 > dd {
+  padding-inline-start: 1.875rem;
+}
+
+#fork .f-field-depth4 > dd {
+  padding-inline-start: 2.5rem;
+}
+
+#fork .f-field-depth5 > dd {
+  padding-inline-start: 3.125rem;
+}
+
+#fork .f-table {
+  background-color: var(--bg-like-nav);
+}
+
+#fork .f-tab-label {
+  display: inline-block;
+  padding: 0.625rem 0.625rem 0.3125rem;
+  margin-bottom: 0.3125rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  color: var(--c-a-and-btn);
+  min-width: 4rem;
+}
+
+#fork .f-tab-input:checked + .f-tab-label {
+  color: var(--c-active);
+  border-bottom: 0.0625rem solid;
+}
+
+/********/
+/* Меню */
+/********/
+#fork .f-menu-toggle::after {
+  display: block;
+  line-height: 1.25;
+  border: 0.0625rem solid;
+  border-radius: 0.25rem;
+  width: 2.75rem;
+  text-align: center;
+  padding: 0.25rem 0.125rem;
+  cursor: pointer;
+  font: 900 1.25rem "fa";
+  content: "\f0c9";
+  color: var(--c-a-and-btn);
+}
+
+#fork .f-menu-checkbox,
+#fork .f-menu-tsp {
+  position: fixed;
+  transform: scale(0);
+}
+
+#fork .f-menu-checkbox:checked + .f-menu-toggle::after {
+  content: "\f00d";
+}
+
+#fork .f-menu-checkbox:focus + .f-menu-toggle::after {
+  color: var(--c-nav-focus);
+  background-color: var(--c-a-and-btn);
+}
+
+#fork .f-menu-items {
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  background-color: var(--bg-nav);
+}
+
+#fork .f-menu-item {
+  white-space: nowrap;
+}
+
+#fork .f-menu-checkbox:checked ~ .f-menu-items {
+  display: flex;
+}
+
+#fork .f-menu-a {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 0.625rem;
+}
+
+#fork .f-menu-a::before {
+  display: inline-block;
+  font-family: "fa";
+  font-weight: 900;
+  padding-inline-end: 0.3125rem;
+}
+
+#fork .f-menu-span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#fork .f-menu-a.active {
+  background-color: var(--bg-active);
+  color: var(--c-active);
+}
+
+#fork .f-menu-a:hover:not(.f-menu-h3),
+#fork .f-menu-a:focus:not(.f-menu-h3) {
+  background-color: var(--c-a-and-btn);
+  color: var(--c-nav-focus);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 50rem) {
+  #fork .f-menu-checkbox {
+    display: none;
+  }
+}
+
+/****************/
+/* Главное меню */
+/****************/
+#fork #fork-nav {
+  order: 1;
+  border-bottom: 0.0625rem solid var(--br-fprimary);
+}
+
+#fork #fork-navdir {
+  width: 100%;
+  background-color: var(--bg-like-nav);
+  display: flex;
+  flex-direction: column;
+}
+
+#fork-nav #id-mn-label {
+  position: absolute;
+  top: 0.625rem;
+  inset-inline-end: 0.9325rem;
+}
+
+#fork-nav .f-menu-items {
+  background-color: var(--bg-nav);
+  border-bottom: 0.0625rem solid var(--br-fprimary);
+}
+
+#fork-nav .f-submenu-items {
+  background-color: var(--bg-submenu);
+}
+
+#fork-nav .f-submenu-items .f-menu-a {
+  text-transform: none;
+  padding: 0.3125rem 0.625rem;
+}
+
+#fork-nav .f-menu-user-items {
+  background-color: var(--bg-nav);
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+#fork-nav .f-menu-user-items .f-menu-item {
+  min-width: 2.5rem;
+}
+
+#fork-nav .f-menu-user-items .f-menu-a {
+  text-transform: none;
+}
+
+#fork-nav-profile .f-menu-span {
+  font-weight: bold;
+}
+
+#fork-nav-pm .f-menu-a::before {
+  font-weight: 400;
+  content: "\f0e0";
+}
+
+#fork-nav-drafts .f-menu-a::before {
+  font-weight: 400;
+  content: "\f044";
+}
+
+#fork-nav-premod .f-menu-a::before {
+  content: "\f00c";
+}
+
+#fork-nav-admin .f-menu-a::before {
+  content: "\f7d9";
+}
+
+#fork-nav-logout .f-menu-a::before {
+  content: "\f2f5";
+}
+
+#fork-nav-register .f-menu-a::before {
+  content: "\f234";
+}
+
+#fork-nav-login .f-menu-a::before {
+  content: "\f2f6";
+}
+
+#fork-nav-index .f-menu-a::before {
+  content: "\f015";
+}
+
+#fork-nav-userlist .f-menu-a::before {
+  content: "\f0c0";
+}
+
+#fork-nav-rules .f-menu-a::before {
+  content: "\f05a";
+}
+
+#fork-nav-search > .f-menu-a::before {
+  content: "\f002";
+}
+
+@media screen and (max-width: 34rem) {
+  #fork .f-spantxtpm,
+  #fork-nav-profile ~ .f-menu-item:not(.f-mi-pmnew) .f-menu-span {
+    display: none;
+  }
+
+  #fork-nav-profile ~ .f-menu-item:not(.f-mi-pmnew) .f-menu-a::before {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  #fork #fork-navdir {
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 0.0625rem solid var(--br-fprimary);
+  }
+
+  #fork-nav #id-mn-label {
+    display: none;
+  }
+
+  #fork-nav .f-menu-items {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0;
+  }
+
+  #fork-nav .f-menu-item {
+    min-width: 4rem;
+  }
+
+  #fork-nav .f-menu-a {
+    text-transform: none;
+  }
+
+  #fork-nav.f-main-nav-search {
+    position: relative;
+    padding-bottom: 1.9375rem;
+  }
+
+  #fork-nav-search .f-submenu-items {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--bg-fprimary);
+    display: flex;
+    font-size: 0.875rem;
+  }
+
+  #fork-nav-profile.f-menu-item {
+    min-width: 4rem;
+  }
+} /* @media screen and (min-width: 50rem) */
+
+/*********/
+/* Шапка */
+/*********/
+#fork #fork-header {
+  order: 0;
+  border-bottom: 0.0625rem solid var(--br-fprimary);
+}
+
+#fork #id-fhth1 {
+  width: calc(100% - 4rem);
+  padding: 0.625rem;
+  font-size: 2rem;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: var(--c-a-and-btn);
+}
+
+#fork #id-fhtdesc {
+  border-top: 0.0625rem dotted var(--bg-post-h);
+  padding: 0 0.625rem 0.625rem;
+}
+
+@media screen and (min-width: 50rem) {
+  #fork #id-fhth1 {
+    width: 100%;
+    overflow: auto;
+    white-space: normal;
+  }
+}
+
+/*********/
+/* iswev */
+/*********/
+#fork .f-iswev {
+  border: 0.0625rem solid;
+  padding: 0.625rem;
+}
+
+#fork .f-iswev + .f-iswev {
+  margin-top: 1rem;
+}
+
+#fork .f-info,
+#fork .f-icontent > a  {
+  color: #00529B;
+  background-color: #BDE5F8;
+}
+
+#fork .f-success,
+#fork .f-scontent > a {
+  color: #4F8A10;
+  background-color: #DFF2BF;
+}
+
+#fork .f-warning,
+#fork .f-wcontent > a {
+  color: #9F6000;
+  background-color: #FEEFB3;
+}
+
+#fork .f-error,
+#fork .f-econtent > a {
+  color: #D8000C;
+  background-color: #FFBABA;
+}
+
+#fork .f-validation,
+#fork .f-vcontent > a {
+  color: #D63301;
+  background-color: #FFCCBA;
+}
+
+#fork .f-icontent > a,
+#fork .f-scontent > a,
+#fork .f-wcontent > a,
+#fork .f-econtent > a,
+#fork .f-vcontent > a {
+  text-decoration: underline;
+}
+
+/*********/
+/* Формы */
+/*********/
+#fork .f-fdiv {
+  max-width: 100%;
+  background-color: var(--bg-like-nav);
+  border: 0.0625rem solid var(--br-fprimary);
+  padding: 0.3125rem;
+}
+
+#fork .f-fdiv h2 {
+  padding: 0.3125rem;
+}
+
+#fork .f-fdiv h3 {
+  padding: 0.3125rem;
+}
+
+#fork .f-fdiv dl {
+  padding: 0.3125rem;
+}
+
+#fork .f-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3125rem;
+  padding: 0.625rem 0.3125rem;
+}
+
+#fork .f-fleg {
+  background: linear-gradient(var(--bg-like-nav), var(--bg-fprimary), var(--bg-like-nav));
+  border-bottom: 0.0625rem dotted var(--br-fprimary);
+  width: 100%;
+  padding: 0.3125rem;
+  text-indent: 0.625rem;
+  text-transform: uppercase;
+}
+
+#fork .f-ctrl,
+#fork .f-ybtn,
+#fork .f-fbtn:not(.origin) {
+  line-height: 1.25rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  display: block;
+  width: 100%;
+}
+
+#fork .f-fbtn:not(.origin) {
+  min-width: 5rem;
+}
+
+#fork .f-fbtn[name="delete"]:not(.origin),
+#fork .f-fbtn[name="report"]:not(.origin) {
+  color: red;
+
+  &:hover,
+  &:focus {
+    color: var(--c-focus);
+    background-color: red;
+  }
+}
+
+#fork .f-flblch,
+#fork .f-flblr {
+  display: inline-block;
+  cursor: pointer;
+}
+
+#fork .f-field-block .f-flblr {
+  display: block;
+}
+
+#fork .f-yradio {
+  margin-inline-end: 0.3125rem;
+}
+
+#fork .f-flblch + .f-flblch,
+#fork .f-flblr + .f-flblr {
+  margin-inline-start: 0.625rem;
+}
+
+#fork .f-field-block .f-flblr + .f-flblr {
+  margin: 0.3125rem 0 0;
+}
+
+#fork .f-label,
+#fork .f-ychk {
+  cursor: pointer;
+}
+
+#fork .f-ycaption,
+#fork .f-yhint,
+#fork .f-fbbul,
+#fork .f-yinfo {
+  display: block;
+  width: 100%;
+}
+
+#fork .f-ycaption {
+  font-weight: bold;
+}
+
+#fork .f-fbbul {
+  font-size: 0.875rem;
+}
+
+#fork .f-ychk {
+  margin-inline-end: 0.625rem;
+}
+
+#fork .f-yhint {
+  font-size: 0.8125rem;
+  margin-top: 0.3125rem;
+  text-align: justify;
+}
+
+#fork .f-fbbul {
+  padding-top: 0.3125rem;
+}
+
+#fork .f-yinfo {
+  padding: 0.3125rem;
+  text-align: justify;
+  font-size: 0.8125rem;
+}
+
+#fork .f-yinfo + .f-yinfo {
+  margin-top: -0.3125rem;
+}
+
+#fork .f-finform {
+  background-color: var(--bg-like-br1);
+  padding: 0.625rem;
+  color: var(--c-light);
+  text-align: justify;
+  margin: 0 -0.3125rem 0.3125rem;
+  overflow: hidden;
+}
+
+#fork .f-finform:first-child {
+  margin-top: -0.3125rem;
+}
+
+#fork .f-finform + .f-finform {
+  margin-top: -0.625rem;
+}
+
+#fork .f-ctrl {
+  border: 0.0625rem solid var(--br-fprimary);
+  background-color: var(--bg-fprimary);
+  color: var(--c-fprimary);
+}
+
+#fork input.f-ctrl:user-invalid {
+  border: 0.125rem dotted red;
+}
+
+#fork input:focus,
+#fork select:focus,
+#fork textarea:focus {
+  box-shadow: 0 0 0 0.125rem var(--c-a-and-btn);
+}
+
+#fork .f-field-hint .f-yhint {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s, margin 0.5s;
+  transition-delay: 0.2s;
+}
+
+#fork .f-field-hint .f-ctrl:focus + .f-yhint,
+#fork .f-field-hint .f-ctrl:active + .f-yhint {
+  max-height: 10rem;
+}
+
+#fork .f-pass-prnt {
+  position: relative;
+}
+
+#fork .f-pass-prnt .f-ctrl {
+  padding-inline-end: 2rem;
+}
+
+#fork .f-pass-ctrl::before {
+  position: absolute;
+  display: block;
+  font-family: "fa";
+  font-weight: 900;
+  content: "\f06e";
+  padding: 0.5rem;
+  top: 0;
+  inset-inline-end: 0;
+  cursor: pointer;
+}
+
+#fork .f-pass-dspl::before {
+  content: "\f070";
+}
+
+/**************/
+/* Объявление */
+/**************/
+#fork #fork-announce {
+  border-bottom: 0.0625rem solid var(--br-fprimary);
+  background-color: var(--bg-fann);
+  padding: 0.625rem;
+  position: relative;
+}
+
+/**********/
+/* Подвал */
+/**********/
+#fork #fork-footer {
+  order: 3;
+}
+
+#fork #fork-footer-in {
+  border-bottom: 0.0625rem solid var(--br-fprimary);
+  border-top: 0.0625rem solid var(--br-fprimary);
+  background-color: var(--bg-like-nav);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+#fork-footer-in > div {
+  padding: 0.625rem;
+}
+
+/*************************/
+/* Отладочная информация */
+/*************************/
+#fork #fork-debug {
+  font-size: 0.75rem;
+}
+
+#fork-debug #id-fdebugtime {
+  padding: 0.3125rem 0.625rem;
+}
+
+#fork-debug #fork-dgtable {
+  width: 100%;
+  border: 0.0625rem solid var(--br-fprimary);
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+#fork-dgtable #fork-dgthead {
+  background-color: var(--bg-like-nav);
+}
+
+#fork-dgtable .f-tcl,
+#fork-dgtable .f-tcr {
+  padding: 0.3125rem 0.625rem;
+  border-bottom: 0.0625rem solid var(--br-fprimary);
+}
+
+#fork-dgtable .f-tcl {
+  width: 5rem;
+}
+
+/******************/
+/* Хлебные крошки */
+/******************/
+#fork .f-nav-crumbs {
+  padding: 0 0.625rem;
+}
+
+#fork .f-crumbs {
+  overflow: hidden;
+}
+
+#fork .f-crumb {
+  display: inline;
+}
+
+#fork .f-crumb:not(:last-child):after {
+  display: inline;
+  color: var(--c-a-and-btn);
+  content: " /";
+}
+
+#fork .f-subscribed > .f-crumb-a::after {
+  display: inline;
+  font: 400 0.875rem "fa";
+  content: "\a0\f0f3";
+}
+
+#fork .f-bookmarked > .f-crumb-a::after {
+  display: inline;
+  font: 400 0.875rem "fa";
+  content: "\a0\f02e";
+}
+
+#fork .f-subscribed.f-bookmarked > .f-crumb-a::after {
+  content: "\a0\f0f3\a0\f02e";
+}
+
+#fork .f-cr-index-a::before {
+  display: inline-block;
+  font: 900 0.875rem "fa";
+  content: "\f015\a0";
+}
+
+#fork .f-cr-users-a::before {
+  display: inline-block;
+  font: 900 0.875rem "fa";
+  content: "\a0\f0c0\a0";
+}
+
+#fork .f-cr-search-a:not(.active)::before {
+  display: inline-block;
+  font: 900 0.875rem "fa";
+  content: "\a0\f002\a0";
+}
+
+#fork .f-cr-index-a > span,
+#fork .f-cr-users-a > span,
+#fork .f-cr-search-a:not(.active) > span {
+  display: none;
+}
+
+#fork .f-nav-links .f-actions-links,
+#fork .f-nav-links .f-pages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3125rem;
+  padding: 0 0.625rem;
+}
+
+#fork .f-nlinks,
+#fork .f-nlinks-a,
+#fork .f-nlinks-b {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#fork .f-nlinks-b {
+  margin-top: 0.625rem;
+  border-top: 0.0625rem dotted var(--br-fprimary);
+}
+
+#fork .f-nlinks-b .f-actions-links,
+#fork .f-nlinks-b .f-pages {
+  padding-top: 0.625rem;
+}
+
+#fork .f-nlinks-a {
+  margin-bottom: 0.625rem;
+  border-bottom: 0.0625rem dotted var(--br-fprimary);
+  flex-wrap: wrap-reverse;
+}
+
+#fork .f-nlinks-a .f-actions-links,
+#fork .f-nlinks-a .f-pages {
+  padding-bottom: 0.625rem;
+}
+
+#fork .f-nav-links .f-actions-links {
+  flex-grow: 1;
+  order: 1;
+  justify-content: flex-end;
+}
+
+#fork .f-nav-links .f-page {
+  display: flex;
+  border: 0.0625rem solid var(--br-fprimary);
+  padding: 0.125rem 0.375rem;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+
+#fork .f-nav-links .f-pspacer {
+  border: 0;
+  padding: 0;
+}
+
+#fork .f-nav-links .f-page.active {
+  border-color: var(--c-active);
+  background-color: var(--bg-active);
+  color: var(--c-active);
+}
+
+@media screen and (max-width: 49.9999rem) {
+  #fork .f-crumbs {
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+
+  #fork .f-pages-disc .f-page,
+  #fork .f-pinfo {
+    display: none;
+  }
+
+  #fork .f-pages-disc .active,
+  #fork .f-pages-disc .f-pprev,
+  #fork .f-pages-disc .f-pnext,
+  #fork .f-pages-disc .f-pfirst,
+  #fork .f-pages-disc .f-plast {
+    display: flex;
+  }
+
+  #fork .f-pages-disc .f-pfirst,
+  #fork .f-pages-disc .f-plast {
+    font-size: 0;
+    line-height: 0;
+  }
+
+  #fork .f-pages-disc .f-pfirst::before,
+  #fork .f-pages-disc .f-plast::before {
+    display: flex;
+    font-family: "fa";
+    font-weight: 900;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+  }
+
+  #fork .f-pages-disc .f-pfirst {
+    order: -1;
+  }
+
+  #fork .f-pages-disc .f-plast {
+    order: 1;
+  }
+
+  #fork .f-pages-disc .f-pfirst::before {
+    content: "\f100";
+  }
+
+  #fork .f-pages-disc .f-plast::before {
+    content: "\f101";
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  #fork .f-pinfo {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+  }
+}
+
+/********/
+/* Тело */
+/********/
+#fork #fork-main {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+#fork #fork-announce {
+  margin-top: -1rem;
+}
+
+#fork-main > :last-child:not(aside) {
+  margin-bottom: 1rem;
+}
+
+#fork .f-main {
+  position: relative;
+}
+
+/*************/
+/* Сообщение */
+/*************/
+#fork-bcklnk #id-bcklnk-p {
+  padding: 0 0.625rem;
+}
+
+/*******/
+/* Бан */
+/*******/
+#fork #fork-ban {
+  padding: 0 0.625rem;
+}
+
+/***********/
+/* Правила */
+/***********/
+#fork-rules #id-rules {
+  padding: 0.625rem;
+  border: 0.0625rem solid var(--br-fprimary);
+  background-color: var(--bg-like-nav);
+}
+
+/************/
+/* Редирект */
+/************/
+#fork-rdrct #id-rdrct-h2 {
+  display: block;
+  padding: 0.625rem;
+  text-align: center;
+}
+
+/*********************/
+/* Статистика форума */
+/*********************/
+#fork #fork-stats {
+  border-top: 0.0625rem solid var(--br-fprimary);
+  background-color: var(--bg-stats);
+  font-size: 0.875rem;
+  padding: 0.3125rem 0;
+}
+
+#fork #fork-stats:not(:last-child) {
+  margin-bottom: -1rem;
+}
+
+#fork-stats .f-stats-dt {
+  display: none;
+}
+
+#fork-stats #fork-stboard,
+#fork-stats #fork-stusers {
+  padding: 0.3125rem;
+}
+
+#fork-stats #fork-stboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-bottom: 0.0625rem dotted var(--br-fprimary);
+}
+
+#fork-stats .f-stats-dd {
+  padding: 0 0.3125rem;
+}
+
+#fork-stats #fork-onlinelist {
+  border-top: 0.0625rem dotted var(--br-fprimary);
+  padding: 0.3125rem 0.625rem;
+  width: 100%;
+}
+
+#fork-onlinelist #id-onlst-dt {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 45rem) {
+  #fork #fork-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #fork-stats #fork-stboard {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    border: 0;
+  }
+
+  #fork-stats #fork-stusers {
+    order: -1;
+  }
+}
+
+/*********************/
+/* Логин/Регистрация */
+/*********************/
+#fork .f-lrdiv {
+  margin: 0 auto;
+  max-width: 20rem;
+  border-radius: 0.1875rem;
+}
+
+#fork .f-lrdiv > h2 {
+  text-align: center;
+}
+
+#fork #id-dl-passinlogin {
+  position: relative;
+}
+
+#fork #id-dl-terms {
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+#id-dl-passinlogin .f-yhint {
+  position: absolute;
+  top: 0.5rem;
+  inset-inline-end: 0.3125rem;
+  width: auto;
+  margin: 0;
+}
+
+#id-dl-passinlogin .f-pass-prnt .f-yhint { /* для просмотра пароля */
+  top: -1.3125rem;
+  inset-inline-end: 0;
+}
+
+/***************************************/
+/* Таблица разделов, подразделов и тем */
+/***************************************/
+/*.f-category > .f-table {
+  background-color: var(--bg-like-nav);
+}*/
+
+#fork .f-category + .f-category {
+  margin-top: 0.625rem;
+}
+
+#fork .f-ftch2 {
+  padding: 0.625rem 0.625rem 0.3125rem;
+}
+
+#fork .f-ftlist .f-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  border-bottom: 0.0625rem solid var(--br-fprimary);
+  padding: 0.3125rem;
+}
+
+#fork .f-ftlist .f-thead {
+  border-bottom: 0.125rem solid var(--br-fprimary);
+  padding: 0;
+}
+
+#fork .f-ftlist .f-cell {
+  padding: 0.3125rem;
+  overflow: hidden;
+}
+
+#fork .f-ftlist .f-cmain {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+#fork .f-ftlist .f-ficon {
+  width: 2rem;
+}
+
+#fork .f-ftlist .f-finfo {
+  width: calc(100% - 2rem);
+}
+
+/*#fork .f-ftlist .f-ftname {
+  max-width: 100%;
+}*/
+
+#fork .f-ftlist .f-cstats {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.3125rem;
+  flex-wrap: wrap;
+  font-size: 0.75rem;
+}
+
+#fork .f-ftlist .f-clast {
+  display: flex;
+  font-size: 0.75rem;
+}
+
+#fork .f-ftlist .f-fdesc {
+  font-size: 0.875rem;
+}
+
+#fork .f-fsub {
+  margin-inline-start: 0.875rem;
+  font-size: 0.875rem;
+}
+
+#fork .f-fsub::before {
+  display: inline-block;
+  font-size: 0.875rem;
+  content: "└";
+  margin-inline-start: -0.875rem;
+}
+
+#fork-subforums .f-fsub::before {
+  margin-inline-start: 0.875rem;
+}
+
+#fork-subforums .f-frsname::before {
+  display: inline-block;
+  content: "└";
+}
+
+#fork .f-fsub > dt {
+  display: none;
+}
+
+#fork .f-modlist {
+  font-size: 0.875rem;
+}
+
+#fork .f-modlist > dt::before {
+  content: "(";
+}
+
+#fork .f-modlist:last-child::after {
+  content: ")";
+}
+
+#fork .f-ficon::before {
+  display: inline-block;
+  font: 400 1.5rem "fa";
+  content: "\f15b";
+  color: var(--c-icon-sub);
+}
+
+#fork .f-fnew .f-ficon::before {
+  font-weight: 900;
+  content: "\f15b";
+  color: var(--c-icon-new);
+}
+
+#fork .f-fredir .f-ficon::before {
+  content: "\f1d8";
+}
+
+#fork-forum .f-ficon::before {
+  font-size: 1.2rem;
+}
+
+#fork .f-frdrsub::before {
+  font: 400 0.875rem "fa";
+  content: "\f1d8";
+  color: var(--c-icon-sub);
+  margin-inline-end: 0.3125rem;
+}
+
+#fork .f-fnew > a::before,
+#fork .f-tnew > a::before {
+  font: 900 0.875rem "fa";
+  content: "\f086";
+  padding: 0 0.25rem;
+}
+
+#fork .f-tunread > a::before {
+  font: 900 0.875rem "fa";
+  content: "\f06e"; /* f070 */
+  padding: 0 0.25rem;
+}
+
+#fork .f-ftlist .f-clposter,
+#fork .f-ftlist .f-cltime,
+#fork .f-ftlist .f-cltname,
+#fork .f-ftlist .f-csview {
+  display: none;
+}
+
+#fork .f-ftlist .f-clttime {
+  display: inline;
+}
+
+#fork .f-thashtags::before {
+  display: inline-block;
+  font-size: 0.8125rem;
+  color: var(--c-hashtag);
+  content: "#";
+}
+
+#fork .f-hashtag {
+  display: inline-block;
+  font-size: 0.8125rem;
+  color: var(--c-hashtag);
+  text-decoration: none;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+}
+
+#fork .f-hashtag:hover,
+#fork .f-hashtag:focus {
+  color: var(--c-fprimary);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 50rem) {
+  #fork .f-ftlist .f-row {
+    flex-wrap: nowrap;
+  }
+
+  #fork .f-ftlist .f-cmain {
+    flex-grow: 1;
+  }
+
+  #fork .f-ftlist .f-cstats {
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    min-width: 8rem;
+    white-space: nowrap;
+  }
+
+  #fork .f-ftlist .f-clast {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 15rem;
+    min-width: 15rem;
+    font-size: 0.875rem;
+  }
+
+  #fork .f-ftlist .f-cltopic,
+  #fork .f-ftlist .f-clposter,
+  #fork .f-ftlist .f-cltime {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+
+  #fork .f-ftlist .f-csview {
+    display: block;
+  }
+
+  #fork .f-ftlist .f-cltime {
+    font-size: 0.75rem;
+  }
+
+  #fork .f-ftlist .f-cltname {
+    display: inline;
+  }
+
+  #fork .f-ftlist .f-clttime {
+    display: none;
+  }
+}
+
+#fork .f-ftlist .f-hcell {
+  display: none;
+}
+
+/********************/
+/* Страница раздела */
+/********************/
+#fork-subforums .f-ftch2 {
+  display: none;
+}
+
+#fork-forum .f-finfo-h3 {
+  font-weight: normal;
+  position: relative;
+}
+
+#fork-forum .f-finfo-p {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#fork .f-cmposted {
+  font-size: 0.875rem;
+  opacity: 0.6;
+}
+
+#fork .f-cmposter,
+#fork .f-cmforum {
+  font-size: 0.875rem;
+}
+
+#fork .f-cmposted::before,
+#fork .f-cmforum::before {
+  content: ", ";
+}
+
+#fork .f-tdot {
+  font-weight: bold;
+  position: absolute;
+  margin-inline-start: -0.5rem;
+}
+
+#fork .f-tpages .f-page {
+  display: inline-block;
+  border: 0.0625rem solid var(--br-fprimary);
+  padding: 0.0625rem 0.3125rem;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+
+#fork .f-tpages .f-pspacer {
+  border: 0;
+  padding: 0;
+}
+
+#fork .f-tpages:not(:hover) .f-page:not(:focus),
+#fork .f-cmforum > a:not(:focus):not(:hover) {
+  opacity: 0.6;
+}
+
+#fork .f-fsticky {
+  background-color: var(--bg-tsticky);
+}
+
+#fork .f-fclosed {
+  background-color: var(--bg-tclosed);
+}
+
+#fork .f-fclosed .f-ficon::before {
+  color: var(--c-tclosed);
+}
+
+#fork .f-tsticky::before {
+  display: inline-block;
+  font: 900 0.875rem "fa";
+  content: "\f08d";
+  color: var(--c-tsticky);
+}
+
+#fork .f-tclosed::before {
+  display: inline-block;
+  font: 900 0.875rem "fa";
+  content: "\f023";
+  color: var(--c-tclosed);
+}
+
+#fork .f-tpoll::before {
+  display: inline-block;
+  font: 900 0.875rem "fa";
+  content: "\f681";
+  color: var(--c-tpoll);
+}
+
+#fork .f-tsolved::before {
+  display: inline-block;
+  font: 900 0.875rem "fa";
+  content: "\f00c";
+  color: var(--c-tsolved);
+}
+
+/*****************/
+/* Страница темы */
+/*****************/
+#fork .f-btn-topic-closed {
+  pointer-events: none;
+  cursor: default;
+  color: var(--c-faggr);
+  background-color: var(--bg-faggr);
+}
+
+#fork-toc .f-toc-div {
+  padding: 0.625rem;
+  border: 0.0625rem solid var(--br-fh1);
+  background-color: var(--bg-fh1);
+  color: var(--c-fh1);
+}
+
+#fork-toc .f-toc-ul .f-toc-ul {
+  padding-inline-start: 1rem;
+}
+
+/********************/
+/* Сообщение в теме */
+/********************/
+#fork .f-post {
+  border: 0.0625rem solid var(--br-fprimary);
+  position: relative;
+}
+
+#fork .f-post + .f-post {
+  margin-top: 1.25rem;
+}
+
+#fork .f-post-header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.625rem;
+  border-bottom: 0.0625rem solid var(--br-fprimary);
+  background-color: var(--bg-post-h);
+  font-size: 0.875rem;
+  gap: 0.625rem;
+}
+
+#fork .f-post-solution .f-post-header {
+  background-color: var(--bg-post-s-h);
+}
+
+#fork-topic .f-phead-h3,
+#fork-view-posts .f-phead-h3 {
+  display: none;
+}
+
+#fork .f-post-edited > span,
+#fork .f-post-change-a > span,
+#fork .f-post-solution-info > span {
+  display: none;
+}
+
+#fork .f-post-solution-info::before {
+  font-family: "fa";
+  font-weight: 900;
+  content: "\f00c";
+}
+
+#fork .f-post-edited::before {
+  font-family: "fa";
+  font-weight: 400;
+  content: "\f044";
+}
+
+#fork .f-post-change-a::before {
+  font-family: "fa";
+  font-weight: 900;
+  content: "\f013";
+}
+
+#fork .f-post-number {
+  margin-inline-start: auto;
+  word-break: normal;
+}
+
+#fork .f-post-user {
+  position: relative;
+  padding: 0.625rem;
+  background-color: var(--bg-post-u);
+  border-bottom: 0.0625rem solid var(--br-fprimary);
+  font-size: 0.875rem;
+}
+
+#fork .f-post-usticky {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3125rem;
+}
+
+#fork .f-avatar {
+  order: 1;
+  flex-grow: 0.5;
+  text-align: end;
+  /*margin-bottom: 0.3125rem;*/
+}
+
+#fork .f-avatar > img {
+  max-width: 3.25rem;
+  height: auto;
+}
+
+#fork .f-user-info {
+  flex-grow: 0.5;
+}
+
+#fork .f-user-info-add {
+  width: 100%;
+  order: 2;
+}
+
+#fork .f-user-contacts {
+  display: inline-block;
+}
+
+#fork .f-username {
+  font-size: 1.25rem;
+  word-break: break-all;
+  position: relative;
+  border-bottom: 0.0625rem dotted #747f8d;
+}
+
+#fork .f-user-male .f-username::before {
+  display: inline-block;
+  font: 900 1rem "fa";
+  content: "\f222";
+  color: #46b4e7;
+  margin-inline-end: 0.25rem;
+}
+
+#fork .f-user-female .f-username::before {
+  display: inline-block;
+  font: 900 1rem "fa";
+  content: "\f221";
+  color: #ef64ef;
+  margin-inline-end: 0.25rem;
+}
+
+#fork .f-user-online .f-username {
+  border-bottom: 0.0625rem solid #43b581;
+}
+
+#fork-view-posts .f-username {
+  border-bottom: 0;
+}
+
+#fork .f-userstatus {
+  display: none !important;
+}
+
+#fork .f-post-body {
+  padding: 0.3125rem;
+  background-color: var(--bg-post-b);
+  position: relative;
+}
+
+#fork .f-post-body > .f-iswev-wrap {
+  margin: 0.3125rem;
+}
+
+#fork .f-post-main {
+  padding: 0.3125rem;
+}
+
+#fork .f-post-customfields {
+  border-top: 0.125rem dotted;
+  border-bottom: 0.125rem dotted;
+  padding: 0.3125rem 0;
+  margin-bottom: 0.3125rem;
+}
+
+#fork .f-post-customfield {
+  text-indent: 1rem;
+}
+
+#fork .f-post-cf-name {
+  color: var(--c-post-cf-n);
+}
+
+#fork .f-post-bfooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#fork .f-post-btns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.3125rem;
+  padding: 0.3125rem;
+  margin-inline-start: auto;
+}
+
+#fork .f-post-btns:not(:hover) .f-btn:not(:focus) {
+  /*opacity: 0.6;*/
+  color: var(--c-btn-lo);
+  background-color: var(--bg-btn-lo);
+}
+
+#fork .f-post-sign {
+  font-size: 0.875rem;
+  opacity: 0.5;
+  padding: 0.3125rem;
+}
+
+#fork .f-sign-brd {
+  width: 50%;
+  border-top-width: 0.0625rem;
+  border-style: dashed;
+}
+
+#fork .f-admin-note {
+  color: var(--c-faggr);
+}
+
+.f-post-user .f-psfont::before {
+  display: inline-block;
+  font-family: "fa";
+  font-weight: 900;
+  font-size: 0.75rem;
+}
+
+#fork .f-user-contacts > a {
+  border: 0.0625rem solid var(--br-fprimary);
+  border-radius: .25rem;
+  display: inline-block;
+  margin-top: 0.3125rem;
+  padding: 0 0.25rem;
+}
+
+.f-website .f-psfont::before {
+  content: "\f015";
+}
+
+.f-social-link .f-psfont::before {
+  font-family: "fab";
+  font-weight: 400;
+  content: "?";
+}
+
+.f-sn-github .f-psfont::before {
+  content: "\f09b";
+}
+
+.f-sn-telegram .f-psfont::before {
+  content: "\f2c6";
+}
+
+.f-sn-tiktok .f-psfont::before {
+  content: "\e07b";
+}
+
+.f-sn-reddit .f-psfont::before {
+  content: "\f1a1";
+}
+
+.f-sn-mastodon .f-psfont::before {
+  content: "\f4f6";
+}
+
+.f-sn-stackoverflow .f-psfont::before {
+  content: "\f16c";
+}
+
+.f-sn-flickr .f-psfont::before {
+  content: "\f16e";
+}
+
+.f-email .f-psfont::before {
+  content: "\f0e0"; /*\40*/
+}
+
+.f-user-contacts .f-psfont > span {
+  display: none;
+}
+
+#fork .f-btn.f-gotosolution {
+  color: #e3f3ec;
+  background-color: #2C8C69;
+  border-color: #2C8C69;
+  opacity: 1 !important;
+}
+
+@media screen and (max-width: 49.9999rem) {
+  #fork .f-user-info > li:not(.f-username),
+  #fork .f-user-info-add > li {
+    display: inline-block;
+  }
+
+  #fork .f-user-info > li:not(.f-username) + li::before,
+  #fork .f-user-info-add > li + li::before {
+    display: inline-block;
+    content: "\2022";
+    padding-inline-end: 0.3125rem;
+  }
+
+  .f-post-user .f-psfont > span {
+    display: none;
+  }
+
+  .f-postcount > .f-psfont::before {
+    font-weight: 400;
+    content: "\f086\a0";
+  }
+
+  .f-registered > .f-psfont::before {
+    content: "\f2f6\a0";
+  }
+
+  .f-location > .f-psfont::before {
+    content: "\f041\a0";
+  }
+
+  .f-promoteuser .f-psfont::before {
+    content: "\f007\f30c"; /* \e539 */
+  }
+
+  #fork .f-post-user {
+    padding-bottom: 1rem;
+  }
+
+  #fork .f-post-body::before,
+  #fork .f-post-body::after {
+    content: '';
+    position: absolute;
+    left: calc(50% - 0.625rem);
+    top: -1.25rem;
+    border: 0.625rem solid transparent;
+    border-bottom: 0.625rem solid var(--br-fprimary);
+  }
+
+  #fork .f-post-body::after {
+    border-bottom: 0.625rem solid var(--bg-post-b);
+    top: -1.14rem;
+  }
+
+  #fork .f-user-info-toggle {
+    display: flex;
+    position: absolute;
+    top: 0.1875rem;
+    inset-inline-end: 0.1875rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 0.0625rem solid var(--c-fprimary);
+    border-radius: 1.25rem;
+    background-color: var(--bg-fprimary);
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+    cursor: pointer;
+  }
+
+  #fork .f-user-info-toggle::before {
+    font: 900 0.875rem "fa";
+    content: "\f129";
+  }
+
+  #fork .f-user-info-checkbox:not(:checked) ~ .f-user-info-add {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  #fork .f-post {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #fork .f-post-header {
+    width: 100%;
+  }
+
+  #fork .f-post-user {
+    width: 13rem;
+    border-inline-end: 0.0625rem solid var(--br-fprimary);
+    border-bottom: 0;
+  }
+
+  #fork .f-post-usticky {
+    flex-direction: column;
+    position: sticky;
+    top: 0.625rem;
+  }
+
+  #fork .f-user-info-first {
+    display: block;
+    margin-bottom: 0.3125rem;
+    width: 100%;
+  }
+
+  #fork .f-user-info .f-username {
+    display: none;
+  }
+
+  #fork .f-avatar {
+    flex-grow: 0;
+    order: 0;
+    text-align: center;
+  }
+
+  #fork .f-user-info {
+    flex-grow: 0;
+    width: 100%;
+  }
+
+  #fork .f-post-body {
+    width: calc(100% - 13rem);
+    display: flex;
+    flex-direction: column;
+  }
+
+  #fork .f-post-main {
+    flex-grow: 1;
+  }
+
+  #fork .f-avatar > img {
+    max-width: 100%;
+  }
+} /* @media screen and (min-width: 50rem) */
+
+/**********/
+/* bbcode */
+/**********/
+#fork .f-post-body img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+#fork .f-bb-img-cont {
+  display: inline-block;
+  position: relative;
+}
+
+#fork .f-bb-img-chk::before {
+  position: absolute;
+  display: block;
+  top: 0;
+  inset-inline-start: 0;
+  cursor: zoom-in;
+  font-family: "fa";
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1;
+  content: "\f065"; /*"\f424";*/
+  color: var(--c-fprimary);
+  -webkit-text-stroke: 0.0625rem var(--bg-fprimary);
+}
+
+#fork .f-bb-img-chk.zoomOn::before {
+  content: "\f066"; /*"\f422";*/
+  cursor: zoom-out;
+}
+
+#fork .f-bb-img-chk:not(.zoomOn) + img {
+  max-height: 8rem;
+}
+
+#fork .f-bb-header {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+#fork .f-bb-h1,
+#fork .f-bb-h2,
+#fork .f-bb-h3,
+#fork .f-bb-h4,
+#fork .f-bb-h5,
+#fork .f-bb-h6 {
+  display: block;
+  font-weight: bold;
+}
+
+#fork .f-bb-h1 {
+  font-size: 2rem;
+  margin: 0.67rem;
+}
+
+#fork .f-bb-h2 {
+  font-size: 1.5rem;
+  margin: 0.83rem;
+}
+
+#fork .f-bb-h3 {
+  font-size: 1.17rem;
+  margin: 1rem;
+}
+
+#fork .f-bb-h4 {
+  font-size: 1rem;
+  margin: 1.33rem;
+}
+
+#fork .f-bb-h5 {
+  font-size: .83rem;
+  margin: 1.67rem;
+}
+
+#fork .f-bb-h6 {
+  font-size: .67rem;
+  margin: 2.33rem;
+}
+
+#fork .f-bb-after {
+  font-style: italic;
+  font-size: 0.875rem;
+  padding-top: 0.625rem;
+}
+
+#fork .f-bb-quote {
+  border-inline-start: 0.1875rem solid var(--br-bbcode);
+  border-top: 0.0625rem solid var(--br-bbcode);
+}
+
+#fork .f-bb-q-header {
+  display: block;
+  padding: 0.3125rem 0.625rem;
+  background-color: var(--bg-like-nav);
+  font-style: italic;
+}
+
+#fork .f-bb-q-body {
+  padding: 0.625rem;
+}
+
+#fork .f-bb-code {
+  margin: 0 0.625rem;
+  padding: 0.625rem;
+  background-color: var(--bg-bbcode);
+  border: 0.0625rem solid var(--br-bbcode);
+  overflow: auto;
+  max-height: 45rem;
+  min-height: 2rem;
+}
+
+#fork .f-bb-mono {
+  border: 0.0625rem solid var(--br-bbcode);
+  background-color: var(--bg-bbcode);
+  padding: 0 0.25rem;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+#fork .f-bb-l-disc {
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-inline-start: 1.5rem;
+}
+
+#fork .f-bb-l-dec {
+  list-style-type: decimal;
+  list-style-position: outside;
+  padding-inline-start: 1.5rem;
+}
+
+#fork .f-bb-l-lat {
+  list-style-type: lower-alpha;
+  list-style-position: outside;
+  padding-inline-start: 1.5rem;
+}
+
+#fork .f-bb-s-body {
+  padding: 0.625rem;
+  border-inline-start: 0.1875rem solid var(--br-fprimary);
+}
+
+#fork .f-bb-from {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+#fork .f-bb-badlink {
+  color: var(--c-faggr);
+  background-color: var(--bg-faggr);
+}
+
+#fork .f-bb-left {
+  text-align: left;
+}
+
+#fork .f-bb-right {
+  text-align: right;
+}
+
+#fork .f-bb-center {
+  text-align: center;
+}
+
+#fork .f-bb-justify {
+  text-align: justify;
+}
+
+#fork .f-bb-u {
+  text-decoration: underline;
+}
+
+#fork .f-bb-table {
+  border-collapse: collapse;
+  border: 0.0625rem solid var(--c-fprimary);
+}
+
+#fork .f-bb-td,
+#fork .f-bb-th {
+  border: 0.0625rem solid var(--c-fprimary);
+  empty-cells: show;
+  padding: 0.3125rem;
+  min-width: 1rem;
+}
+
+#fork .f-bb-th {
+  background-color: var(--bg-post-h);
+}
+
+#fork .f-bb-size[data-bb="1"] {
+  font-size: xx-small;
+}
+
+#fork .f-bb-size[data-bb="2"] {
+  font-size: small;
+}
+
+#fork .f-bb-size[data-bb="3"] {
+  font-size: medium;
+}
+
+#fork .f-bb-size[data-bb="4"] {
+  font-size: large;
+}
+
+#fork .f-bb-size[data-bb="5"] {
+  font-size: x-large;
+}
+
+#fork .f-bb-size[data-bb="6"] {
+  font-size: xx-large;
+}
+
+#fork .f-bb-size[data-bb="7"] {
+  font-size: 3rem;
+  font-size: xxx-large; /* https://caniuse.com/mdn-css_properties_font-size_xxx-large */
+}
+
+#fork .f-bb-hashtag {
+  border-bottom-style: dashed;
+  border-bottom-width: 0.0625rem;
+  text-decoration: none;
+}
+
+#fork .f-bb-hashtag:hover,
+#fork .f-bb-hashtag:focus {
+  text-decoration: none;
+}
+
+#fork .f-bbivert {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#fork .f-bb-hide {
+  padding: 0.3125rem;
+  margin: 0.3125rem;
+  border: 0.0625rem dotted var(--br-bbcode);
+  border-inline-start: 0.1875rem solid red;
+}
+
+#fork .f-bb-hide::before {
+  display: block;
+  content: "hide: " attr(data-bb);
+  margin-top: -0.3125rem;
+  font-size: 0.75rem;
+}
+
+#fork .f-bb-hide-visible {
+  border-inline-start-color: green;
+}
+
+/****************/
+/* Предпросмотр */
+/****************/
+#fork .f-preview {
+  border-top: 0.0625rem solid var(--br-fprimary);
+}
+
+#fork .f-preview > h2 {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0.625rem 0.3125rem;
+}
+
+#fork .f-preview .f-post-body {
+  border-top: 0.125rem solid var(--br-fprimary);
+  border-inline-start: 0.125rem solid var(--br-fprimary);
+  width: 100%;
+}
+
+/*****************************/
+#fork .f-post-form {
+  border-top: 0.0625rem solid var(--br-fprimary);
+}
+
+#fork #fork-view-posts {
+  margin-top: -1rem;
+}
+
+#fork .f-post-form > h2,
+#fork #fork-view-posts > h2 {
+  display: block;
+  font-size: 1rem;
+  padding: 0.625rem 0.3125rem;
+}
+
+/*#fork .f-post-form > .f-fdiv {
+  background-color: var(--bg-like-nav);
+}*/
+
+#fork .f-post-form .f-ycaption {
+  font-size: 0.875rem;
+}
+
+#fork .f-post-form .f-fbbul > li {
+  display: inline;
+}
+
+#fork .f-post-form .f-fbtn {
+  width: auto;
+}
+
+#fork textarea#id-message,
+#fork textarea#id-reason {
+  height: 15rem;
+}
+
+#id-dl-premoderation .f-ycaption {
+  font-weight: normal;
+}
+
+@media screen and (min-width: 50rem) {
+  #fork #id-fs-uesm {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #fork .f-field-w0 {
+    width: 100%;
+  }
+
+  #fork .f-field-w1 {
+    width: 30%;
+  }
+
+  #fork .f-field-w2 {
+    width: 70%;
+  }
+}
+
+/*********/
+/* Опрос */
+/*********/
+#fork .f-post-poll {
+  margin-top: 0.625rem;
+  padding: 0.625rem 0.625rem 0;
+  background-color: var(--bg-like-nav);
+  border: 0.0625rem solid var(--br-fprimary);
+}
+
+#fork .f-poll-q {
+  margin-bottom: 0.625rem;
+}
+
+#fork .f-poll-q + .f-poll-q {
+  border-top: 0.0625rem solid var(--br-fprimary);
+  padding-top: 0.625rem;
+}
+
+#fork .f-poll-ql,
+#fork .f-poll-ab-s2 {
+  display: none;
+}
+
+#fork .f-poll-qt {
+  margin-bottom: 0.625rem;
+  font-weight: bold;
+}
+
+#fork .f-poll-a {
+  margin-bottom: 0.625rem;
+}
+
+#fork .f-poll-al {
+  cursor: pointer;
+}
+
+#fork .f-poll-ai {
+  margin-inline-end: 0.625rem;
+}
+
+#fork .f-poll-mult,
+#fork .f-poll-total,
+#fork .f-poll-ap {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+#fork .f-poll-mult {
+  text-decoration: underline;
+}
+
+#fork .f-poll-ab {
+  border: 0.0625rem solid var(--br-fprimary);
+  width: 60%;
+  /*height: 0.5rem;*/
+}
+
+#fork .f-poll-ab-s1 {
+  background-color: var(--bg-poll-res);
+  height: 0.5rem;
+  display: block;
+  font-size: 0;
+  overflow: hidden;
+}
+
+#fork .f-poll-btns,
+#fork .f-poll-status {
+  text-align: center;
+  border-top: 0.0625rem solid var(--br-fprimary);
+  padding: 0.625rem 0;
+}
+
+#fork .f-poll-status {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+#fork .f-hide-poll {
+  display: none;
+}
+
+#fork .width0 {width: 0%;}
+#fork .width1 {width: 1%;}
+#fork .width2 {width: 2%;}
+#fork .width3 {width: 3%;}
+#fork .width4 {width: 4%;}
+#fork .width5 {width: 5%;}
+#fork .width6 {width: 6%;}
+#fork .width7 {width: 7%;}
+#fork .width8 {width: 8%;}
+#fork .width9 {width: 9%;}
+#fork .width10 {width: 10%;}
+#fork .width11 {width: 11%;}
+#fork .width12 {width: 12%;}
+#fork .width13 {width: 13%;}
+#fork .width14 {width: 14%;}
+#fork .width15 {width: 15%;}
+#fork .width16 {width: 16%;}
+#fork .width17 {width: 17%;}
+#fork .width18 {width: 18%;}
+#fork .width19 {width: 19%;}
+#fork .width20 {width: 20%;}
+#fork .width21 {width: 21%;}
+#fork .width22 {width: 22%;}
+#fork .width23 {width: 23%;}
+#fork .width24 {width: 24%;}
+#fork .width25 {width: 25%;}
+#fork .width26 {width: 26%;}
+#fork .width27 {width: 27%;}
+#fork .width28 {width: 28%;}
+#fork .width29 {width: 29%;}
+#fork .width30 {width: 30%;}
+#fork .width31 {width: 31%;}
+#fork .width32 {width: 32%;}
+#fork .width33 {width: 33%;}
+#fork .width34 {width: 34%;}
+#fork .width35 {width: 35%;}
+#fork .width36 {width: 36%;}
+#fork .width37 {width: 37%;}
+#fork .width38 {width: 38%;}
+#fork .width39 {width: 39%;}
+#fork .width40 {width: 40%;}
+#fork .width41 {width: 41%;}
+#fork .width42 {width: 42%;}
+#fork .width43 {width: 43%;}
+#fork .width44 {width: 44%;}
+#fork .width45 {width: 45%;}
+#fork .width46 {width: 46%;}
+#fork .width47 {width: 47%;}
+#fork .width48 {width: 48%;}
+#fork .width49 {width: 49%;}
+#fork .width50 {width: 50%;}
+#fork .width51 {width: 51%;}
+#fork .width52 {width: 52%;}
+#fork .width53 {width: 53%;}
+#fork .width54 {width: 54%;}
+#fork .width55 {width: 55%;}
+#fork .width56 {width: 56%;}
+#fork .width57 {width: 57%;}
+#fork .width58 {width: 58%;}
+#fork .width59 {width: 59%;}
+#fork .width60 {width: 60%;}
+#fork .width61 {width: 61%;}
+#fork .width62 {width: 62%;}
+#fork .width63 {width: 63%;}
+#fork .width64 {width: 64%;}
+#fork .width65 {width: 65%;}
+#fork .width66 {width: 66%;}
+#fork .width67 {width: 67%;}
+#fork .width68 {width: 68%;}
+#fork .width69 {width: 69%;}
+#fork .width70 {width: 70%;}
+#fork .width71 {width: 71%;}
+#fork .width72 {width: 72%;}
+#fork .width73 {width: 73%;}
+#fork .width74 {width: 74%;}
+#fork .width75 {width: 75%;}
+#fork .width76 {width: 76%;}
+#fork .width77 {width: 77%;}
+#fork .width78 {width: 78%;}
+#fork .width79 {width: 79%;}
+#fork .width80 {width: 80%;}
+#fork .width81 {width: 81%;}
+#fork .width82 {width: 82%;}
+#fork .width83 {width: 83%;}
+#fork .width84 {width: 84%;}
+#fork .width85 {width: 85%;}
+#fork .width86 {width: 86%;}
+#fork .width87 {width: 87%;}
+#fork .width88 {width: 88%;}
+#fork .width89 {width: 89%;}
+#fork .width90 {width: 90%;}
+#fork .width91 {width: 91%;}
+#fork .width92 {width: 92%;}
+#fork .width93 {width: 93%;}
+#fork .width94 {width: 94%;}
+#fork .width95 {width: 95%;}
+#fork .width96 {width: 96%;}
+#fork .width97 {width: 97%;}
+#fork .width98 {width: 98%;}
+#fork .width99 {width: 99%;}
+#fork .width100 {width: 100%;}
+
+/**********/
+/* Репорт */
+/**********/
+#fork-report.f-post-form {
+  border-top: 0;
+}
+
+#id-fs-report .f-fleg {
+  display: none;
+}
+
+/*********/
+/* Email */
+/*********/
+#id-fs-send-email .f-fleg {
+  display: none;
+}
+
+/*****************/
+/* Модерирование */
+/*****************/
+#fork #fork-mod {
+  border-top: 0.0625rem solid var(--br-fprimary);
+  position: relative;
+}
+
+#fork #fork-mod:not(:last-child) {
+  margin-bottom: -1rem;
+}
+
+#fork-mod .f-fdivm {
+  padding: 0.3125rem;
+}
+
+#fork-mod .f-btns:not(:hover) .f-fbtn:not(:focus) {
+  /*opacity: 0.6;*/
+  color: var(--c-btn-lo);
+  background-color: var(--bg-btn-lo);
+}
+
+#fork-modform .f-btns .f-fbtn {
+  width: auto;
+  display: inline-block;
+}
+
+#fork .f-ftlist label.f-ficon {
+  position: relative;
+  cursor: pointer;
+}
+
+#fork .f-post-checkbox + .f-post-header {
+  position: relative;
+}
+
+#fork label.f-post-posted {
+  cursor: pointer;
+}
+
+#fork .f-ftlist .f-fch:checked + .f-ficon::after,
+#fork .f-post-checkbox:checked + .f-post-header::before {
+  font: 900 1rem "fa";
+  content: "\f560"; /* \f00c */
+  color: red;
+  position: absolute;
+  top: 50%;
+  inset-inline-start: 0;
+}
+
+#fork-modform .f-fs-modforum.f-fs-current {
+  font-weight: bolder;
+  font-style: italic;
+}
+
+#fork-modform .f-finform + .f-finform {
+  margin-top: 0.3125rem;
+}
+
+/*********/
+/* Поиск */
+/*********/
+#fork span.f-search-highlight {
+  background-color: #F3BFCC;
+  color: #BC2A4D;
+}
+
+#fork-search .f-yinfo:first-child {
+  text-align: end;
+  padding: 0 0.3125rem;
+  margin-bottom: -0.3125rem;
+}
+
+#fork-topic-ins .f-post-search-info {
+  display: none;
+}
+
+#fork-topic-ins .f-post-header {
+  flex-wrap: nowrap;
+}
+
+#fork-topic-ins .f-phead-h3 {
+  font-size: 0.875rem;
+  font-weight: normal;
+}
+
+#fork-topic-ins .f-sep::before {
+  display: inline-block;
+  font-family: "fa";
+  font-weight: 900;
+  content: "\f105";
+}
+
+#fork .f-post-search .f-post-main {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 50rem) {
+  #fork #id-fs-what,
+  #fork #id-fs-where,
+  #fork #id-fs-how,
+  #fork #id-fs-users {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #fork .f-field-w3 {
+    width: 50%;
+  }
+
+  #fork .f-field-w4 {
+    width: 33.33%;
+  }
+
+  #fork-search .f-flblr,
+  #fork-usrlstform .f-flblr {
+    padding: 0.5rem 0;
+  }
+
+  #fork-topic-ins .f-post-search-info {
+    display: block;
+    font-size: 0.875rem;
+    padding-top: 0.625rem;
+    width: 100%;
+  }
+}
+
+/************************/
+/* Список пользователей */
+/************************/
+#fork-usrlst .f-thead {
+  background-color: var(--bg-like-nav);
+}
+
+#fork-usrlst .f-row {
+  border-bottom: 0.0625rem solid var(--br-fprimary);
+}
+
+#fork-usrlst .f-row {
+  padding: 0.625rem;
+  overflow: hidden;
+}
+
+#fork-usrlst .f-thead {
+  display: none;
+}
+
+#fork-usrlst .f-thead + .f-row {
+  border-top: 0.125rem solid var(--br-fprimary);
+}
+
+@media screen and (max-width: 49.9999rem) {
+  #fork-usrlst .f-cell > small {
+    display: inline;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  #fork-usrlst .f-row {
+    padding: 0.3125rem;
+  }
+
+  #fork-usrlst .f-thead {
+    border-top: 0.125rem solid var(--br-fprimary);
+    border-bottom: 0.125rem solid var(--br-fprimary);
+    display: block;
+    padding: 0 0.3125rem;
+  }
+
+  #fork-usrlst .f-thead + .f-row {
+    border-top: 0;
+  }
+
+  #fork-usrlst .f-hcell,
+  #fork-usrlst .f-cell {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0.3125rem;
+  }
+
+  #fork-usrlst .f-hcell .f-hc-table {
+    display: table;
+    line-height: 1;
+  }
+
+  #fork-usrlst .f-hc-table .f-hc-tasc,
+  #fork-usrlst .f-hc-table .f-hc-tdesc {
+    font-size: 0.75rem;
+    display: block;
+    text-align: center;
+  }
+
+  #fork-usrlst .f-hc-table .f-hc-tname {
+    padding: 0.125rem 0;
+    display: block;
+  }
+
+  #fork-usrlst .f-hc-tasc > a,
+  #fork-usrlst .f-hc-tdesc > a {
+    padding: 0 0.25rem;
+  }
+
+  #fork-usrlst .f-hc-tasc > a.active,
+  #fork-usrlst .f-hc-tdesc > a.active {
+    border: 0.0625rem solid var(--c-a-and-btn);
+  }
+
+  #fork-usrlst .f-cell > b,
+  #fork-usrlst .f-cell > i {
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  #fork-usrlst .f-cusername {
+    width: 50%;
+  }
+
+  #fork-usrlst .f-ctitle {
+    width: 50%;
+    text-align: end;
+  }
+
+  #fork-usrlst .f-cnumposts {
+    width: 8rem;
+    min-width: 8rem;
+    text-align: center;
+  }
+
+  #fork-usrlst .f-cnumposts .f-hc-table {
+    margin: 0 auto;
+  }
+
+  #fork-usrlst .f-cdatereg {
+    width: 11rem;
+    min-width: 11rem;
+  }
+}
+
+/***********/
+/* Профиль */
+/***********/
+#fork .f-fs-header {
+  display: flex;
+  align-items: center;
+}
+
+#fork .f-field-pline .f-ycaption,
+#fork .f-field-pline .f-str,
+#fork .f-field-pline > dt,
+#fork .f-field-pline > dd {
+  display: inline;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#fork .f-field-pline .f-ycaption::after {
+  content: ": ";
+}
+
+#fork .f-fs-header .f-wrap-usertitle,
+#fork .f-fs-data {
+  display: flex;
+  flex-direction: column;
+}
+
+#fork .f-fs-header .f-wrap-usertitle {
+  width: 100%;
+}
+
+#fork .f-fs-header .f-avatar-img {
+  max-width: 4.6875rem;
+  height: auto;
+}
+
+#fork .f-fs-header #id-dl-username {
+  border-bottom: 0.0625rem solid var(--br-fprimary);
+}
+
+#fork .f-fs-header #id-username {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  display: block;
+}
+
+#fork .f-fs-header #id-title {
+  font-size: 0.875rem;
+  text-align: center;
+  display: block;
+}
+
+#fork .f-fs-header .f-ycaption,
+#fork .f-fs-header .f-fleg,
+#fork .f-fs-data .f-fleg {
+  display: none;
+}
+
+#fork .f-fs-header,
+#fork .f-fs-data {
+  border-bottom: 0.0625rem dotted var(--br-fprimary);
+}
+
+#fork #id-fs-note.f-fs-data {
+  color: var(--c-faggr-pr);
+  background-color: var(--bg-faggr);
+}
+
+#fork .f-field-confirmed #id-open-email::after {
+  font: 900 0.875rem "fa";
+  content: "\f00c";
+  color: green;
+  padding: 0 0.25rem;
+}
+
+#fork .f-field-unconfirmed #id-open-email::after {
+  font: 900 0.875rem "fa";
+  content: "\f128";
+  color: red;
+  padding: 0 0.25rem;
+}
+
+#fork #id-fs-oauth-accounts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#fork .f-field-oauth-acc-btn,
+#fork-profile-oauth-a .f-fbtn {
+  flex: 1 0 7rem;
+}
+
+#fork #id-ptabs-about_me:checked ~ fieldset:not(#id-fs-about_me) {
+  display: none;
+}
+
+#fork #id-ptabs-other:checked ~ #id-fs-about_me {
+  display: none;
+}
+
+#fork-profile .f-post-body {
+  width: 100%;
+}
+
+#fork-profile-edit .f-btns,
+#fork-profile-config .f-btns {
+  position: sticky;
+  bottom: 0;
+  background-color: var(--bg-like-nav);
+  border-top: 0.0625rem dotted var(--br-fprimary);
+}
+
+@media screen and (min-width: 40rem) {
+  #fork .f-fs-header .f-wrap-usertitle {
+    order: 1;
+    width: 67%;
+    margin-inline-start: auto;
+  }
+
+  #fork .f-fs-header #id-username {
+    text-align: start;
+  }
+
+  #fork .f-fs-header #id-title {
+    text-align: start;
+  }
+
+  #fork .f-fs-header #id-dl-username,
+  #fork .f-fs-header #id-dl-title {
+    padding-inline-start: 0;
+  }
+
+  #fork .f-fs-header .f-avatar-img {
+    max-width: 11.75rem;
+  }
+
+  #fork .f-fs-header #id-dl-avatar {
+    width: calc(33% - 0.625rem);
+    text-align: end;
+    padding: 0;
+  }
+
+  #fork .f-fs-data dl {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #fork .f-fs-data dt {
+    width: calc(33% - 0.625rem);
+    text-align: end;
+  }
+
+  #fork .f-fs-data dd {
+    width: 67%
+  }
+
+  #fork #id-dl-about_me > dt {
+    display: none;
+  }
+
+  #fork #id-dl-about_me > dd {
+    width: 100%;
+  }
+
+  #fork .f-field-pline .f-ycaption::after {
+    content: none;
+  }
+}
+
+#fork .f-fs-modforum {
+  display: flex;
+  align-items: stretch;
+}
+
+#fork .f-fs-modforum > dl {
+  border-bottom: 0.0625rem dotted var(--br-fprimary);
+  margin-bottom: 0.3125rem;
+}
+
+#fork .f-fs-modforum .f-fleg,
+#fork .f-field-modforum > dt {
+  display: none;
+}
+
+#fork .f-fs-modforum .f-ychk {
+  margin: 0;
+}
+
+#fork .f-fs-modforum .f-ycaption {
+  font-weight: normal;
+}
+
+#fork .f-field-modforum.f-field-moderator {
+  width: 3rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+#fork .f-field-modforum.f-field-name {
+  width: calc(100% - 3rem);
+}
+
+#fork-profile-search .f-finform:first-child {
+  margin-bottom: 1rem;
+}
+
+/****************************/
+/* Профиль - редактирование */
+/****************************/
+#fork .f-fs-header-edit > dl,
+#fork .f-fs-data-edit:not(#id-fs-activity) > dl,
+#fork #id-fs-activity.f-fs-data-edit {
+  border-bottom: 0.0625rem dotted var(--br-fprimary);
+}
+
+/*#fork .f-fs-header-edit,
+#fork .f-fs-data-edit {
+  padding: 0.3125rem 0;
+  margin-bottom: 0.3125rem;
+}*/
+
+#fork .f-fs-header-edit .f-avatar-img {
+  max-width: 11.75rem;
+  height: auto;
+}
+
+#fork .f-fs-data-edit #id-signature {
+  height: 11rem;
+}
+
+#fork .f-fs-data-edit #id-admin_note {
+  color: var(--c-faggr-pr);
+  background-color: var(--bg-faggr);
+}
+
+#fork #id-dl-delete_avatar .f-flblch {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 40rem) {
+  #fork .f-fs-header-edit > dl,
+  #fork .f-fs-data-edit > dl {
+    display: flex;
+  }
+
+  #fork .f-fs-header-edit dt,
+  #fork .f-fs-data-edit dt {
+    width: 33%;
+    text-align: end;
+    padding-inline-end: 0.625rem;
+  }
+
+  #fork .f-fs-header-edit dd,
+  #fork .f-fs-data-edit dd {
+    width: 67%;
+  }
+
+  #fork .f-main-profile .f-yc-select,
+  #fork .f-main-profile .f-yc-number,
+  #fork .f-main-profile .f-yc-text,
+  #fork .f-main-profile .f-yc-file,
+  #fork .f-main-profile .f-yc-password {
+    padding-top: 0.5rem;
+    line-height: 1.25rem;
+  }
+}
+
+/***********************/
+/* Приватные сообщения */
+/***********************/
+#fork #forkpm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#fork .f-mi-pmoff {
+  opacity: 0.6;
+}
+
+#fork .f-nav-pm-links {
+  margin-inline-end: 3.75rem;
+}
+
+#fork #fork-pm-nav {
+  position: sticky;
+  top: 1rem;
+}
+
+#fork-pm-menu #id-pmn-label {
+  position: absolute;
+  top: -2.875rem;
+  inset-inline-end: 0.625rem;
+}
+
+#fork-pm-menu .f-menu-item:first-child .f-menu-a {
+  border-top: 0.0625rem dotted;
+}
+
+#id-form-pmview .f-btns {
+  padding: 0;
+}
+
+#fork .f-block-form .f-fbtn {
+  width: auto;
+}
+
+#forkpm #fork-pm-bl-ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3125rem;
+  padding-top: 0.3125rem;
+  border-top: 0.0625rem solid var(--br-fprimary);
+}
+
+#forkpm .f-pm-bl-li {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.3125rem 0.625rem 0.625rem;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 1 25rem;
+  border-bottom: 0.0625rem dotted var(--br-fprimary);
+}
+
+@media screen and (min-width: 36rem) {
+  #forkpm > .f-pmconfig-form dl {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.0625rem dotted var(--br-fprimary);
+    margin-bottom: 0.3125rem;
+    padding: 0.3125rem;
+  }
+
+  #forkpm > .f-pmconfig-form dt {
+    width: 14rem;
+  }
+
+  #forkpm > .f-pmconfig-form dd {
+    width: calc(100% - 14.625rem);
+  }
+
+  #forkpm > .f-pmconfig-form .f-ycaption {
+    font-weight: normal;
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  #fork .f-nav-pm-links {
+    margin-inline-end: 0;
+  }
+
+  #fork .f-main-pm {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #fork #fork-pm-menu {
+    width: 13rem;
+  }
+
+  #fork #forkpm {
+    width: calc(100% - 14rem);
+  }
+
+  #fork-pm-menu #id-pmn-label {
+    display: none;
+  }
+
+  #fork-pm-menu .f-menu-items {
+    display: flex;
+  }
+
+  #fork-pm-menu .f-menu-a {
+    text-transform: none;
+    border-bottom: 0.0625rem dotted;
+  }
+
+  #fork-pm-menu a.f-menu-a,
+  #fork-pm-menu span.f-menu-a {
+    justify-content: flex-start;
+  }
+
+  #forkpm > .f-preview,
+  #forkpm > .f-post-form:first-child {
+    border-top-style: dotted;
+  }
+
+  #forkpm > .f-pm:last-child,
+  #forkpm .f-nlbpm {
+    margin-bottom: 0;
+  }
+
+  #forkpm > .f-pm:first-child,
+  #forkpm .f-nlbpm {
+    margin-top: 0;
+  }
+}
+
+/****************************************/
+@media screen and (min-width: 81rem) {
+  #fork.f-with-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #fork.f-with-nav #fork-header {
+    width: 100%;
+    border-bottom-width: 0.125rem;
+  }
+
+  #fork.f-with-nav #fork-main {
+    order: 1;
+    width: calc(100% - 17rem);
+  }
+
+  #fork.f-with-nav #fork-nav {
+    order: 2;
+    width: 16rem;
+    border-bottom: 0;
+    border-inline-start: 0.0625rem solid var(--br-fprimary);
+    padding: 0;
+    background-color: var(--bg-nav);
+  }
+
+  #fork.f-with-nav #fork-footer {
+    width: 100%;
+  }
+
+  #fork.f-with-nav #fork-navdir {
+    position: sticky;
+    top: 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: 0;
+  }
+
+  #fork.f-with-nav #fork-nav .f-menu-items {
+    display: block;
+    padding: 2rem 0;
+  }
+
+  #fork.f-with-nav #fork-nav .f-menu-user-items {
+    order: -1;
+    display: block;
+    padding: 2rem 0;
+  }
+
+  #fork.f-with-nav #fork-nav .f-menu-a {
+    justify-content: flex-start;
+  }
+
+  #fork.f-with-nav #fork-nav .f-submenu-items .f-menu-a {
+    justify-content: flex-end;
+  }
+
+  #fork.f-with-nav #fork-nav .f-menu-items .f-menu-a {
+    border-top: 0.0625rem dotted;
+  }
+
+  #fork.f-with-nav #fork-nav .f-menu-user-items .f-menu-a {
+    border-bottom: 0.0625rem dotted;
+  }
+
+  #fork.f-with-nav #fork-nav .f-submenu-items {
+    display: block;
+    position: static;
+    background-color: var(--bg-submenu);
+  }
+
+  #fork #fork-stats {
+    margin-top: auto;
+  }
+}
+
+/***********************/
+/* Кнопки, пиктограммы */
+/***********************/
+#fork .f-btn::before {
+  display: inline-block;
+  font-family: "fa";
+  font-weight: 900;
+}
+
+@media screen and (max-width: 30rem) {
+  #fork .f-btn-ban-user > span,
+  #fork .f-btn-delete-user > span,
+  #fork .f-btn-edit-profile > span,
+  #fork .f-btn-edit-settings > span,
+  #fork .f-btn-view-profile > span,
+  #fork .f-postreport > span,
+  #fork .f-postsolution > span,
+  #fork .f-postdelete > span,
+  #fork .f-postedit > span,
+  #fork .f-postquote > span,
+  #fork .f-postblock > span,
+  #fork .f-postunblock > span,
+  #fork .f-btn-change-user-group > span {
+    display: none;
+  }
+
+  #fork .f-btn-change-user-group::before {
+    content: "\f500";
+  }
+
+  #fork .f-btn-ban-user::before {
+    content: "\f05e";
+  }
+
+  #fork .f-postsolution::before {
+    content: "\f00c";
+  }
+
+  #fork .f-btn-delete-user::before,
+  #fork .f-postdelete::before {
+    content: "\f1f8";
+  }
+
+  #fork .f-btn-edit-profile::before,
+  #fork .f-postedit::before {
+    content: "\f304";
+  }
+
+  #fork .f-btn-edit-settings::before {
+    content: "\f013";
+  }
+
+  #fork .f-btn-view-profile::before {
+    content: "\f06e";
+  }
+
+  #fork .f-postreport::before {
+    content: "\f024";
+  }
+
+  #fork .f-postquote::before {
+    content: "\f10e";
+  }
+
+  #fork .f-postblock::before {
+    content: "\f023";
+  }
+
+  #fork .f-postunblock::before {
+    content: "\f09c";
+  }
+}
+
+@media screen and (max-width: 44rem) {
+  #fork-mod .f-btn[name="open"] > span,
+  #fork-mod .f-btn[name="close"] > span,
+  #fork-mod .f-btn[name="delete"] > span,
+  #fork-mod .f-btn[name="move"] > span,
+  #fork-mod .f-btn[name="merge"] > span,
+  #fork-mod .f-btn[name="split"] > span,
+  #fork-mod .f-btn[name="stick"] > span,
+  #fork-mod .f-btn[name="unstick"] > span,
+  #fork-mod .f-btn[name="link"] > span {
+    display: none;
+  }
+
+  #fork-mod .f-btn[name="open"]::before {
+    content: "\f3c1";
+  }
+
+  #fork-mod .f-btn[name="close"]::before {
+    content: "\f023";
+  }
+
+  #fork-mod .f-btn[name="delete"]::before {
+    content: "\f1f8";
+  }
+
+  #fork-mod .f-btn[name="move"]::before {
+    content: "\f362";
+  }
+
+  #fork-mod .f-btn[name="merge"]::before {
+    content: "\f387";
+  }
+
+  #fork-mod .f-btn[name="split"]::before {
+    content: "\e13b";
+  }
+
+  #fork-mod .f-btn[name="stick"]::before {
+    content: "\f08d";
+  }
+
+  #fork-mod .f-btn[name="unstick"]::before {
+    content: "\f358";
+  }
+
+  #fork-mod .f-btn[name="link"]::before {
+    content: "\f0c1";
+  }
+}
+
+@media screen and (max-width: 49.9999rem) {
+  #fork .f-btn-markread > span,
+  #fork .f-btn-subscribe > span,
+  #fork .f-btn-unsubscribe > span,
+  #fork .f-btn-bookmark > span,
+  #fork .f-btn-unbookmark > span,
+  #fork .f-btn[name="preview"] > span,
+  #fork .f-btn[data-name="cancel"] > span {
+    display: none;
+  }
+
+  #fork .f-btn-markread::before {
+    content: "\e4bb";
+  }
+
+  #fork .f-btn-subscribe::before {
+    content: "\f0f3";
+  }
+
+  #fork .f-btn-unsubscribe::before {
+    content: "\f1f6";
+  }
+
+  #fork .f-btn[name="preview"],
+  #fork .f-btn[data-name="cancel"] {
+    min-width: 2.5rem;
+  }
+
+  #fork .f-btn[name="preview"]::before {
+    content: "\f06e";
+  }
+
+  #fork .f-btn[data-name="cancel"]::before {
+    content: "\f060";
+  }
+
+  #fork .f-btn-bookmark::before {
+    content: "\f02e";
+  }
+
+  #fork .f-btn-unbookmark::before {
+    content: "\f02e\f175";
+  }
+}
+
+@media screen and (max-width: 63rem) {
+  #fork .f-pprev::before,
+  #fork .f-pnext::before {
+    display: inline-block;
+    font-family: "fa";
+    font-weight: 900;
+  }
+
+  #fork .f-pprev > span,
+  #fork .f-pnext > span {
+    display: none;
+  }
+
+  #fork .f-pprev::before {
+    content: "\f104";
+  }
+
+  #fork .f-pnext::before {
+    content: "\f105";
+  }
+}
+
+/****************/
+/* Кнопки OAuth */
+/****************/
+#fork .f-btn[name="github"] {
+  color: #24292f;
+  background-color: #ffffff;
+}
+
+#fork .f-btn[name="github"]:focus,
+#fork .f-btn[name="github"]:hover {
+  color: #ffffff;
+  background-color: #24292f;
+}
+
+#fork .f-btn[name="yandex"] {
+  color: #fc3f1d;
+  background-color: #ffffff;
+}
+
+#fork .f-btn[name="yandex"]:focus,
+#fork .f-btn[name="yandex"]:hover {
+  color: #ffffff;
+  background-color: #fc3f1d;
+}
+
+#fork .f-btn[name="google"] {
+  color: #4285f4;
+  background-color: #ffffff;
+}
+
+#fork .f-btn[name="google"]:focus,
+#fork .f-btn[name="google"]:hover {
+  color: #ffffff;
+  background-color: #4285f4;
+}
+
+/************/
+/* Анимация */
+/************/
+#fork .f-highlighted,
+#fork .f-highlighted .f-post-body {
+  animation: highlightedAnim 0.5s linear 0s 2 normal none;
+}
+
+@keyframes highlightedAnim {
+  0%, 100% {
+    box-shadow: 0 0 0 0 transparent inset;
+  }
+  50% {
+    box-shadow: 0 0 0 0.25rem var(--c-highlighted) inset;
+  }
+}
+
+#fork.f-pm-flash {
+  animation: pmFlashAnim 0.5s ease 0s 1 normal forwards;
+}
+
+@keyframes pmFlashAnim {
+  0%, 100% {
+    transform: translateX(0);
+  }
+
+  10%, 30%, 50%, 70% {
+    transform: translateX(-0.5rem);
+  }
+
+  20%, 40%, 60% {
+    transform: translateX(0.5rem);
+  }
+
+  80% {
+    transform: translateX(0.25rem);
+  }
+
+  90% {
+    transform: translateX(-0.25rem);
+  }
+}
+
+/***********/
+/* Реакции */
+/***********/
+#fork .f-reaction-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3125rem;
+  padding: 0.3125rem;
+}
+
+#fork .f-reaction-block {
+  display: flex;
+}
+
+#fork .f-retype-btn {
+  display: flex;
+  cursor: pointer;
+  border: 0.0625rem solid var(--br-reaction);
+  padding: 0.0625rem 0.125rem;
+  color: var(--c-reaction);
+  background-color: var(--bg-reaction);
+  line-height: 1.125;
+  align-items: center;
+}
+
+#fork .f-retype-count {
+  display: flex;
+  border: 0.0625rem solid var(--br-reaction);
+  padding: 0.0625rem 0.125rem;
+  color: var(--c-reaction);
+  background-color: var(--bg-reaction);
+  border-inline-start-width: 0;
+  align-items: center;
+  font-size: 0.875rem;
+}
+
+#fork .f-reaction-selected {
+  outline: 0.0625rem solid var(--c-reaction-sel);
+}
+
+#fork .f-retype::before {
+  display: flex;
+  font-size: 1.5rem;
+  content: " ";
+  width: 1.5rem;
+  height: 1.5rem;
+  background: center no-repeat;
+  background-size: contain;
+}
+
+#fork .f-reaction-checkbox,
+#fork .f-retype-tspan {
+  position: fixed;
+  transform: scale(0);
+}
+
+#fork .f-reaction-checkbox:focus + .f-reaction-toggle,
+#fork .f-retype-btn:focus-visible {
+  outline: 0.25rem double var(--c-focus-v);
+  z-index: 10;
+}
+
+#fork .f-reaction-hblock {
+  display: none;
+}
+
+#fork .f-reaction-checkbox:checked ~ .f-reaction-hblock {
+  display: flex;
+}
+
+#fork .f-reaction-checkbox:checked,
+#fork .f-reaction-checkbox:checked ~ .f-reaction-toggle {
+  display: none;
+}
+
+#fork .f-retype-toggle::before {
+  content: "...";
+  justify-content: center;
+  align-items: center;
+}
+
+#fork .f-retype-like::before {
+  background-image: url("reactions/like.svg");
+}
+
+#fork .f-retype-fire::before {
+  background-image: url("reactions/fire.svg");
+}
+
+#fork .f-retype-lol::before {
+  background-image: url("reactions/lol.svg");
+}
+
+#fork .f-retype-smile::before {
+  background-image: url("reactions/smile.svg");
+}
+
+#fork .f-retype-frown::before {
+  background-image: url("reactions/frown.svg");
+}
+
+#fork .f-retype-sad::before {
+  background-image: url("reactions/sad.svg");
+}
+
+#fork .f-retype-cry::before {
+  background-image: url("reactions/cry.svg");
+}
+
+#fork .f-retype-angry::before {
+  background-image: url("reactions/angry.svg");
+}
+
+#fork .f-retype-dislike::before {
+  background-image: url("reactions/dislike.svg");
+}
+
+#fork .f-retype-meh::before {
+  background-image: url("reactions/meh.svg");
+}
+
+#fork .f-retype-shock::before {
+  background-image: url("reactions/shock.svg");
+}
+
+/*****************/
+/* Config via js */
+/*****************/
+#id-cvjs-button,
+#fork-cvjs-panel {
+  display: none;
+}
+
+#id-cvjs-button.enabled {
+  display: inline-block;
+}
+
+#id-cvjs-button.enabled::before {
+  display: inline-block;
+  font-family: "fa";
+  font-weight: 900;
+  content: "\f013";
+  cursor: pointer;
+}
+
+#fork-cvjs-panel.enabled {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+  background-color: var(--bg-fprimary);
+  border: 2px solid var(--br-fprimary);
+  padding: 10px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+#id-cvjs-close,
+#id-cvjs-reset {
+  cursor: pointer;
+}
+
+html.ffs-8 {font-size: 8px;}
+html.ffs-9 {font-size: 9px;}
+html.ffs-10 {font-size: 10px;}
+html.ffs-11 {font-size: 11px;}
+html.ffs-12 {font-size: 12px;}
+html.ffs-13 {font-size: 13px;}
+html.ffs-14 {font-size: 14px;}
+html.ffs-15 {font-size: 15px;}
+html.ffs-16 {font-size: 16px;}
+html.ffs-17 {font-size: 17px;}
+html.ffs-18 {font-size: 18px;}
+html.ffs-19 {font-size: 19px;}
+html.ffs-20 {font-size: 20px;}
+html.ffs-21 {font-size: 21px;}
+html.ffs-22 {font-size: 22px;}
+html.ffs-23 {font-size: 23px;}
+html.ffs-24 {font-size: 24px;}
+html.ffs-25 {font-size: 25px;}
+html.ffs-26 {font-size: 26px;}
+html.ffs-27 {font-size: 27px;}
+html.ffs-28 {font-size: 28px;}
+html.ffs-29 {font-size: 29px;}
+html.ffs-30 {font-size: 30px;}
+html.ffs-31 {font-size: 31px;}
+html.ffs-32 {font-size: 32px;}

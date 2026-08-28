@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /-/*/adm
+Disallow: /-/*/log
+Disallow: /-/*/mod
+Disallow: /-/*/reg
+Disallow: /-/*/search
+Disallow: /-/*/post
+Disallow: /-/*/feed
+Disallow: /-/*/userlist
+Disallow: /-/*/draft
+Disallow: /-/*/premod
+Disallow: /logs/
+Disallow: /templates/
+Disallow: /vendor/

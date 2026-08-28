@@ -1,0 +1,43 @@
+#
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Project-Id-Version: ForkBB\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ForkBB <mio.visman@yandex.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+
+msgid "Telegram bot options"
+msgstr "Options du bot Telegram"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Bot is connected"
+msgstr "Le bot est connecté"
+
+msgid "Bot is not connected"
+msgstr "Le bot n'est pas connecté"
+
+msgid "Telegram bot info for add"
+msgstr "Pour paramétrer et connecter le bot, suivre ces étapes dans l'application Telegram:<br>1. <u>Trouver le bot</u>: Entrer <b>@%1$s</b> dans la barre de recherche globale et le sélectionner dans la liste de résultats.<br>2. <u>Commencer le dialogue</u>: Cliquer le bouton 'Start' en bas de l'écran ou envoyer la commande /start .<br>3. <u>Activer les options</u>: envoyer ce message au <b>%2$s</b><br><br>Après cela, le bot devrait vous répondre en accord avec ces réglages."
+
+msgid "Bad init"
+msgstr "Chaine d'activation incorrecte. Ouvrir (rafraichir) la page de configuration du forum dans votre profil et copier l'intégralité de la chaine d'activation (mise en évidence encaractères gras) ici."
+
+msgid "Setting information"
+msgstr "Vous pouvez configurer ce bot dans votre profil de forum."
+
+msgid "Bot is connected, set it up"
+msgstr "Le bot est connecté, configurer le dans votre profil sur le forum."
+
+msgid "Delete telebot"
+msgstr "Désactiver ce bot"
+
+msgid "Delete telebot info"
+msgstr "Une fois que vous aurez désactivé ce bot, vous pouvez effacer le chat avec celui ci dans l'application Telegram (mais ne le bloquez pas)."

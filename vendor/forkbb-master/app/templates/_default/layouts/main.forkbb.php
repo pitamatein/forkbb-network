@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="{{ __('lang_identifier') }}" dir="{{ __('lang_direction') }}" @if ($p->baseFontSize) class="ffs-{!! (int) $p->baseFontSize !!}" @endif>
+<head>
+  <!-- PRE headStart -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{! $p->pageTitle !}}</title>
+@if ($p->mDescription)
+  <meta name="description" content="{{! $p->mDescription !}}">
+@endif
+@if ($p->robots)
+  <meta name="robots" content="{{ $p->robots }}">
+@endif
+@if ($p->canonical)
+  <link rel="canonical" href="{{ $p->canonical }}">
+    @if ($p->mOgImage)
+  <meta property="og:title" content="{{! $p->pageTitle !}}">
+  <meta property="og:type" content="{{ $p->mOgType or 'website' }}">
+  <meta property="og:url" content="{{ $p->canonical }}">
+  <meta property="og:image" content="{{ $p->mOgImage }}">
+        @if ($p->mOgImageX)
+  <meta property="og:image:width" content="{{ $p->mOgImageX }}">
+        @endif
+        @if ($p->mOgImageY)
+  <meta property="og:image:height" content="{{ $p->mOgImageY }}">
+        @endif
+        @if ($p->mDescription)
+  <meta property="og:description" content="{{! $p->mDescription !}}">
+        @endif
+  <meta property="og:site_name" content="{{ $p->config->o_board_title }}">
+    @endif
+@endif
+@foreach ($p->pageHeaders as $pageHeader)
+    @if ('style' === $pageHeader['type'])
+  <style>{!! $pageHeader['values'][0] !!}</style>
+    @elseif ('script' !== $pageHeader['type'])
+  <{{ $pageHeader['type'] }} @foreach ($pageHeader['values'] as $key => $val) {{ $key }}="{{ $val }}" @endforeach>
+    @endif
+@endforeach
+  <!-- PRE headEnd -->
+</head>
+<body>
+  <!-- PRE bodyStart -->
+  <div id="fork" @class(['f-with-nav' => $p->fNavigation, 'f-pm-flash' => $p->fPMFlash, [$p->identifier, 'pg-']]) data-page-scroll="{!! (int) $p->user->page_scroll !!}">
+    <!-- PRE headerBefore -->
+    <header id="fork-header">
+@isset ($h1InHeader)
+      <h1 id="id-fhth1">{{ $p->config->o_board_title }}</h1>
+@else
+      <p id="id-fhth1"><a id="id-fhtha" rel="home" href="{{ $p->fRootLink }}">{{ $p->config->o_board_title }}</a></p>
+@endisset
+@if ($p->config->o_board_desc)
+      <p id="id-fhtdesc">{!! $p->config->o_board_desc !!}</p>
+@endif
+    </header>
+    <!-- PRE headerAfter -->
+    <!-- PRE mainBefore -->
+    <main id="fork-main">
+@if (1 === $p->config->b_announcement)
+    <aside id="fork-announce">
+      <!-- PRE announceStart -->
+      <p class="f-sim-header">{!! __('Announcement') !!}</p>
+      <p id="id-facontent">{!! $p->config->o_announcement_message !!}</p>
+      <!-- PRE announceEnd -->
+    </aside>
+@endif
+@if ($iswev = $p->fIswev)
+    @include ('layouts/iswev')
+@endif
+      <!-- PRE contentBefore -->
+@yield ('content')
+      <!-- PRE contentAfter -->
+    </main>
+    <!-- PRE mainAfter -->
+@if ($p->fNavigation)
+    <!-- PRE navBefore -->
+    <nav id="fork-nav" class="f-menu @if ($p->fNavigation['search']) f-main-nav-search @endif">
+      <div id="fork-navdir">
+        <input id="id-mn-checkbox" class="f-menu-checkbox" type="checkbox">
+        <label id="id-mn-label" class="f-menu-toggle" for="id-mn-checkbox"><span class="f-menu-tsp">{!! __('Main menu') !!}</span></label>
+        <ul class="f-menu-items" itemscope itemtype="https://schema.org/SiteNavigationElement" role="menu">
+    @foreach ($p->fNavigation as $key => $val)
+          <li id="fork-nav-{{ $key }}" class="f-menu-item" itemprop="about" itemscope itemtype="https://schema.org/ItemList" role="menuitem"><!-- inline -->
+            <a class="f-menu-a @if ($key == $p->fIndex) active @endif" href="{{ $val[0] }}" @if ($val[2]) title="{{ __($val[2]) }}" @endif itemprop="url">
+              <span class="f-menu-span" itemprop="name">{!! __($val[1]) !!}</span>
+            </a>
+        @if ($val[3])
+            <ul class="f-submenu-items" itemscope itemtype="https://schema.org/SiteNavigationElement" role="menu">
+            @foreach ($val[3] as $key => $val)
+              <li id="fork-nav-{{ $key }}" class="f-menu-item" itemprop="about" itemscope itemtype="https://schema.org/ItemList" role="menuitem">
+                @if ($val[0])
+                <a class="f-menu-a @if ($key == $p->fSubIndex) active @endif" href="{{ $val[0] }}" @if ($val[2]) title="{{ __($val[2]) }}" @endif itemprop="url">
+                  <span class="f-menu-span" itemprop="name">{!! __($val[1]) !!}</span>
+                </a>
+                @else
+                <span class="f-menu-span" itemprop="name">{!! __($val[1]) !!}</span>
+                @endif
+              </li>
+            @endforeach
+            </ul>
+        @endif
+          </li><!-- endinline -->
+    @endforeach
+        </ul>
+    @if ($p->fNavigationUser)
+        <ul class="f-menu-user-items" itemscope itemtype="https://schema.org/SiteNavigationElement" role="menu">
+        @foreach ($p->fNavigationUser as $key => $val)
+          <li id="fork-nav-{{ $key }}" @class(['f-menu-item', [$val[4] ?? null, 'f-mi-']]) itemprop="about" itemscope itemtype="https://schema.org/ItemList" role="menuitem"><!-- inline -->
+            <a class="f-menu-a @if ($key == $p->fIndex) active @endif" href="{{ $val[0] }}" @if ($val[2]) title="{{ __($val[2]) }}" @endif itemprop="url">
+              <span class="f-menu-span" itemprop="name">{!! __($val[1]) !!}</span>
+            </a>
+            @if ($val[3])
+            <ul class="f-submenu-items" itemscope itemtype="https://schema.org/SiteNavigationElement" role="menu">
+                @foreach ($val[3] as $key => $val)
+              <li id="fork-nav-{{ $key }}" class="f-menu-item" itemprop="about" itemscope itemtype="https://schema.org/ItemList" role="menuitem">
+                    @if ($val[0])
+                <a class="f-menu-a @if ($key == $p->fSubIndex) active @endif" href="{{ $val[0] }}" @if ($val[2]) title="{{ __($val[2]) }}" @endif itemprop="url">
+                  <span class="f-menu-span" itemprop="name">{!! __($val[1]) !!}</span>
+                </a>
+                    @else
+                <span class="f-menu-span" itemprop="name">{!! __($val[1]) !!}</span>
+                    @endif
+              </li>
+                @endforeach
+            </ul>
+            @endif
+          </li><!-- endinline -->
+        @endforeach
+        </ul>
+    @endif
+      </div>
+    </nav>
+    <!-- PRE navAfter -->
+@endif
+    <!-- PRE footerBefore -->
+    <footer id="fork-footer">
+      <p class="f-sim-header">{!! __('Board footer') !!}</p>
+      <div id="fork-footer-in">
+        <div id="fork-footer-in-s">
+          <!-- PRE footerFirstStart -->
+          <p id="id-cvjs-button"></p>
+          <!-- PRE footerFirstEnd -->
+        </div>
+        <div id="fork-footer-in-e">
+          <!-- PRE footerSecondStart -->
+          <p id="id-fpoweredby">{!! __('Powered by') !!}</p>
+          <!-- PRE footerSecondEnd -->
+        </div>
+      </div>
+<!-- debuginfo -->
+    </footer>
+    <!-- PRE footerAfter -->
+  </div>
+  <aside id="fork-cvjs-panel">
+    <span id="id-cvjs-close">✕</span>
+    <input id="id-cvjs-fss" type="range" min="8" max="32">
+    <span id="id-cvjs-reset">⟲</span>
+  </aside>
+  <!-- PRE scriptsBefore -->
+@foreach ($p->pageHeaders as $pageHeader)
+    @if ('script' === $pageHeader['type'])
+        @empty ($pageHeader['values']['inline'])
+  <script @foreach ($pageHeader['values'] as $key => $val) {{ $key }}="{{ $val }}" @endforeach></script>
+        @else
+  <script>{{ $pageHeader['values']['inline'] }}</script>
+        @endempty
+    @endif
+@endforeach
+  <!-- PRE scriptsAfter -->
+  <!-- PRE bodyEnd -->
+</body>
+</html>
